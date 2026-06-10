@@ -7,7 +7,7 @@
     "priority": "high",
     "owner": "网站建设执行线",
     "nextAction": "后续新增音频/审稿后自动重建索引并发布",
-    "updated": "2026-06-10T18:17+08:00"
+    "updated": "2026-06-10T19:02+08:00"
   },
   {
     "id": "task_tts_index_fix",
@@ -17,7 +17,7 @@
     "priority": "high",
     "owner": "TTS听书线",
     "nextAction": "继续把第1-10章升级为更自然的完整听书版",
-    "updated": "2026-06-10T18:17+08:00"
+    "updated": "2026-06-10T19:02+08:00"
   },
   {
     "id": "task_tts_upgrade",
@@ -27,7 +27,7 @@
     "priority": "high",
     "owner": "TTS听书线",
     "nextAction": "优先处理第1章V2/V3样音，再扩展到第2-10章",
-    "updated": "2026-06-10T18:17+08:00"
+    "updated": "2026-06-10T19:02+08:00"
   },
   {
     "id": "task_ch14_v3",
@@ -37,7 +37,7 @@
     "priority": "high",
     "owner": "章节续写/审稿线",
     "nextAction": "补强旧名兑现、证据链、李鹤主动验证戏",
-    "updated": "2026-06-10T18:17+08:00"
+    "updated": "2026-06-10T19:02+08:00"
   },
   {
     "id": "task_ch05_en",
@@ -47,7 +47,7 @@
     "priority": "medium",
     "owner": "多语言听书线",
     "nextAction": "从开篇样稿扩写为完整章节听书稿，再独立审计",
-    "updated": "2026-06-10T18:17+08:00"
+    "updated": "2026-06-10T19:02+08:00"
   },
   {
     "id": "task_short_test",
@@ -57,6 +57,6 @@
     "priority": "medium",
     "owner": "短剧制作线",
     "nextAction": "不批量生成视频，先确认平台入口与额度提示",
-    "updated": "2026-06-10T18:17+08:00"
+    "updated": "2026-06-10T19:02+08:00"
   }
 ]

@@ -5,7 +5,7 @@
 'use strict';
 
 const DATA = './data/';
-const DATA_VERSION = '20260610-1900-light-contrast';
+const DATA_VERSION = '20260610-1930-audio-chapter-mode';
 const pages = ['home','novel','short-drama','tts','progress','files','logs'];
 
 /* ---- Theme: system / light / dark ---- */
@@ -299,47 +299,55 @@ function audioPlaylistItem(a){
 
 function renderAudioPlayer(container, audio){
   const playlist = normalizeAudioList(audio);
-  const groups = groupAudioByChapter(playlist);
-  const fullChapterCount = groups.filter(g=>g.chapterNo < 999 && g.tracks.some(t=>!isTrialAudio(t))).length;
-  const partCount = playlist.filter(a=>!isTrialAudio(a)).length;
-  const trialCount = playlist.filter(isTrialAudio).length;
-  if(!playlist.length){
+  const rawGroups = groupAudioByChapter(playlist);
+  const chapterGroups = rawGroups.map((group, chapterIndex)=>{
+    const formal = group.tracks.filter(t=>!isTrialAudio(t)).sort((a,b)=>segmentNoFromAudio(a)-segmentNoFromAudio(b));
+    const trials = group.tracks.filter(isTrialAudio).sort((a,b)=>segmentNoFromAudio(a)-segmentNoFromAudio(b));
+    const tracks = formal.length ? formal : trials;
+    return {...group, chapterIndex, tracks, formalCount:formal.length, trialCount:trials.length};
+  }).filter(g=>g.tracks.length);
+  const fullChapterCount = chapterGroups.filter(g=>g.chapterNo < 999 && g.formalCount).length;
+  const trialCount = chapterGroups.reduce((sum,g)=>sum + g.trialCount, 0);
+  if(!chapterGroups.length){
     container.innerHTML = '<p class="muted">暂无音频文件。后续将 audio.mp3 放入 media/audio/ 目录即可自动加载。</p>';
     return;
   }
 
-  const groupedHtml = groups.map(group=>{
-    const full = group.tracks.filter(t=>!isTrialAudio(t));
-    const trials = group.tracks.filter(isTrialAudio);
-    const meta = full.length ? `${full.length} 段听书音频` : `${trials.length} 个试听版`;
-    return `<section class="audio-chapter-group always-open" aria-label="${group.title}音频列表">
-      <div class="audio-chapter-head" role="heading" aria-level="3">
-        <strong>${group.title}</strong>
-        <span>${meta}${trials.length && full.length ? ` · ${trials.length} 个试听/升级参考` : ''}</span>
-        <small>已展开 · 直接点下面任意一行播放</small>
-      </div>
-      <div class="audio-group-list">${group.tracks.map(audioPlaylistItem).join('')}</div>
-    </section>`;
+  const chapterHtml = chapterGroups.map(group=>{
+    const first = group.tracks[0] || {};
+    const chapterName = group.chapterNo < 999 ? `${group.title}` : '其他音频';
+    const titleText = group.formalCount ? '整章听书' : '试听参考';
+    const metaText = group.formalCount
+      ? `${group.formalCount > 1 ? '内部自动续播' : '单文件'} · ${audioStatusLabel(first.status)} · ${(first.sizeLabel || '').replace(/\s*$/,'')}`
+      : `${group.trialCount} 个试听参考 · 不作为正式听书`;
+    return `<button class="chapter-audio-card playlist-item full" type="button" data-chapter-index="${group.chapterIndex}" aria-label="播放${chapterName}">
+      <span class="playlist-no">${group.chapterNo < 999 ? `CH${String(group.chapterNo).padStart(2,'0')}` : '其他'}</span>
+      <span class="playlist-main">
+        <span class="playlist-title">${chapterName}<em>${titleText}</em></span>
+        <span class="playlist-meta">${metaText}</span>
+      </span>
+      <span class="playlist-state">播放整章</span>
+    </button>`;
   }).join('');
 
-  container.innerHTML = `<div class="audio-player-card">
+  container.innerHTML = `<div class="audio-player-card chapter-mode">
     <div class="now-playing">
       <div>
         <p class="eyebrow">NOW PLAYING</p>
         <h3 id="audioTitle">请选择章节开始播放</h3>
-        <p id="audioMeta" class="muted">已按章节聚合：${fullChapterCount} 章、${partCount} 段音频、${trialCount} 个试听/升级参考。不再把所有分段堆成第1章。</p>
+        <p id="audioMeta" class="muted">按整章展示：${fullChapterCount} 章正式听书。技术分段已隐藏，点章节后自动连续播放。</p>
       </div>
       <span id="playStatus" class="play-status idle">待播放</span>
     </div>
-    <div class="audio-hint">章节内分段会连续播放；试听版只作为升级对比，不和正式听书混淆。</div>
+    <div class="audio-hint">页面只显示“第01章、第02章……”；TTS 分段只是内部技术切片，会自动接着播。</div>
     <audio id="mainAudio" class="main-audio" controls preload="metadata" playsinline webkit-playsinline></audio>
     <div class="player-controls" aria-label="听书播放控制">
-      <button id="prevTrack" class="btn small" type="button" aria-label="播放上一段">上一段</button>
-      <button id="nextTrack" class="btn small blue" type="button" aria-label="播放下一段">下一段</button>
-      <label class="autoplay-toggle"><input id="continuousPlay" type="checkbox" checked /> 连续播放</label>
+      <button id="prevTrack" class="btn small" type="button" aria-label="播放上一章">上一章</button>
+      <button id="nextTrack" class="btn small blue" type="button" aria-label="播放下一章">下一章</button>
+      <label class="autoplay-toggle"><input id="continuousPlay" type="checkbox" checked /> 连续播放整章</label>
     </div>
-    <div id="audioPlaylist" class="audio-playlist grouped">
-      ${groupedHtml}
+    <div id="audioPlaylist" class="audio-playlist chapter-list-mode">
+      ${chapterHtml}
     </div>
   </div>`;
 
@@ -350,38 +358,46 @@ function renderAudioPlayer(container, audio){
   const continuous = container.querySelector('#continuousPlay');
   const prev = container.querySelector('#prevTrack');
   const next = container.querySelector('#nextTrack');
-  const items = Array.from(container.querySelectorAll('.playlist-item'));
-  let current = -1;
+  const items = Array.from(container.querySelectorAll('.chapter-audio-card'));
+  let currentChapter = -1;
+  let currentPart = 0;
+
+  function currentGroup(){ return chapterGroups[currentChapter]; }
 
   function setStatus(text, cls){
     status.textContent = text;
     status.className = `play-status ${cls || ''}`.trim();
-    if(current >= 0){
-      const state = items.find(item=>Number(item.dataset.index) === current)?.querySelector('.playlist-state');
-      if(state) state.textContent = text;
-    }
+    updateActive();
   }
 
-  function updateActive(index){
+  function updateActive(){
     items.forEach((item)=>{
-      const active = Number(item.dataset.index) === index;
+      const active = Number(item.dataset.chapterIndex) === currentChapter;
       item.classList.toggle('active', active);
       const state = item.querySelector('.playlist-state');
-      if(state) state.textContent = active ? status.textContent : '待播放';
+      if(state){
+        if(!active) state.textContent = '播放整章';
+        else{
+          const group = currentGroup();
+          const total = group?.tracks?.length || 1;
+          state.textContent = total > 1 ? `播放中 ${currentPart + 1}/${total}` : status.textContent;
+        }
+      }
     });
   }
 
-  function loadTrack(index, autoPlay=false){
-    if(index < 0 || index >= playlist.length) return;
-    current = index;
-    const track = playlist[current];
-    const chapterNo = chapterNoFromAudio(track);
-    const chapterLabel = chapterNo < 999 ? `第${String(chapterNo).padStart(2,'0')}章` : '其他音频';
+  function loadChapter(chapterIndex, autoPlay=false, partIndex=0){
+    if(chapterIndex < 0 || chapterIndex >= chapterGroups.length) return;
+    currentChapter = chapterIndex;
+    const group = currentGroup();
+    currentPart = Math.min(Math.max(partIndex, 0), group.tracks.length - 1);
+    const track = group.tracks[currentPart];
+    const chapterLabel = group.chapterNo < 999 ? `第${String(group.chapterNo).padStart(2,'0')}章` : '其他音频';
     player.src = track.path;
-    title.textContent = `${chapterLabel} · ${track.isPart ? `第${segmentNoFromAudio(track)}段` : track.title}`;
-    meta.textContent = `${audioKindLabel(track)} · ${audioStatusLabel(track.status)} · ${track.sizeLabel || ''}${isTrialAudio(track) ? ' · 试听版用于对比修正' : ' · 章节内连续播放'}`;
+    title.textContent = `${chapterLabel} · ${group.formalCount ? '整章听书' : '试听参考'}`;
+    const total = group.tracks.length;
+    meta.textContent = `${audioKindLabel(track)} · ${audioStatusLabel(track.status)} · ${total > 1 ? `内部连续播放 ${currentPart + 1}/${total}` : '单文件'}${isTrialAudio(track) ? ' · 试听版用于对比修正' : ''}`;
     setStatus('已选择', 'idle');
-    updateActive(current);
     if(autoPlay){
       player.load();
       const playPromise = player.play();
@@ -391,37 +407,40 @@ function renderAudioPlayer(container, audio){
     }
   }
 
-  function playOffset(offset){
-    if(current < 0){
-      loadTrack(offset > 0 ? 0 : playlist.length - 1, true);
+  function playChapterOffset(offset){
+    if(currentChapter < 0){
+      loadChapter(offset > 0 ? 0 : chapterGroups.length - 1, true);
       return;
     }
-    const target = Math.min(Math.max(current + offset, 0), playlist.length - 1);
-    loadTrack(target, true);
+    const target = Math.min(Math.max(currentChapter + offset, 0), chapterGroups.length - 1);
+    loadChapter(target, true);
   }
 
   items.forEach((item)=>{
-    item.addEventListener('click',()=>loadTrack(Number(item.dataset.index), true));
+    item.addEventListener('click',()=>loadChapter(Number(item.dataset.chapterIndex), true));
   });
-  prev.addEventListener('click',()=>playOffset(-1));
-  next.addEventListener('click',()=>playOffset(1));
+  prev.addEventListener('click',()=>playChapterOffset(-1));
+  next.addEventListener('click',()=>playChapterOffset(1));
   player.addEventListener('play',()=>setStatus('正在播放', 'playing'));
   player.addEventListener('pause',()=>{
     if(!player.ended) setStatus('暂停', 'paused');
   });
   player.addEventListener('ended',()=>{
-    setStatus('已播放完', 'ended');
-    if(continuous.checked && current < playlist.length - 1){
-      loadTrack(current + 1, true);
-      const active = items.find(item=>Number(item.dataset.index) === current);
+    const group = currentGroup();
+    if(group && currentPart < group.tracks.length - 1){
+      loadChapter(currentChapter, true, currentPart + 1);
+      return;
+    }
+    setStatus('本章已播完', 'ended');
+    if(continuous.checked && currentChapter < chapterGroups.length - 1){
+      loadChapter(currentChapter + 1, true, 0);
+      const active = items.find(item=>Number(item.dataset.chapterIndex) === currentChapter);
       if(active) active.scrollIntoView({block:'nearest', behavior:'smooth'});
     }
   });
 
-  loadTrack(0, false);
+  loadChapter(0, false);
 }
-
-
 function supervisionCard(item){
   const blockers = (item.blockers || []).length ? `<div class="supervision-blockers">阻塞：${item.blockers.join('；')}</div>` : '';
   const evidenceItems = (item.evidence || []).slice(0,3).map(e=>`<li>${escapeHtml(e)}</li>`).join('') || '<li>暂无证据</li>';

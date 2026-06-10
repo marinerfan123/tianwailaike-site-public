@@ -3522,6 +3522,28 @@
     "chapterNumbers": []
   },
   {
+    "id": "file_output_天外来客_网站听书区浅色背景修复记录_2026_06_10_1849_md_1e635cd5",
+    "type": "markdown",
+    "module": "tts",
+    "title": "《天外来客》网站听书区浅色背景修复记录（2026-06-10 18:49）",
+    "fileName": "天外来客_网站听书区浅色背景修复记录_2026-06-10_1849.md",
+    "summary": "项目总控网站策划、工程审查或建设相关文档。",
+    "status": "indexed",
+    "version": "v1",
+    "visibility": "internal",
+    "sourceRef": "output/天外来客_网站听书区浅色背景修复记录_2026-06-10_1849.md",
+    "size": 873,
+    "sizeLabel": "0.9 KB",
+    "updated": "2026-06-10T18:51+08:00",
+    "sha1": "8332d9972cc2",
+    "keywords": [
+      "天外来客",
+      "听书",
+      "网站"
+    ],
+    "chapterNumbers": []
+  },
+  {
     "id": "file_output_天外来客_网站回归检查报告_2026_06_10_md_16893625",
     "type": "markdown",
     "module": "website",
@@ -3666,6 +3688,27 @@
     "chapterNumbers": []
   },
   {
+    "id": "file_output_天外来客_网站小说阅读器可读性修复记录_2026_06_10_1831_md_aff4a351",
+    "type": "markdown",
+    "module": "website",
+    "title": "《天外来客》网站小说阅读器可读性修复记录（2026-06-10 18:31）",
+    "fileName": "天外来客_网站小说阅读器可读性修复记录_2026-06-10_1831.md",
+    "summary": "项目总控网站策划、工程审查或建设相关文档。",
+    "status": "indexed",
+    "version": "v1",
+    "visibility": "internal",
+    "sourceRef": "output/天外来客_网站小说阅读器可读性修复记录_2026-06-10_1831.md",
+    "size": 1224,
+    "sizeLabel": "1.2 KB",
+    "updated": "2026-06-10T18:33+08:00",
+    "sha1": "4bb69d0f43cb",
+    "keywords": [
+      "天外来客",
+      "网站"
+    ],
+    "chapterNumbers": []
+  },
+  {
     "id": "file_output_天外来客_网站待发布与备份待推送清单_2026_06_10_0806_md_79a74cb5",
     "type": "markdown",
     "module": "website",
@@ -3684,6 +3727,28 @@
       "天外来客",
       "听书",
       "审稿",
+      "网站"
+    ],
+    "chapterNumbers": []
+  },
+  {
+    "id": "file_output_天外来客_网站折叠交互修复记录_2026_06_10_1853_md_8687bd46",
+    "type": "markdown",
+    "module": "website",
+    "title": "《天外来客》网站折叠交互修复记录（2026-06-10 18:53）",
+    "fileName": "天外来客_网站折叠交互修复记录_2026-06-10_1853.md",
+    "summary": "项目总控网站策划、工程审查或建设相关文档。",
+    "status": "indexed",
+    "version": "v1",
+    "visibility": "internal",
+    "sourceRef": "output/天外来客_网站折叠交互修复记录_2026-06-10_1853.md",
+    "size": 867,
+    "sizeLabel": "0.8 KB",
+    "updated": "2026-06-10T18:55+08:00",
+    "sha1": "54c43c929662",
+    "keywords": [
+      "天外来客",
+      "听书",
       "网站"
     ],
     "chapterNumbers": []
@@ -3709,6 +3774,48 @@
       "TTS",
       "听书",
       "审稿",
+      "网站"
+    ],
+    "chapterNumbers": []
+  },
+  {
+    "id": "file_output_天外来客_网站浅色高对比修复记录_2026_06_10_1900_md_7ce86b38",
+    "type": "markdown",
+    "module": "website",
+    "title": "《天外来客》网站浅色/白天高对比修复记录（2026-06-10 19:00）",
+    "fileName": "天外来客_网站浅色高对比修复记录_2026-06-10_1900.md",
+    "summary": "项目总控网站策划、工程审查或建设相关文档。",
+    "status": "indexed",
+    "version": "v1",
+    "visibility": "internal",
+    "sourceRef": "output/天外来客_网站浅色高对比修复记录_2026-06-10_1900.md",
+    "size": 883,
+    "sizeLabel": "0.9 KB",
+    "updated": "2026-06-10T18:58+08:00",
+    "sha1": "09fa9a42866e",
+    "keywords": [
+      "天外来客",
+      "网站"
+    ],
+    "chapterNumbers": []
+  },
+  {
+    "id": "file_output_天外来客_网站监督台折叠取消修复记录_2026_06_10_1856_md_719430d3",
+    "type": "markdown",
+    "module": "website",
+    "title": "《天外来客》网站监督台折叠取消修复记录（2026-06-10 18:56）",
+    "fileName": "天外来客_网站监督台折叠取消修复记录_2026-06-10_1856.md",
+    "summary": "项目总控网站策划、工程审查或建设相关文档。",
+    "status": "indexed",
+    "version": "v1",
+    "visibility": "internal",
+    "sourceRef": "output/天外来客_网站监督台折叠取消修复记录_2026-06-10_1856.md",
+    "size": 685,
+    "sizeLabel": "0.7 KB",
+    "updated": "2026-06-10T18:57+08:00",
+    "sha1": "de6b86a54d1e",
+    "keywords": [
+      "天外来客",
       "网站"
     ],
     "chapterNumbers": []
@@ -4143,6 +4250,33 @@
     "sizeLabel": "6.2 KB",
     "updated": "2026-06-10T18:02+08:00",
     "sha1": "627e1c1906bd",
+    "keywords": [
+      "天外来客",
+      "李鹤",
+      "短剧",
+      "TTS",
+      "听书",
+      "停顿",
+      "审稿",
+      "母图"
+    ],
+    "chapterNumbers": []
+  },
+  {
+    "id": "file_output_天外来客_项目监督台账_2026_06_10_1902_md_29b73480",
+    "type": "markdown",
+    "module": "files",
+    "title": "《天外来客》项目监督台账（2026-06-10T19:02+08:00）",
+    "fileName": "天外来客_项目监督台账_2026-06-10_1902.md",
+    "summary": "《天外来客》项目阶段性输出文件索引。",
+    "status": "indexed",
+    "version": "v1",
+    "visibility": "internal",
+    "sourceRef": "output/天外来客_项目监督台账_2026-06-10_1902.md",
+    "size": 6343,
+    "sizeLabel": "6.2 KB",
+    "updated": "2026-06-10T19:02+08:00",
+    "sha1": "6bf8571eb5ba",
     "keywords": [
       "天外来客",
       "李鹤",

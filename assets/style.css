@@ -1422,3 +1422,65 @@ body{
   :root[data-theme-resolved="light"] .section,
   :root[data-theme="light"] .section{background:rgba(255,248,234,.72)}
 }
+
+/* Hotfix 2026-06-10 19:30: audiobook chapter mode, hide technical TTS segments */
+.audio-player-card.chapter-mode .audio-hint{
+  border-left:4px solid var(--blue);
+}
+.audio-playlist.chapter-list-mode{
+  gap:.7rem;
+}
+.chapter-audio-card{
+  min-height:74px;
+  border-left-width:7px !important;
+}
+.chapter-audio-card .playlist-no{
+  min-width:4.6rem;
+  min-height:38px;
+  letter-spacing:.02em;
+}
+.chapter-audio-card .playlist-title{
+  font-size:.98rem;
+  white-space:normal;
+}
+.chapter-audio-card .playlist-title em{
+  margin-left:.5rem;
+}
+.chapter-audio-card .playlist-state{
+  min-width:5rem;
+  font-weight:700;
+}
+.audio-player-card.chapter-mode .player-controls .btn::first-letter{
+  letter-spacing:0;
+}
+@media(max-width:720px){
+  .chapter-audio-card{
+    min-height:82px;
+    grid-template-columns:1fr !important;
+  }
+  .chapter-audio-card .playlist-no{
+    min-width:0;
+    width:max-content;
+    padding:0 .75rem;
+  }
+  .chapter-audio-card .playlist-state{
+    min-width:0;
+    text-align:left;
+  }
+}
+:root[data-theme-resolved="light"] .chapter-audio-card,
+:root[data-theme="light"] .chapter-audio-card{
+  background:#FFFDFC !important;
+  border-color:rgba(20,109,181,.34) !important;
+  box-shadow:0 12px 28px rgba(95,62,20,.13) !important;
+}
+:root[data-theme-resolved="light"] .chapter-audio-card.active,
+:root[data-theme="light"] .chapter-audio-card.active{
+  background:linear-gradient(135deg,#EAF5FF,#FFF2D2) !important;
+  border-color:#146DB5 !important;
+}
+:root[data-theme-resolved="light"] .chapter-audio-card .playlist-no,
+:root[data-theme="light"] .chapter-audio-card .playlist-no{
+  background:#D8ECFA !important;
+  color:#174D75 !important;
+}
