@@ -1484,3 +1484,44 @@ body{
   background:#D8ECFA !important;
   color:#174D75 !important;
 }
+
+/* Hotfix 2026-06-10 19:36: visible multilingual asset library */
+.language-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:.9rem}
+.language-card{
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(200,155,60,.12);
+  border-left:5px solid var(--blue);
+  border-radius:16px;
+  padding:1rem;
+  box-shadow:0 12px 30px rgba(0,0,0,.14);
+}
+.language-head{display:flex;align-items:center;justify-content:space-between;gap:.7rem;margin-bottom:.55rem}
+.language-no{font:800 .88rem/1 'Inter',monospace;color:var(--blue);letter-spacing:.04em}
+.language-card h3{font-size:1rem;color:var(--text-strong);margin:.25rem 0 .4rem;overflow-wrap:anywhere}
+.language-status,.language-primary{font-size:.8rem;line-height:1.5;color:var(--text-muted);margin:.35rem 0;overflow-wrap:anywhere}
+.language-primary b{color:var(--text)}
+.language-files{margin:.65rem 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:.42rem}
+.language-files li{padding:.55rem .65rem;border-radius:10px;background:rgba(255,255,255,.035);border:1px solid rgba(255,255,255,.07)}
+.language-files span{display:block;font-size:.78rem;color:var(--text);overflow-wrap:anywhere}
+.language-files small{display:block;margin-top:.12rem;font-size:.68rem;color:var(--dimmed);overflow-wrap:anywhere}
+:root[data-theme-resolved="light"] .language-card,
+:root[data-theme="light"] .language-card{
+  background:#FFFDFC !important;
+  color:#21170F !important;
+  border-color:rgba(95,62,20,.28) !important;
+  border-left-color:#146DB5 !important;
+  box-shadow:0 14px 34px rgba(95,62,20,.16) !important;
+}
+:root[data-theme-resolved="light"] .language-card h3,
+:root[data-theme="light"] .language-card h3{color:#120D09 !important}
+:root[data-theme-resolved="light"] .language-status,
+:root[data-theme-resolved="light"] .language-primary,
+:root[data-theme="light"] .language-status,
+:root[data-theme="light"] .language-primary{color:#3F3023 !important}
+:root[data-theme-resolved="light"] .language-files li,
+:root[data-theme="light"] .language-files li{background:#FFF7EA !important;border-color:rgba(95,62,20,.18) !important}
+:root[data-theme-resolved="light"] .language-files span,
+:root[data-theme="light"] .language-files span{color:#21170F !important}
+:root[data-theme-resolved="light"] .language-files small,
+:root[data-theme="light"] .language-files small{color:#5B4A39 !important}
+@media(max-width:720px){.language-grid{grid-template-columns:1fr}.language-card{padding:.95rem}}

@@ -15,7 +15,7 @@
       } catch (e) {}
     })();
   </script>
-  <link rel="stylesheet" href="assets/style.css?v=20260610-1930-audio-chapter-mode" />
+  <link rel="stylesheet" href="assets/style.css?v=20260610-1936-language-assets" />
 </head>
 <body>
   <div class="bg-grid"></div>
@@ -26,6 +26,7 @@
       <a href="#novel">小说与章节</a>
       <a href="#short-drama">短剧与资产</a>
       <a href="#tts">TTS听书</a>
+      <a href="#languages">多语言资产</a>
       <a href="#progress">进度看板</a>
       <a href="#files">文件资料</a>
       <a href="#logs">更新日志</a>
@@ -43,6 +44,7 @@
           <a class="btn primary" href="#novel">查看小说正文</a>
           <a class="btn" href="#tts">听章节音频</a>
           <a class="btn blue" href="#short-drama">进入短剧制作包</a>
+          <a class="btn" href="#languages">查看多语言资产</a>
         </div>
       </div>
       <aside class="command-panel">
@@ -94,9 +96,20 @@
       <div>
         <p class="eyebrow">TTS AUDIO</p>
         <h2>TTS听书系统</h2>
-        <p class="muted">第1-10章完整音频已接入；第1章开头试听版单独标记。支持连续播放、当前高亮、上一集/下一集。</p>
+        <p class="muted">第1-10章完整音频已接入；页面按整章显示，内部技术分段自动连续播放。</p>
       </div>
       <div id="audio" class="audio-list"></div>
+    </section>
+
+    <section id="languages" class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">MULTILINGUAL ASSETS</p>
+          <h2>多语言资产库</h2>
+          <p class="muted">集中展示英文听书稿、创作原则、审计报告与章节状态；不再藏在文件资料库里。</p>
+        </div>
+      </div>
+      <div id="languageAssets" class="language-grid"></div>
     </section>
 
     <section id="progress" class="section">
@@ -132,6 +145,6 @@
     <span>正式 Netlify 站点已上线 · 不再使用 localtunnel · 数据来自 JSON manifest</span>
   </footer>
 
-  <script src="app.js?v=20260610-1930-audio-chapter-mode"></script>
+  <script src="app.js?v=20260610-1936-language-assets"></script>
 </body>
 </html>

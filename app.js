@@ -5,7 +5,7 @@
 'use strict';
 
 const DATA = './data/';
-const DATA_VERSION = '20260610-1930-audio-chapter-mode';
+const DATA_VERSION = '20260610-1936-language-assets';
 const pages = ['home','novel','short-drama','tts','progress','files','logs'];
 
 /* ---- Theme: system / light / dark ---- */
@@ -295,6 +295,41 @@ function audioPlaylistItem(a){
     </span>
     <span class="playlist-state">待播放</span>
   </button>`;
+}
+
+
+function languageAssetStatus(files){
+  const text = files.map(f=>`${f.title || ''} ${f.fileName || ''}`).join(' ');
+  if(/审稿版|审稿版候选|Draft v\d|候选/i.test(text)) return '已有稿件';
+  if(/草稿/.test(text)) return '草稿候选';
+  if(/原则|规则|标准/.test(text)) return '已有原则';
+  return '资料已收录';
+}
+
+function languageAssetCard(ch){
+  const files = (ch.files || []).filter(f=>/英文|English|多语言|language/i.test(`${f.title || ''} ${f.fileName || ''} ${f.sourceRef || ''}`));
+  if(!files.length) return '';
+  const drafts = files.filter(f=>/审稿版|审稿版候选|草稿|Draft/i.test(`${f.title || ''} ${f.fileName || ''}`));
+  const audits = files.filter(f=>/审计|审稿|自检|报告|说明|任务单/i.test(`${f.title || ''} ${f.fileName || ''}`));
+  const rules = files.filter(f=>/原则|规则|标准/i.test(`${f.title || ''} ${f.fileName || ''}`));
+  const primary = drafts[0] || files[0];
+  const fileList = files.slice(0,5).map(f=>`<li><span>${escapeHtml(f.title || f.fileName)}</span><small>${escapeHtml((f.fileName || '').replace(/^天外来客_/,''))}</small></li>`).join('');
+  return `<article class="language-card">
+    <div class="language-head">
+      <span class="language-no">CH${String(ch.number).padStart(2,'0')}</span>
+      <span class="badge in_progress">English</span>
+    </div>
+    <h3>${escapeHtml(ch.title || `第${ch.number}章`)}</h3>
+    <p class="language-status">${languageAssetStatus(files)} · 稿件 ${drafts.length} · 审计/说明 ${audits.length} · 原则 ${rules.length}</p>
+    <p class="language-primary"><b>主文件：</b>${escapeHtml(primary.title || primary.fileName)}</p>
+    <ul class="language-files">${fileList}</ul>
+  </article>`;
+}
+
+function renderLanguageAssets(container, chapters){
+  if(!container) return;
+  const html = chapters.map(languageAssetCard).filter(Boolean).join('');
+  container.innerHTML = html || '<p class="muted">暂无多语言资产。后续英文/其他语言稿会集中展示在这里。</p>';
 }
 
 function renderAudioPlayer(container, audio){
@@ -587,6 +622,7 @@ async function init(){
     const chaptersEl = document.getElementById('chapters');
     chaptersEl.innerHTML = chapters.map(chapterItem).join('');
     bindChapterReader(chaptersEl);
+    renderLanguageAssets(document.getElementById('languageAssets'), chapters);
 
     /* Assets */
     document.getElementById('assets').innerHTML = assets.map(assetCard).join('');
