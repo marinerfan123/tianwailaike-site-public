@@ -1434,6 +1434,7 @@ body{
   min-height:74px;
   border-left-width:7px !important;
   overflow:hidden;
+  align-items:flex-start;
 }
 .chapter-audio-card .playlist-no{
   min-width:4.6rem;
@@ -1445,6 +1446,10 @@ body{
   white-space:normal;
   overflow-wrap:break-word;
   word-break:break-word;
+  line-height:1.4;
+}
+.chapter-audio-card .playlist-main{
+  align-self:center;
 }
 .chapter-audio-card .playlist-title em{
   margin-left:.5rem;
