@@ -1,0 +1,62 @@
+[
+  {
+    "id": "task_site_v1",
+    "module": "website",
+    "title": "网站索引机制升级：听书按章节聚合、审稿状态显式显示",
+    "status": "done",
+    "priority": "high",
+    "owner": "网站建设执行线",
+    "nextAction": "后续新增音频/审稿后自动重建索引并发布",
+    "updated": "2026-06-10T18:17+08:00"
+  },
+  {
+    "id": "task_tts_index_fix",
+    "module": "tts",
+    "title": "听书区去重升级：分段音频归入对应章节，不再堆成重复第1章",
+    "status": "done",
+    "priority": "high",
+    "owner": "TTS听书线",
+    "nextAction": "继续把第1-10章升级为更自然的完整听书版",
+    "updated": "2026-06-10T18:17+08:00"
+  },
+  {
+    "id": "task_tts_upgrade",
+    "module": "tts",
+    "title": "TTS听书升级：文本校对、停顿、语气、真人感继续优化",
+    "status": "need_fix",
+    "priority": "high",
+    "owner": "TTS听书线",
+    "nextAction": "优先处理第1章V2/V3样音，再扩展到第2-10章",
+    "updated": "2026-06-10T18:17+08:00"
+  },
+  {
+    "id": "task_ch14_v3",
+    "module": "novel",
+    "title": "第14章《梁申旧名》：v2审计通过方向，需v3小修后再定稿",
+    "status": "review",
+    "priority": "high",
+    "owner": "章节续写/审稿线",
+    "nextAction": "补强旧名兑现、证据链、李鹤主动验证戏",
+    "updated": "2026-06-10T18:17+08:00"
+  },
+  {
+    "id": "task_ch05_en",
+    "module": "tts",
+    "title": "第05章英文听书稿：已有原则/草稿/独立审计，需扩写成完整审稿版",
+    "status": "review",
+    "priority": "medium",
+    "owner": "多语言听书线",
+    "nextAction": "从开篇样稿扩写为完整章节听书稿，再独立审计",
+    "updated": "2026-06-10T18:17+08:00"
+  },
+  {
+    "id": "task_short_test",
+    "module": "short-drama",
+    "title": "LibTV/短剧首测：只读确认登录态、入口和消耗，首测限制3张母图",
+    "status": "in_progress",
+    "priority": "medium",
+    "owner": "短剧制作线",
+    "nextAction": "不批量生成视频，先确认平台入口与额度提示",
+    "updated": "2026-06-10T18:17+08:00"
+  }
+]

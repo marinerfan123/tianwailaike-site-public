@@ -1,0 +1,1930 @@
+[
+  {
+    "id": "ch01",
+    "number": 1,
+    "title": "第01章 天外来客｜清洗版",
+    "status": "in_progress",
+    "summary": "青铜剑落下来的时候，李鹤刚刚恢复意识。 他先闻到的是铁锈般的气味。 不是实验室里消毒水和金属冷却液混在一起的味道，也不是上海地下实验基地里那种恒温空气循环系统的干净气味。 而是汗、皮革、尘土、火油、铁锈，还有某种更原始、更粗粝的腥气。 像一头巨兽张开了嘴。 他睁开眼。 视野先是一片模糊的红。 随后，火光晃动。 黑色帐幕……",
+    "updated": "2026-06-10T17:04+08:00",
+    "files": [
+      {
+        "id": "file_output_audio_天外来客_第1章_TTS_V2听感优化说明_2026_06_10_md_0c1a2bf5",
+        "title": "《天外来客》第1章 TTS V2听感优化说明",
+        "module": "tts",
+        "sourceRef": "output/audio/天外来客_第1章_TTS_V2听感优化说明_2026-06-10.md"
+      },
+      {
+        "id": "file_output_audio_天外来客_第1章_TTS_V2样音准备稿_2026_06_09_md_7cde6b3a",
+        "title": "《天外来客》第1章 TTS V2样音准备稿",
+        "module": "tts",
+        "sourceRef": "output/audio/天外来客_第1章_TTS_V2样音准备稿_2026-06-09.md"
+      },
+      {
+        "id": "file_output_audio_天外来客_第1章_TTS_V2生成执行说明_2026_06_09_md_dda1af7b",
+        "title": "《天外来客》第1章 TTS V2样音生成执行说明",
+        "module": "tts",
+        "sourceRef": "output/audio/天外来客_第1章_TTS_V2生成执行说明_2026-06-09.md"
+      },
+      {
+        "id": "file_output_audio_天外来客_第1章_TTS_V3样音处理记录_2026_06_10_17_021c0d48",
+        "title": "《天外来客》第1章TTS V3样音文本处理记录",
+        "module": "tts",
+        "sourceRef": "output/audio/天外来客_第1章_TTS_V3样音处理记录_2026-06-10_1701.md"
+      },
+      {
+        "id": "file_output_audio_天外来客_第1章开头_TTS试听文本_md_15fac8d7",
+        "title": "《天外来客》第1章开头 TTS试听文本",
+        "module": "tts",
+        "sourceRef": "output/audio/天外来客_第1章开头_TTS试听文本.md"
+      },
+      {
+        "id": "file_output_天外来客_AI模型研究_第一章测试片实用选型_2026_06_09_md_1320810e",
+        "title": "《天外来客》AI模型研究：第一章测试片实用选型",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_AI模型研究_第一章测试片实用选型_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第01章_英文听书稿_审稿报告_v1_2026_06_10_md_2eba4ed9",
+        "title": "《天外来客》第01章英文听书稿审稿报告 v1",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第01章_英文听书稿_审稿报告_v1_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第01章_英文听书稿_审稿版_v1_2026_06_10_md_cb14598f",
+        "title": "The Visitor from Beyond — Chapter 01: The Visitor｜English Audiobook Draft v1",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第01章_英文听书稿_审稿版_v1_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第01章_英文听书稿_补充审计报告_v1_2026_06_10_md_78c65ef0",
+        "title": "《天外来客》第01章英文听书稿补充审计报告 v1",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第01章_英文听书稿_补充审计报告_v1_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章_总纲与续写路线_md_2135622c",
+        "title": "《天外来客》第1-10章总纲与续写路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章_总纲与续写路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章精修执行方案_2026_06_09_md_a9e193cf",
+        "title": "《天外来客》第1-10章精修执行方案",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章精修执行方案_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章连贯性审稿报告_2026_06_09_md_a465c621",
+        "title": "《天外来客》第1-10章连贯性审稿报告（主线程整理版）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章连贯性审稿报告_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章逐章精修审稿报告_md_f687a6e7",
+        "title": "《天外来客》第1-10章逐章精修审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章逐章精修审稿报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_4章_审稿报告_md_9556133b",
+        "title": "《天外来客》第1-4章审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-4章_审稿报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_4章_短剧转化检查报告_md_e4b9b1bf",
+        "title": "《天外来客》第1-4章短剧/漫剧转化检查报告",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_第1-4章_短剧转化检查报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第一章30_45秒测试片_制作包推进稿_md_09c2d196",
+        "title": "《天外来客》第一章 30-45 秒 AI 短剧测试片制作包推进稿",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_第一章30-45秒测试片_制作包推进稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第一章测试片_首批母图提示词_md_572dd4d5",
+        "title": "《天外来客》第一章测试片：首批母图提示词",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_第一章测试片_首批母图提示词.md"
+      },
+      {
+        "id": "file_output_天外来客_第一章短剧_新手执行清单_2026_06_10_md_66a7659b",
+        "title": "《天外来客》第一章短剧：新手执行清单",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_第一章短剧_新手执行清单_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第一章短剧_母图验收表_2026_06_10_md_c4ccc5c3",
+        "title": "《天外来客》第一章短剧母图验收表",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_第一章短剧_母图验收表_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第一章短剧_首批平台提示词_2026_06_09_md_27f9b178",
+        "title": "《天外来客》第一章短剧：首批平台提示词",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_第一章短剧_首批平台提示词_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第一章短剧母图任务单_2026_06_09_md_57fa3acf",
+        "title": "《天外来客》第一章短剧母图任务单",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_第一章短剧母图任务单_2026-06-09.md"
+      }
+    ],
+    "audioIds": [
+      "audio_output_audio_full_chapters_chapter_01_parts_01_0_f6fb8625",
+      "audio_output_audio_full_chapters_chapter_01_parts_01_0_bb5836af",
+      "audio_output_audio_full_chapters_chapter_01_parts_01_0_5486b489",
+      "audio_output_audio_full_chapters_天外来客_第01章_天外来客_mp3_cf412280",
+      "audio_output_audio_天外来客_第1章开头_试听版_mp3_0b70ed2e"
+    ],
+    "tags": [
+      "TTS",
+      "停顿",
+      "分镜",
+      "听书",
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "提示词",
+      "李鹤"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/audio/full_chapters/chapter_01_clean.md",
+    "textSourceType": "清洗正文",
+    "reviewStatus": "待复核",
+    "reviewConclusion": "清洗正文已开放，需做最终文本校对与停顿/TTS一致性复核。",
+    "nextAction": "完成错字、标点、节奏和人物口吻复核后升为审稿版。",
+    "maturity": 72,
+    "planningTags": [
+      "清洗正文",
+      "TTS复核",
+      "黄金开篇"
+    ]
+  },
+  {
+    "id": "ch02",
+    "number": 2,
+    "title": "第02章 三日铸钢｜清洗版",
+    "status": "review",
+    "summary": "“这等凡铁，也配叫兵器。” 李鹤的话落下。 大帐内死寂。 蒙恬的脸色瞬间沉了下去。 他手中的青铜剑，是秦军制式长剑中最精良的一批。 出自咸阳工官。 经数十名匠人反复锻磨。 剑身笔直。 刃口锋锐。 跟随他斩过六国甲士，也劈开过赵人盾牌。 可现在。 这个来历不明的怪人竟说它是破铜烂铁。 “狂妄。” 蒙恬声音压得极低。 那是……",
+    "updated": "2026-06-10T12:22+08:00",
+    "files": [
+      {
+        "id": "file_output_revisions_天外来客_第2_4章赵高暗线弱化替换表_2026_06_09__88df9414",
+        "title": "《天外来客》第2-4章赵高暗线弱化替换表",
+        "module": "novel",
+        "sourceRef": "output/revisions/天外来客_第2-4章赵高暗线弱化替换表_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第02章_英文听书稿_v2修订说明_2026_06_10_md_3cf6eb29",
+        "title": "《天外来客》第02章英文听书稿 v2 修订说明",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第02章_英文听书稿_v2修订说明_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第02章_英文听书稿_v2独立审计报告_2026_06_10_0501__c9d8b67a",
+        "title": "《天外来客》第02章英文听书稿 v2 独立审计报告",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第02章_英文听书稿_v2独立审计报告_2026-06-10_0501.md"
+      },
+      {
+        "id": "file_output_天外来客_第02章_英文听书稿_修订草稿候选_v2_2026_06_10_md_e9ecde32",
+        "title": "Chapter 2 — Steel in Three Days",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第02章_英文听书稿_修订草稿候选_v2_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第02章_英文听书稿_审稿版_v2_2026_06_10_md_c980bd0f",
+        "title": "《天外来客》第02章英文听书稿 审稿版 v2",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第02章_英文听书稿_审稿版_v2_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第02章_英文听书稿_审计报告_v1_2026_06_10_md_335b2b69",
+        "title": "《天外来客》第02章英文听书稿审计报告 v1",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第02章_英文听书稿_审计报告_v1_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第02章_英文听书稿_草稿候选_v1_2026_06_10_md_70d49faa",
+        "title": "Chapter 2 — Steel in Three Days",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第02章_英文听书稿_草稿候选_v1_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第02章_英文听书稿_草稿候选说明_v1_2026_06_10_md_2ebf12ba",
+        "title": "《天外来客》第02章英文听书稿草稿候选说明 v1",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第02章_英文听书稿_草稿候选说明_v1_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第02章_英文听书稿_退回修订任务单_2026_06_10_md_9c70ea7f",
+        "title": "《天外来客》第02章英文听书稿退回修订任务单",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第02章_英文听书稿_退回修订任务单_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章_总纲与续写路线_md_2135622c",
+        "title": "《天外来客》第1-10章总纲与续写路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章_总纲与续写路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章精修执行方案_2026_06_09_md_a9e193cf",
+        "title": "《天外来客》第1-10章精修执行方案",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章精修执行方案_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章连贯性审稿报告_2026_06_09_md_a465c621",
+        "title": "《天外来客》第1-10章连贯性审稿报告（主线程整理版）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章连贯性审稿报告_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章逐章精修审稿报告_md_f687a6e7",
+        "title": "《天外来客》第1-10章逐章精修审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章逐章精修审稿报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_4章_审稿报告_md_9556133b",
+        "title": "《天外来客》第1-4章审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-4章_审稿报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_4章_短剧转化检查报告_md_e4b9b1bf",
+        "title": "《天外来客》第1-4章短剧/漫剧转化检查报告",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_第1-4章_短剧转化检查报告.md"
+      }
+    ],
+    "audioIds": [
+      "audio_output_audio_full_chapters_chapter_02_parts_02_0_38bfe531",
+      "audio_output_audio_full_chapters_chapter_02_parts_02_0_3bf4d0ea",
+      "audio_output_audio_full_chapters_chapter_02_parts_02_0_5fed1e67",
+      "audio_output_audio_full_chapters_chapter_02_parts_02_0_40dbd8ad",
+      "audio_output_audio_full_chapters_chapter_02_parts_02_0_f476bdf5",
+      "audio_output_audio_full_chapters_天外来客_第02章_三日铸钢_mp3_5f312f3e"
+    ],
+    "tags": [
+      "TTS",
+      "停顿",
+      "分镜",
+      "听书",
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "李鹤",
+      "短剧"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/audio/full_chapters/chapter_02_clean.md",
+    "textSourceType": "清洗正文",
+    "reviewStatus": "待复核",
+    "reviewConclusion": "清洗正文已开放，需做设定连续性与听书断句复核。",
+    "nextAction": "补一次章节评分与TTS停顿标记。",
+    "maturity": 70,
+    "planningTags": [
+      "清洗正文",
+      "制度压力",
+      "听书校对"
+    ]
+  },
+  {
+    "id": "ch03",
+    "number": 3,
+    "title": "第03章 入咸阳｜清洗版",
+    "status": "review",
+    "summary": "咸阳在西。 秦军拔营时，天还没有亮。 黑旗从夜色里一面面竖起，像沉默的铁林。 战马嘶鸣。 甲士列队。 车轮碾过冻硬的泥土，发出低沉的轰响。 李鹤坐在一辆黑色辎车上，双手仍被铁链锁着。 锁链不重。 但足够提醒他一件事。 他还不是客人。 他是被秦王暂时留下的一件危险兵器。 蒙恬骑马走在车旁。 那柄新铸的钢剑被他横在膝上，用……",
+    "updated": "2026-06-10T12:22+08:00",
+    "files": [
+      {
+        "id": "file_output_revisions_天外来客_第2_4章赵高暗线弱化替换表_2026_06_09__88df9414",
+        "title": "《天外来客》第2-4章赵高暗线弱化替换表",
+        "module": "novel",
+        "sourceRef": "output/revisions/天外来客_第2-4章赵高暗线弱化替换表_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第03章_英文听书稿_创作规则_2026_06_10_md_6ade7f5a",
+        "title": "《天外来客》第03章英文听书稿创作规则",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第03章_英文听书稿_创作规则_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第03章_英文听书稿_审稿版候选_v1_2026_06_10_md_1c3447b7",
+        "title": "The Visitor from Beyond",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第03章_英文听书稿_审稿版候选_v1_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第03章_英文听书稿_独立审计报告_v1_2026_06_10_0806_95cd7ab3",
+        "title": "《天外来客》第03章英文听书稿独立审计报告 v1",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第03章_英文听书稿_独立审计报告_v1_2026-06-10_0806.md"
+      },
+      {
+        "id": "file_output_天外来客_第03章_英文听书稿_草稿候选_v1_2026_06_10_md_7838fe42",
+        "title": "The Visitor from Beyond",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第03章_英文听书稿_草稿候选_v1_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章_总纲与续写路线_md_2135622c",
+        "title": "《天外来客》第1-10章总纲与续写路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章_总纲与续写路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章精修执行方案_2026_06_09_md_a9e193cf",
+        "title": "《天外来客》第1-10章精修执行方案",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章精修执行方案_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章连贯性审稿报告_2026_06_09_md_a465c621",
+        "title": "《天外来客》第1-10章连贯性审稿报告（主线程整理版）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章连贯性审稿报告_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章逐章精修审稿报告_md_f687a6e7",
+        "title": "《天外来客》第1-10章逐章精修审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章逐章精修审稿报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_4章_审稿报告_md_9556133b",
+        "title": "《天外来客》第1-4章审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-4章_审稿报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_4章_短剧转化检查报告_md_e4b9b1bf",
+        "title": "《天外来客》第1-4章短剧/漫剧转化检查报告",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_第1-4章_短剧转化检查报告.md"
+      }
+    ],
+    "audioIds": [
+      "audio_output_audio_full_chapters_chapter_03_parts_03_0_88704ba2",
+      "audio_output_audio_full_chapters_chapter_03_parts_03_0_a9731925",
+      "audio_output_audio_full_chapters_chapter_03_parts_03_0_59d3a62d",
+      "audio_output_audio_full_chapters_chapter_03_parts_03_0_991a5bd6",
+      "audio_output_audio_full_chapters_chapter_03_parts_03_0_5bb40e05",
+      "audio_output_audio_full_chapters_天外来客_第03章_入咸阳_mp3_d61b80dc"
+    ],
+    "tags": [
+      "TTS",
+      "停顿",
+      "分镜",
+      "听书",
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "李鹤",
+      "短剧"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/audio/full_chapters/chapter_03_clean.md",
+    "textSourceType": "清洗正文",
+    "reviewStatus": "待复核",
+    "reviewConclusion": "清洗正文已开放，需复核入咸阳段落的历史调性与人物动机。",
+    "nextAction": "补审稿报告并确认与第4章衔接。",
+    "maturity": 70,
+    "planningTags": [
+      "清洗正文",
+      "入咸阳",
+      "承接复核"
+    ]
+  },
+  {
+    "id": "ch04",
+    "number": 4,
+    "title": "第四章 工官新令",
+    "status": "done",
+    "summary": "咸阳的天亮得很冷。 黑色宫墙外，晨雾贴着地面缓缓流动，像一层尚未散尽的灰。 格物司的大门还没有正式打开。 门前却已经见了血。 不是人血。 是暗红污渍。 腥臭的血从门楣一路泼下，顺着新立的木牌滴落，在地上积成一片暗红色的污渍。木牌上原本刚刻好的三个秦篆——格物司——被血糊得几乎看不清。 门柱上，还钉着一卷竹简。 竹简没有……",
+    "updated": "2026-06-10T13:03+08:00",
+    "files": [
+      {
+        "id": "file_output_revisions_天外来客_第2_4章赵高暗线弱化替换表_2026_06_09__88df9414",
+        "title": "《天外来客》第2-4章赵高暗线弱化替换表",
+        "module": "novel",
+        "sourceRef": "output/revisions/天外来客_第2-4章赵高暗线弱化替换表_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
+        "title": "《天外来客》B线：第04-10章 30-45秒AI短剧测试片候选清单",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_30-45秒测试片候选清单.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_爆款钩子标题库_md_e2edad9a",
+        "title": "《天外来客》B线｜第04-10章爆款钩子标题库",
+        "module": "novel",
+        "sourceRef": "output/天外来客_B线_第04-10章_爆款钩子标题库.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_短剧化拆解表_md_27b46aea",
+        "title": "《天外来客》B线：第04-10章短剧化拆解表",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_短剧化拆解表.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_资产数据库更新表_md_3cc350fb",
+        "title": "《天外来客》B线：第04-10章资产数据库更新表",
+        "module": "assets",
+        "sourceRef": "output/天外来客_B线_第04-10章_资产数据库更新表.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订稿_md_80255e97",
+        "title": "第四章 工官新令",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订说明_md_67491ec5",
+        "title": "《天外来客》第04-10章整合修订说明",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订说明.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_质量合理性检查报告_md_80a94c62",
+        "title": "《天外来客》第04-10章质量合理性检查报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_质量合理性检查报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第04章_工官新令_正式定稿_md_203ce0af",
+        "title": "第四章 工官新令",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04章_工官新令_正式定稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第04章_英文听书稿_创作原则_2026_06_10_1152_md_83d05873",
+        "title": "《天外来客》第04章英文听书稿创作原则（2026-06-10 11:52）",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第04章_英文听书稿_创作原则_2026-06-10_1152.md"
+      },
+      {
+        "id": "file_output_天外来客_第04章_英文听书稿_开篇审稿版候选_v2_2026_06_10_130_ee2fe49e",
+        "title": "《天外来客》第04章英文听书稿开篇审稿版候选 v2（2026-06-10 13:01）",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第04章_英文听书稿_开篇审稿版候选_v2_2026-06-10_1301.md"
+      },
+      {
+        "id": "file_output_天外来客_第04章_英文听书稿_开篇独立审计报告_v1_2026_06_10_13_5231e968",
+        "title": "《天外来客》第04章英文听书稿开篇独立审计报告 v1（2026-06-10 13:01）",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第04章_英文听书稿_开篇独立审计报告_v1_2026-06-10_1301.md"
+      },
+      {
+        "id": "file_output_天外来客_第04章_英文听书稿_草稿候选_v1_2026_06_10_1201_m_573ddf8e",
+        "title": "《天外来客》第04章英文听书稿草稿候选 v1（2026-06-10 12:01）",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第04章_英文听书稿_草稿候选_v1_2026-06-10_1201.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章_总纲与续写路线_md_2135622c",
+        "title": "《天外来客》第1-10章总纲与续写路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章_总纲与续写路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章精修执行方案_2026_06_09_md_a9e193cf",
+        "title": "《天外来客》第1-10章精修执行方案",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章精修执行方案_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章连贯性审稿报告_2026_06_09_md_a465c621",
+        "title": "《天外来客》第1-10章连贯性审稿报告（主线程整理版）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章连贯性审稿报告_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章逐章精修审稿报告_md_f687a6e7",
+        "title": "《天外来客》第1-10章逐章精修审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章逐章精修审稿报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_4章_审稿报告_md_9556133b",
+        "title": "《天外来客》第1-4章审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-4章_审稿报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_4章_短剧转化检查报告_md_e4b9b1bf",
+        "title": "《天外来客》第1-4章短剧/漫剧转化检查报告",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_第1-4章_短剧转化检查报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第四章_工官新令_正文完善稿_md_c633c32f",
+        "title": "第四章 工官新令",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第四章_工官新令_正文完善稿.md"
+      }
+    ],
+    "audioIds": [
+      "audio_output_audio_full_chapters_chapter_04_parts_04_0_ea2ce607",
+      "audio_output_audio_full_chapters_chapter_04_parts_04_0_faeedb29",
+      "audio_output_audio_full_chapters_chapter_04_parts_04_0_341e3141",
+      "audio_output_audio_full_chapters_chapter_04_parts_04_0_74db5b88",
+      "audio_output_audio_full_chapters_chapter_04_parts_04_0_465757b4",
+      "audio_output_audio_full_chapters_chapter_04_parts_04_0_537364d5",
+      "audio_output_audio_full_chapters_chapter_04_parts_04_0_7d93b878",
+      "audio_output_audio_full_chapters_chapter_04_parts_04_0_b1bea9fa",
+      "audio_output_audio_full_chapters_chapter_04_parts_04_0_2a004b38",
+      "audio_output_audio_full_chapters_chapter_04_parts_04_0_b030eced",
+      "audio_output_audio_full_chapters_天外来客_第04章_工官新令_mp3_6b9e0dd5"
+    ],
+    "tags": [
+      "TTS",
+      "停顿",
+      "分镜",
+      "听书",
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "李鹤",
+      "母图"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/天外来客_第04章_工官新令_正式定稿.md",
+    "textSourceType": "正式定稿",
+    "reviewStatus": "已定稿",
+    "reviewConclusion": "正式定稿已开放，可作为当前网站标准正文。",
+    "nextAction": "后续只做排版、听书适配和错漏微调。",
+    "maturity": 95,
+    "planningTags": [
+      "正式定稿",
+      "工官线",
+      "标准样章"
+    ]
+  },
+  {
+    "id": "ch05",
+    "number": 5,
+    "title": "第05章 章台亲验｜清洗版",
+    "status": "review",
+    "summary": "格物司第一批成品送入章台宫时，天色还未全亮。 十把短刃、三十枚箭镞、几段车轴铁件，被分别置于黑漆木案上。它们不华丽，甚至算不上锋芒逼人。短刃表面仍带着粗糙的锻痕，箭镞也没有贵族佩剑那种精细装饰，车轴铁件更像一堆沉默的黑骨。 可懂工事的人一眼就能看出异样。 它们太像了。 不是一件好，而是一排都差不多。 嬴政坐在高处，没有……",
+    "updated": "2026-06-10T17:04+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
+        "title": "《天外来客》B线：第04-10章 30-45秒AI短剧测试片候选清单",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_30-45秒测试片候选清单.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_爆款钩子标题库_md_e2edad9a",
+        "title": "《天外来客》B线｜第04-10章爆款钩子标题库",
+        "module": "novel",
+        "sourceRef": "output/天外来客_B线_第04-10章_爆款钩子标题库.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_短剧化拆解表_md_27b46aea",
+        "title": "《天外来客》B线：第04-10章短剧化拆解表",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_短剧化拆解表.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_资产数据库更新表_md_3cc350fb",
+        "title": "《天外来客》B线：第04-10章资产数据库更新表",
+        "module": "assets",
+        "sourceRef": "output/天外来客_B线_第04-10章_资产数据库更新表.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订稿_md_80255e97",
+        "title": "第四章 工官新令",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订说明_md_67491ec5",
+        "title": "《天外来客》第04-10章整合修订说明",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订说明.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_质量合理性检查报告_md_80a94c62",
+        "title": "《天外来客》第04-10章质量合理性检查报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_质量合理性检查报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第05_07章_正文草稿_md_5a252c37",
+        "title": "《天外来客》第5-7章正文草稿",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第05-07章_正文草稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第05章_英文听书稿_创作原则_2026_06_10_1401_md_8f2abacd",
+        "title": "《天外来客》第05章英文听书稿创作原则",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第05章_英文听书稿_创作原则_2026-06-10_1401.md"
+      },
+      {
+        "id": "file_output_天外来客_第05章_英文听书稿_审稿版候选_v2_2026_06_10_1701__b13e4d40",
+        "title": "《天外来客》第05章英文听书稿审稿版候选 v2",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第05章_英文听书稿_审稿版候选_v2_2026-06-10_1701.md"
+      },
+      {
+        "id": "file_output_天外来客_第05章_英文听书稿_审计补充_v2_2026_06_10_1701_m_90c3bb2e",
+        "title": "《天外来客》第05章英文听书稿审计补充 v2",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第05章_英文听书稿_审计补充_v2_2026-06-10_1701.md"
+      },
+      {
+        "id": "file_output_天外来客_第05章_英文听书稿_独立审计报告_v1_2026_06_10_1401_8567f61b",
+        "title": "《天外来客》第05章英文听书稿独立审计报告 v1",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第05章_英文听书稿_独立审计报告_v1_2026-06-10_1401.md"
+      },
+      {
+        "id": "file_output_天外来客_第05章_英文听书稿_草稿候选_v1_2026_06_10_1401_m_a0430211",
+        "title": "《天外来客》第05章英文听书稿草稿候选 v1",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第05章_英文听书稿_草稿候选_v1_2026-06-10_1401.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章_总纲与续写路线_md_2135622c",
+        "title": "《天外来客》第1-10章总纲与续写路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章_总纲与续写路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章精修执行方案_2026_06_09_md_a9e193cf",
+        "title": "《天外来客》第1-10章精修执行方案",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章精修执行方案_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章连贯性审稿报告_2026_06_09_md_a465c621",
+        "title": "《天外来客》第1-10章连贯性审稿报告（主线程整理版）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章连贯性审稿报告_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章逐章精修审稿报告_md_f687a6e7",
+        "title": "《天外来客》第1-10章逐章精修审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章逐章精修审稿报告.md"
+      }
+    ],
+    "audioIds": [
+      "audio_output_audio_full_chapters_chapter_05_parts_05_0_4a5eb87f",
+      "audio_output_audio_full_chapters_chapter_05_parts_05_0_f69d7497",
+      "audio_output_audio_full_chapters_天外来客_第05章_章台亲验_mp3_1220c673"
+    ],
+    "tags": [
+      "TTS",
+      "停顿",
+      "分镜",
+      "听书",
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "李鹤",
+      "母图"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/audio/full_chapters/chapter_05_clean.md",
+    "textSourceType": "清洗正文",
+    "reviewStatus": "待审",
+    "reviewConclusion": "清洗正文已开放，多语言稿仍需完整扩写和独立审计。",
+    "nextAction": "补中文正文审稿与英文听书稿审计闭环。",
+    "maturity": 62,
+    "planningTags": [
+      "清洗正文",
+      "多语言",
+      "待审"
+    ]
+  },
+  {
+    "id": "ch06",
+    "number": 6,
+    "title": "第06章 百工有名｜清洗版",
+    "status": "review",
+    "summary": "格物司的新令真正落到人身上，是从名字开始的。 李鹤命章邯重新登记百工。 不是按官匠、私匠、罪匠、奴籍役夫排，也不是按谁是谁的徒弟、谁听谁的吩咐排，而是按会什么、做过什么、犯过什么错、立过什么功排。 这一排，格物司前院便乱了。 有人怕。 底层工匠怕被记录。 他们这辈子最常见的记录，是罪名、欠役、鞭数和连坐。 有人怒。 旧……",
+    "updated": "2026-06-10T17:05+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
+        "title": "《天外来客》B线：第04-10章 30-45秒AI短剧测试片候选清单",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_30-45秒测试片候选清单.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_爆款钩子标题库_md_e2edad9a",
+        "title": "《天外来客》B线｜第04-10章爆款钩子标题库",
+        "module": "novel",
+        "sourceRef": "output/天外来客_B线_第04-10章_爆款钩子标题库.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_短剧化拆解表_md_27b46aea",
+        "title": "《天外来客》B线：第04-10章短剧化拆解表",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_短剧化拆解表.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_资产数据库更新表_md_3cc350fb",
+        "title": "《天外来客》B线：第04-10章资产数据库更新表",
+        "module": "assets",
+        "sourceRef": "output/天外来客_B线_第04-10章_资产数据库更新表.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订稿_md_80255e97",
+        "title": "第四章 工官新令",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订说明_md_67491ec5",
+        "title": "《天外来客》第04-10章整合修订说明",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订说明.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_质量合理性检查报告_md_80a94c62",
+        "title": "《天外来客》第04-10章质量合理性检查报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_质量合理性检查报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第05_07章_正文草稿_md_5a252c37",
+        "title": "《天外来客》第5-7章正文草稿",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第05-07章_正文草稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第06章_英文听书稿_创作原则_2026_06_10_1501_md_b1bb4fc6",
+        "title": "《天外来客》第06章英文听书稿创作原则",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第06章_英文听书稿_创作原则_2026-06-10_1501.md"
+      },
+      {
+        "id": "file_output_天外来客_第06章_英文听书稿_自检清单_v1_2026_06_10_1701_m_34b3fdcb",
+        "title": "《天外来客》第06章英文听书稿草稿候选自检清单 v1",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第06章_英文听书稿_自检清单_v1_2026-06-10_1701.md"
+      },
+      {
+        "id": "file_output_天外来客_第06章_英文听书稿_草稿候选_v1_2026_06_10_1701_m_0128dc79",
+        "title": "《天外来客》第06章英文听书稿草稿候选 v1",
+        "module": "tts",
+        "sourceRef": "output/天外来客_第06章_英文听书稿_草稿候选_v1_2026-06-10_1701.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章_总纲与续写路线_md_2135622c",
+        "title": "《天外来客》第1-10章总纲与续写路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章_总纲与续写路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章精修执行方案_2026_06_09_md_a9e193cf",
+        "title": "《天外来客》第1-10章精修执行方案",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章精修执行方案_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章连贯性审稿报告_2026_06_09_md_a465c621",
+        "title": "《天外来客》第1-10章连贯性审稿报告（主线程整理版）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章连贯性审稿报告_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章逐章精修审稿报告_md_f687a6e7",
+        "title": "《天外来客》第1-10章逐章精修审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章逐章精修审稿报告.md"
+      }
+    ],
+    "audioIds": [
+      "audio_output_audio_full_chapters_chapter_06_parts_06_0_b519df2b",
+      "audio_output_audio_full_chapters_chapter_06_parts_06_0_b6dccc52",
+      "audio_output_audio_full_chapters_天外来客_第06章_百工有名_mp3_67c6f515"
+    ],
+    "tags": [
+      "TTS",
+      "停顿",
+      "分镜",
+      "听书",
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "李鹤",
+      "母图"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/audio/full_chapters/chapter_06_clean.md",
+    "textSourceType": "清洗正文",
+    "reviewStatus": "待审",
+    "reviewConclusion": "清洗正文已开放，英文听书原则已立，完整审计未完成。",
+    "nextAction": "补章节审稿、英文听书稿与连续性检查。",
+    "maturity": 58,
+    "planningTags": [
+      "清洗正文",
+      "百工线",
+      "英文原则"
+    ]
+  },
+  {
+    "id": "ch07",
+    "number": 7,
+    "title": "第07章 纸上秦法｜清洗版",
+    "status": "review",
+    "summary": "格物司最先被压垮的，不是炉火。 是竹简。 开司不到一月，记录房便堆满了竹简。 料有来处，要记。 炉有成败，要记。 功有名字，要记。 罪有证据，也要记。 章邯抱着半人高的竹简摔在门口时，李鹤正在看一批短刃验收。 “先生。” 章邯坐在地上，灰头土脸。 “找一炉记录，要翻半屋竹简。” “若再这么记下去，格物司先被自己的册子埋……",
+    "updated": "2026-06-10T12:22+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
+        "title": "《天外来客》B线：第04-10章 30-45秒AI短剧测试片候选清单",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_30-45秒测试片候选清单.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_爆款钩子标题库_md_e2edad9a",
+        "title": "《天外来客》B线｜第04-10章爆款钩子标题库",
+        "module": "novel",
+        "sourceRef": "output/天外来客_B线_第04-10章_爆款钩子标题库.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_短剧化拆解表_md_27b46aea",
+        "title": "《天外来客》B线：第04-10章短剧化拆解表",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_短剧化拆解表.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_资产数据库更新表_md_3cc350fb",
+        "title": "《天外来客》B线：第04-10章资产数据库更新表",
+        "module": "assets",
+        "sourceRef": "output/天外来客_B线_第04-10章_资产数据库更新表.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订稿_md_80255e97",
+        "title": "第四章 工官新令",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订说明_md_67491ec5",
+        "title": "《天外来客》第04-10章整合修订说明",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订说明.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_质量合理性检查报告_md_80a94c62",
+        "title": "《天外来客》第04-10章质量合理性检查报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_质量合理性检查报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第05_07章_正文草稿_md_5a252c37",
+        "title": "《天外来客》第5-7章正文草稿",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第05-07章_正文草稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章_总纲与续写路线_md_2135622c",
+        "title": "《天外来客》第1-10章总纲与续写路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章_总纲与续写路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章精修执行方案_2026_06_09_md_a9e193cf",
+        "title": "《天外来客》第1-10章精修执行方案",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章精修执行方案_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章连贯性审稿报告_2026_06_09_md_a465c621",
+        "title": "《天外来客》第1-10章连贯性审稿报告（主线程整理版）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章连贯性审稿报告_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章逐章精修审稿报告_md_f687a6e7",
+        "title": "《天外来客》第1-10章逐章精修审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章逐章精修审稿报告.md"
+      }
+    ],
+    "audioIds": [
+      "audio_output_audio_full_chapters_chapter_07_parts_07_0_99c35317",
+      "audio_output_audio_full_chapters_chapter_07_parts_07_0_f8673970",
+      "audio_output_audio_full_chapters_天外来客_第07章_纸上秦法_mp3_221b1986"
+    ],
+    "tags": [
+      "TTS",
+      "分镜",
+      "听书",
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "李鹤",
+      "母图",
+      "测试片"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/audio/full_chapters/chapter_07_clean.md",
+    "textSourceType": "清洗正文",
+    "reviewStatus": "待审",
+    "reviewConclusion": "清洗正文已开放，需检查纸上秦法设定的制度逻辑。",
+    "nextAction": "补制度线、人物线与爽点密度复核。",
+    "maturity": 56,
+    "planningTags": [
+      "清洗正文",
+      "制度法",
+      "爽点复核"
+    ]
+  },
+  {
+    "id": "ch08",
+    "number": 8,
+    "title": "第08章 北境急报｜清洗版",
+    "status": "review",
+    "summary": "北境急报抵达咸阳时，信使的马倒在宫门外。 边防压力骤增。 军械损耗严重。 车马器具坏得比报上来的更多。 补给迟缓，维修跟不上，军中怨气渐起。 章台宫内，王贲第一句便是： “格物司先给军方。” 蒙恬没有像王贲那样拍案，却也看向李鹤。 他比任何人都知道北境的冷、远和苦。 一件器物坏在咸阳，只是记录上的损耗。 坏在边境，可能……",
+    "updated": "2026-06-10T12:22+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
+        "title": "《天外来客》B线：第04-10章 30-45秒AI短剧测试片候选清单",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_30-45秒测试片候选清单.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_爆款钩子标题库_md_e2edad9a",
+        "title": "《天外来客》B线｜第04-10章爆款钩子标题库",
+        "module": "novel",
+        "sourceRef": "output/天外来客_B线_第04-10章_爆款钩子标题库.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_短剧化拆解表_md_27b46aea",
+        "title": "《天外来客》B线：第04-10章短剧化拆解表",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_短剧化拆解表.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_资产数据库更新表_md_3cc350fb",
+        "title": "《天外来客》B线：第04-10章资产数据库更新表",
+        "module": "assets",
+        "sourceRef": "output/天外来客_B线_第04-10章_资产数据库更新表.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订稿_md_80255e97",
+        "title": "第四章 工官新令",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订说明_md_67491ec5",
+        "title": "《天外来客》第04-10章整合修订说明",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订说明.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_质量合理性检查报告_md_80a94c62",
+        "title": "《天外来客》第04-10章质量合理性检查报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_质量合理性检查报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第08_10章_正文草稿_md_fdec4053",
+        "title": "《天外来客》第08-10章正文草稿",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第08-10章_正文草稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章_总纲与续写路线_md_2135622c",
+        "title": "《天外来客》第1-10章总纲与续写路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章_总纲与续写路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章精修执行方案_2026_06_09_md_a9e193cf",
+        "title": "《天外来客》第1-10章精修执行方案",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章精修执行方案_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章连贯性审稿报告_2026_06_09_md_a465c621",
+        "title": "《天外来客》第1-10章连贯性审稿报告（主线程整理版）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章连贯性审稿报告_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章逐章精修审稿报告_md_f687a6e7",
+        "title": "《天外来客》第1-10章逐章精修审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章逐章精修审稿报告.md"
+      }
+    ],
+    "audioIds": [
+      "audio_output_audio_full_chapters_chapter_08_parts_08_0_5a5f5d76",
+      "audio_output_audio_full_chapters_天外来客_第08章_北境急报_mp3_eac130b7"
+    ],
+    "tags": [
+      "TTS",
+      "分镜",
+      "听书",
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "李鹤",
+      "母图",
+      "测试片"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/audio/full_chapters/chapter_08_clean.md",
+    "textSourceType": "清洗正文",
+    "reviewStatus": "待审",
+    "reviewConclusion": "清洗正文已开放，需检查北境急报与主线压力衔接。",
+    "nextAction": "补军事压力线的合规表达与后文伏笔表。",
+    "maturity": 56,
+    "planningTags": [
+      "清洗正文",
+      "北境压力",
+      "军事线"
+    ]
+  },
+  {
+    "id": "ch09",
+    "number": 9,
+    "title": "第09章 扶苏问道｜清洗版",
+    "status": "review",
+    "summary": "扶苏来到格物司那日，没有仪仗。 他穿素色深衣，身后只跟两名侍从。入门时，正看见阿炭抱着格物簿从料棚跑过，脸上沾着炭灰，手里却护着竹简，像护着一件比命还贵的东西。 扶苏停下。 “他是官匠？” 李鹤道： “曾是奴籍役夫。” “现在呢？” “炭料验看学徒。” 扶苏看了阿炭很久。 “贱役也可记功？” 李鹤没有立刻回答。 这句话……",
+    "updated": "2026-06-10T12:22+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
+        "title": "《天外来客》B线：第04-10章 30-45秒AI短剧测试片候选清单",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_30-45秒测试片候选清单.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_爆款钩子标题库_md_e2edad9a",
+        "title": "《天外来客》B线｜第04-10章爆款钩子标题库",
+        "module": "novel",
+        "sourceRef": "output/天外来客_B线_第04-10章_爆款钩子标题库.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_短剧化拆解表_md_27b46aea",
+        "title": "《天外来客》B线：第04-10章短剧化拆解表",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_短剧化拆解表.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_资产数据库更新表_md_3cc350fb",
+        "title": "《天外来客》B线：第04-10章资产数据库更新表",
+        "module": "assets",
+        "sourceRef": "output/天外来客_B线_第04-10章_资产数据库更新表.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订稿_md_80255e97",
+        "title": "第四章 工官新令",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订说明_md_67491ec5",
+        "title": "《天外来客》第04-10章整合修订说明",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订说明.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_质量合理性检查报告_md_80a94c62",
+        "title": "《天外来客》第04-10章质量合理性检查报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_质量合理性检查报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第08_10章_正文草稿_md_fdec4053",
+        "title": "《天外来客》第08-10章正文草稿",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第08-10章_正文草稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章_总纲与续写路线_md_2135622c",
+        "title": "《天外来客》第1-10章总纲与续写路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章_总纲与续写路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章精修执行方案_2026_06_09_md_a9e193cf",
+        "title": "《天外来客》第1-10章精修执行方案",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章精修执行方案_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章连贯性审稿报告_2026_06_09_md_a465c621",
+        "title": "《天外来客》第1-10章连贯性审稿报告（主线程整理版）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章连贯性审稿报告_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章逐章精修审稿报告_md_f687a6e7",
+        "title": "《天外来客》第1-10章逐章精修审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章逐章精修审稿报告.md"
+      }
+    ],
+    "audioIds": [
+      "audio_output_audio_full_chapters_chapter_09_parts_09_0_c1fe6b1f",
+      "audio_output_audio_full_chapters_天外来客_第09章_扶苏问道_mp3_1b19d236"
+    ],
+    "tags": [
+      "TTS",
+      "分镜",
+      "听书",
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "李鹤",
+      "母图",
+      "测试片"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/audio/full_chapters/chapter_09_clean.md",
+    "textSourceType": "清洗正文",
+    "reviewStatus": "待审",
+    "reviewConclusion": "清洗正文已开放，需检查扶苏问道的人物成长与史观边界。",
+    "nextAction": "补人物弧光、价值表达和连续性审查。",
+    "maturity": 58,
+    "planningTags": [
+      "清洗正文",
+      "扶苏线",
+      "人物成长"
+    ]
+  },
+  {
+    "id": "ch10",
+    "number": 10,
+    "title": "第10章 秦亡倒计时｜清洗版",
+    "status": "review",
+    "summary": "第十章的风，是从章台宫地下吹出来的。 李鹤借呈送北境军械摘要与格物簿样本，再次进入章台深处。 星海已经被他调到低能耗模式。 蓝光不再稳定，提示也时断时续。 【警告：继续追踪将加速消耗。】 李鹤没有追。 至少没有立刻追。 他先把三份账摆在嬴政面前。 第一份，格物司物料异常。 第二份，北境军械损耗异常。 第三份，宫中内库旧……",
+    "updated": "2026-06-10T12:22+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
+        "title": "《天外来客》B线：第04-10章 30-45秒AI短剧测试片候选清单",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_30-45秒测试片候选清单.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_爆款钩子标题库_md_e2edad9a",
+        "title": "《天外来客》B线｜第04-10章爆款钩子标题库",
+        "module": "novel",
+        "sourceRef": "output/天外来客_B线_第04-10章_爆款钩子标题库.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_短剧化拆解表_md_27b46aea",
+        "title": "《天外来客》B线：第04-10章短剧化拆解表",
+        "module": "short-drama",
+        "sourceRef": "output/天外来客_B线_第04-10章_短剧化拆解表.md"
+      },
+      {
+        "id": "file_output_天外来客_B线_第04_10章_资产数据库更新表_md_3cc350fb",
+        "title": "《天外来客》B线：第04-10章资产数据库更新表",
+        "module": "assets",
+        "sourceRef": "output/天外来客_B线_第04-10章_资产数据库更新表.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订稿_md_80255e97",
+        "title": "第四章 工官新令",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_整合修订说明_md_67491ec5",
+        "title": "《天外来客》第04-10章整合修订说明",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_整合修订说明.md"
+      },
+      {
+        "id": "file_output_天外来客_第04_10章_质量合理性检查报告_md_80a94c62",
+        "title": "《天外来客》第04-10章质量合理性检查报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第04-10章_质量合理性检查报告.md"
+      },
+      {
+        "id": "file_output_天外来客_第08_10章_正文草稿_md_fdec4053",
+        "title": "《天外来客》第08-10章正文草稿",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第08-10章_正文草稿.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章_总纲与续写路线_md_2135622c",
+        "title": "《天外来客》第1-10章总纲与续写路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章_总纲与续写路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章精修执行方案_2026_06_09_md_a9e193cf",
+        "title": "《天外来客》第1-10章精修执行方案",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章精修执行方案_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章连贯性审稿报告_2026_06_09_md_a465c621",
+        "title": "《天外来客》第1-10章连贯性审稿报告（主线程整理版）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章连贯性审稿报告_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第1_10章逐章精修审稿报告_md_f687a6e7",
+        "title": "《天外来客》第1-10章逐章精修审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第1-10章逐章精修审稿报告.md"
+      }
+    ],
+    "audioIds": [
+      "audio_output_audio_full_chapters_chapter_10_parts_10_0_bc15e1b5",
+      "audio_output_audio_full_chapters_chapter_10_parts_10_0_375c63fb",
+      "audio_output_audio_full_chapters_天外来客_第10章_秦亡倒计时_mp3_0dc2b3c6"
+    ],
+    "tags": [
+      "TTS",
+      "分镜",
+      "听书",
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "李鹤",
+      "母图",
+      "测试片"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/audio/full_chapters/chapter_10_clean.md",
+    "textSourceType": "清洗正文",
+    "reviewStatus": "待审",
+    "reviewConclusion": "清洗正文已开放，需复核倒计时主线和第11章承接。",
+    "nextAction": "补十日真账前置证据链和追读钩子审查。",
+    "maturity": 60,
+    "planningTags": [
+      "清洗正文",
+      "倒计时",
+      "第11章承接"
+    ]
+  },
+  {
+    "id": "ch11",
+    "number": 11,
+    "title": "第11章 章台问星（定稿候选 v2）",
+    "status": "done",
+    "summary": "章台宫的灯，一夜未灭。 李鹤被带入偏殿时，天色尚未亮透。宫墙之外，咸阳城沉在深黑的晨雾里，章台高处的铜灯却一盏接一盏燃着，火光压在黑漆梁柱上，像无数只睁开的眼睛。 他昨夜没有睡好。 不是不困，是不能睡。 第十章殿中那道令符还压在袖中，冰冷的边角贴着手腕，每一次走动都像在提醒他：嬴政给了他十日，也给了他一条套在脖子上的绳……",
+    "updated": "2026-06-10T12:22+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_第11_20章_规划路线_md_6794def2",
+        "title": "《天外来客》第11-20章规划路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章_规划路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第11_20章连载衔接与升级规划_md_a0010e61",
+        "title": "《天外来客》第11-20章连载衔接与升级规划",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章连载衔接与升级规划.md"
+      },
+      {
+        "id": "file_output_天外来客_第11章_章台问星_完整草稿_v1_2026_06_09_md_58b1407b",
+        "title": "第11章 章台问星（完整草稿 v1）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11章_章台问星_完整草稿_v1_2026-06-09.md"
+      },
+      {
+        "id": "file_output_天外来客_第11章_章台问星_定稿候选_v2_2026_06_10_md_42d26bc5",
+        "title": "第11章 章台问星（定稿候选 v2）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11章_章台问星_定稿候选_v2_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第11章_章台问星_审稿报告_2026_06_10_md_92e9fa53",
+        "title": "《天外来客》第11章《章台问星》审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11章_章台问星_审稿报告_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第11章_章台问星_开篇试写_md_8a403447",
+        "title": "第11章《章台问星》开篇试写",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11章_章台问星_开篇试写.md"
+      },
+      {
+        "id": "file_output_天外来客_第11章_章台问星_扩写方案与后半段_md_440a2bfc",
+        "title": "《天外来客》第11章《章台问星》扩写方案与后半段正文",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11章_章台问星_扩写方案与后半段.md"
+      }
+    ],
+    "audioIds": [],
+    "tags": [
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "李鹤",
+      "秦军大帐",
+      "规划",
+      "语气"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/天外来客_第11章_章台问星_定稿候选_v2_2026-06-10.md",
+    "textSourceType": "定稿候选",
+    "reviewStatus": "定稿候选待终审",
+    "reviewConclusion": "定稿候选 v2 已开放，需终审后转正式定稿。",
+    "nextAction": "做最终一致性、节奏和伏笔闭环复核。",
+    "maturity": 82,
+    "planningTags": [
+      "定稿候选",
+      "章台问星",
+      "终审"
+    ]
+  },
+  {
+    "id": "ch12",
+    "number": 12,
+    "title": "第12章 十日真账（定稿候选 v2）",
+    "status": "done",
+    "summary": "章台宫外的晨雾还没有散。 李鹤站在石阶下，回头看了一眼身后的偏殿。 殿门已经重新合上，黑漆门扇在雾里沉得像一块铁。门内，石匣被封泥重新压住，《问星录》的第一卷竹简墨迹未干；门外，咸阳城的宫阙、官署、仓廪、军坊从灰白雾气里显出轮廓，像有人把一卷巨大的账册摊在了天地之间。 李鹤袖中那枚十日令符仍旧冰冷。 十日。 查出真实的……",
+    "updated": "2026-06-10T12:22+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_第11_20章_规划路线_md_6794def2",
+        "title": "《天外来客》第11-20章规划路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章_规划路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第11_20章连载衔接与升级规划_md_a0010e61",
+        "title": "《天外来客》第11-20章连载衔接与升级规划",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章连载衔接与升级规划.md"
+      },
+      {
+        "id": "file_output_天外来客_第12章_修订推进清单_2026_06_10_0501_md_b6973e1f",
+        "title": "《天外来客》第12章《十日真账》修订推进清单",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第12章_修订推进清单_2026-06-10_0501.md"
+      },
+      {
+        "id": "file_output_天外来客_第12章_十日真账_v2修订说明_2026_06_10_md_1ce15190",
+        "title": "《天外来客》第12章《十日真账》v2修订说明",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第12章_十日真账_v2修订说明_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第12章_十日真账_完整草稿候选_v1_2026_06_10_md_8784142b",
+        "title": "第12章 十日真账（完整草稿候选 v1）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第12章_十日真账_完整草稿候选_v1_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第12章_十日真账_定稿候选_v2_2026_06_10_md_80b8515d",
+        "title": "第12章 十日真账（定稿候选 v2）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第12章_十日真账_定稿候选_v2_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第12章_十日真账_审稿任务单_2026_06_10_md_4c39260e",
+        "title": "《天外来客》第12章《十日真账》审稿任务单",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第12章_十日真账_审稿任务单_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第12章_十日真账_审稿报告_2026_06_10_md_8e6165f6",
+        "title": "《天外来客》第12章《十日真账》审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第12章_十日真账_审稿报告_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第12章_十日真账_细纲与开篇_2026_06_10_md_5dde807c",
+        "title": "《天外来客》第12章《十日真账》细纲与开篇",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第12章_十日真账_细纲与开篇_2026-06-10.md"
+      },
+      {
+        "id": "file_output_天外来客_第12章_十日真账_续写说明与自检报告_2026_06_10_md_69c6c6d1",
+        "title": "《天外来客》第12章《十日真账》续写说明与自检报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第12章_十日真账_续写说明与自检报告_2026-06-10.md"
+      }
+    ],
+    "audioIds": [],
+    "tags": [
+      "TTS",
+      "听书",
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "李鹤",
+      "秦军大帐",
+      "网站",
+      "规划"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/天外来客_第12章_十日真账_定稿候选_v2_2026-06-10.md",
+    "textSourceType": "定稿候选",
+    "reviewStatus": "定稿候选待终审",
+    "reviewConclusion": "定稿候选 v2 已开放，需终审后转正式定稿。",
+    "nextAction": "确认十日真账、章台问星和内库锚点残片承接。",
+    "maturity": 84,
+    "planningTags": [
+      "定稿候选",
+      "十日真账",
+      "终审"
+    ]
+  },
+  {
+    "id": "ch13",
+    "number": 13,
+    "title": "第13章 旧库验箱（正式定稿）",
+    "status": "done",
+    "summary": "辰时未到，章台旧库外已经站满了人。 天色还青，宫墙上的露水顺着砖缝往下滑，落在石阶上，冷得像一层薄薄的霜。旧库门前两盏宫灯没有熄，灯火被晨风压得一低一低，照着门上三道封泥，也照着封泥前一排低垂的眼睛。 没有人说话。 少府的人站在左侧，工官的人站在右侧，掌封内侍站在门前，法吏捧着空白竹简。蒙毅带来的卫士隔开半丈距离，手不……",
+    "updated": "2026-06-10T18:17+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_第11_20章_规划路线_md_6794def2",
+        "title": "《天外来客》第11-20章规划路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章_规划路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第11_20章连载衔接与升级规划_md_a0010e61",
+        "title": "《天外来客》第11-20章连载衔接与升级规划",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章连载衔接与升级规划.md"
+      },
+      {
+        "id": "file_output_天外来客_第13_14章_正式定稿确认与网站同步记录_2026_06_10_181_e685f065",
+        "title": "《天外来客》第13、14章正式定稿确认与网站同步记录（2026-06-10 18:16）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第13_14章_正式定稿确认与网站同步记录_2026-06-10_1816.md"
+      },
+      {
+        "id": "file_output_天外来客_第13章_旧库验箱_v2独立复核报告_2026_06_10_1152_m_d4ab4645",
+        "title": "《天外来客》第13章《旧库验箱》v2 独立复核报告（2026-06-10 11:52）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第13章_旧库验箱_v2独立复核报告_2026-06-10_1152.md"
+      },
+      {
+        "id": "file_output_天外来客_第13章_旧库验箱_定稿候选_v3_2026_06_10_1701_md_8c69707a",
+        "title": "第13章 旧库验箱（定稿候选 v3）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第13章_旧库验箱_定稿候选_v3_2026-06-10_1701.md"
+      },
+      {
+        "id": "file_output_天外来客_第13章_旧库验箱_审稿版候选_v2_2026_06_10_1101_m_f91f12c1",
+        "title": "第13章 旧库验箱（审稿版候选 v2）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第13章_旧库验箱_审稿版候选_v2_2026-06-10_1101.md"
+      },
+      {
+        "id": "file_output_天外来客_第13章_旧库验箱_小修清单_2026_06_10_1101_md_3d21f360",
+        "title": "《天外来客》第13章《旧库验箱》小修清单（2026-06-10 11:01）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第13章_旧库验箱_小修清单_2026-06-10_1101.md"
+      },
+      {
+        "id": "file_output_天外来客_第13章_旧库验箱_承接细纲与开篇方向候选_2026_06_10_080_22b86bb2",
+        "title": "《天外来客》第13章承接细纲与开篇方向候选",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第13章_旧库验箱_承接细纲与开篇方向候选_2026-06-10_0806.md"
+      },
+      {
+        "id": "file_output_天外来客_第13章_旧库验箱_最终一致性审查报告_2026_06_10_1701__4bae9653",
+        "title": "《天外来客》第13章《旧库验箱》最终一致性审查报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第13章_旧库验箱_最终一致性审查报告_2026-06-10_1701.md"
+      },
+      {
+        "id": "file_output_天外来客_第13章_旧库验箱_正式定稿_2026_06_10_1816_md_876c8605",
+        "title": "第13章 旧库验箱（正式定稿）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第13章_旧库验箱_正式定稿_2026-06-10_1816.md"
+      },
+      {
+        "id": "file_output_天外来客_第13章_旧库验箱_正文草稿候选_v1_2026_06_10_0908__c852bdcb",
+        "title": "第13章 旧库验箱（正文草稿候选 v1）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第13章_旧库验箱_正文草稿候选_v1_2026-06-10_0908.md"
+      },
+      {
+        "id": "file_output_天外来客_第13章_旧库验箱_独立审稿报告_v1_2026_06_10_1011__385264f3",
+        "title": "《天外来客》第13章《旧库验箱》独立审稿报告 v1",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第13章_旧库验箱_独立审稿报告_v1_2026-06-10_1011.md"
+      }
+    ],
+    "audioIds": [],
+    "tags": [
+      "停顿",
+      "听书",
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "李鹤",
+      "短剧",
+      "秦军大帐",
+      "网站"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/天外来客_第13章_旧库验箱_正式定稿_2026-06-10_1816.md",
+    "textSourceType": "正式定稿",
+    "reviewStatus": "已定稿",
+    "reviewConclusion": "正式定稿已确认；证据链、人物行动、合规调性和章节承接均已通过。",
+    "nextAction": "后续只做排版、错字、听书适配微调。",
+    "maturity": 96,
+    "planningTags": [
+      "正式定稿",
+      "旧库验箱",
+      "审核通过"
+    ]
+  },
+  {
+    "id": "ch14",
+    "number": 14,
+    "title": "第14章 梁申旧名（正式定稿）",
+    "status": "done",
+    "summary": "旧库的门重新合上时，日光已经偏过章台东檐。 半枚封泥被置在漆盘中央，边缘残缺，印纹却清楚得近乎刻意。李斯没有立刻说话，只用指节轻轻压住案角。蒙毅站在一侧，甲片在衣下发出极轻的一声响，像有人把刀意压回鞘中。 案上不只封泥。那只玄乙三十七号箱已被移出旧库，搁在殿前檐下，箱盖半开。箱册摆在封泥左侧，四页旧牍，每一页都被人抄录……",
+    "updated": "2026-06-10T18:17+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_第11_20章_规划路线_md_6794def2",
+        "title": "《天外来客》第11-20章规划路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章_规划路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第11_20章连载衔接与升级规划_md_a0010e61",
+        "title": "《天外来客》第11-20章连载衔接与升级规划",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章连载衔接与升级规划.md"
+      },
+      {
+        "id": "file_output_天外来客_第14章_梁申旧名_v2独立审计报告_2026_06_10_1401_m_836d0d93",
+        "title": "《天外来客》第14章《梁申旧名》v2 独立审计报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第14章_梁申旧名_v2独立审计报告_2026-06-10_1401.md"
+      },
+      {
+        "id": "file_output_天外来客_第14章_梁申旧名_v3修订稿_2026_06_10_1501_md_20404274",
+        "title": "《天外来客》第14章《梁申旧名》v3修订稿（2026-06-10 15:01）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第14章_梁申旧名_v3修订稿_2026-06-10_1501.md"
+      },
+      {
+        "id": "file_output_天外来客_第14章_梁申旧名_定稿候选_v4_2026_06_10_1701_md_f166e783",
+        "title": "第14章 梁申旧名（定稿候选 v4）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第14章_梁申旧名_定稿候选_v4_2026-06-10_1701.md"
+      },
+      {
+        "id": "file_output_天外来客_第14章_梁申旧名_开篇草稿候选_v1_2026_06_10_1201__412656d6",
+        "title": "《天外来客》第14章《梁申旧名》开篇草稿候选 v1（2026-06-10 12:01）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第14章_梁申旧名_开篇草稿候选_v1_2026-06-10_1201.md"
+      },
+      {
+        "id": "file_output_天外来客_第14章_梁申旧名_承接细纲候选_2026_06_10_1152_md_b693a3b7",
+        "title": "《天外来客》第14章《梁申旧名》承接细纲候选（2026-06-10 11:52）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第14章_梁申旧名_承接细纲候选_2026-06-10_1152.md"
+      },
+      {
+        "id": "file_output_天外来客_第14章_梁申旧名_正式定稿_2026_06_10_1816_md_7e876490",
+        "title": "第14章 梁申旧名（正式定稿）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第14章_梁申旧名_正式定稿_2026-06-10_1816.md"
+      },
+      {
+        "id": "file_output_天外来客_第14章_梁申旧名_独立审稿报告_2026_06_10_1701_md_a9e6f99a",
+        "title": "《天外来客》第14章《梁申旧名》独立审稿报告",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第14章_梁申旧名_独立审稿报告_2026-06-10_1701.md"
+      },
+      {
+        "id": "file_output_天外来客_第14章_梁申旧名_续写草稿候选_v2_2026_06_10_1301__c5af3d21",
+        "title": "《天外来客》第14章《梁申旧名》续写草稿候选 v2（2026-06-10 13:01）",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第14章_梁申旧名_续写草稿候选_v2_2026-06-10_1301.md"
+      }
+    ],
+    "audioIds": [],
+    "tags": [
+      "停顿",
+      "咸阳",
+      "天外来客",
+      "审稿",
+      "工官",
+      "李鹤",
+      "短剧",
+      "秦军大帐",
+      "网站",
+      "规划"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/天外来客_第14章_梁申旧名_正式定稿_2026-06-10_1816.md",
+    "textSourceType": "正式定稿",
+    "reviewStatus": "已定稿",
+    "reviewConclusion": "正式定稿已确认；梁申旧名、雁门、丁十七与序列空行线索兑现。",
+    "nextAction": "后续只做排版、错字、听书适配微调。",
+    "maturity": 95,
+    "planningTags": [
+      "正式定稿",
+      "梁申旧名",
+      "审核通过"
+    ]
+  },
+  {
+    "id": "ch15",
+    "number": 15,
+    "title": "《天外来客》第15章《雁门尺差》承接细纲增强版",
+    "status": "draft",
+    "summary": "第15章不急着“抓人”，而要把第14章章尾的三个钩子变成一场可公开验证的制度戏： 1. **雁门**：不是远方地名，而是旧库证据链真正的转运出口。 2. **丁十七**：不是单个编号，而是边郡军坊、废牍、短役名单之间的交叉点。 3. **序列空行**：不是简单缺号，而是有人把梁申的名字从旧库语境剪下，再贴到边郡语境里的……",
+    "updated": "2026-06-10T17:06+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_第11_20章_规划路线_md_6794def2",
+        "title": "《天外来客》第11-20章规划路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章_规划路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第11_20章连载衔接与升级规划_md_a0010e61",
+        "title": "《天外来客》第11-20章连载衔接与升级规划",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章连载衔接与升级规划.md"
+      },
+      {
+        "id": "file_output_天外来客_第15章_承接细纲与开篇候选_2026_06_10_1501_md_9b4f9715",
+        "title": "《天外来客》第15章 承接细纲与开篇候选",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第15章_承接细纲与开篇候选_2026-06-10_1501.md"
+      },
+      {
+        "id": "file_output_天外来客_第15章_雁门尺差_承接细纲增强版_2026_06_10_1701_md_403c6937",
+        "title": "《天外来客》第15章《雁门尺差》承接细纲增强版",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第15章_雁门尺差_承接细纲增强版_2026-06-10_1701.md"
+      }
+    ],
+    "audioIds": [],
+    "tags": [
+      "咸阳",
+      "天外来客",
+      "工官",
+      "李鹤",
+      "秦军大帐",
+      "规划"
+    ],
+    "hasText": true,
+    "textSourceRef": "output/天外来客_第15章_雁门尺差_承接细纲增强版_2026-06-10_1701.md",
+    "textSourceType": "细纲增强版/正文草稿候选",
+    "reviewStatus": "草稿候选待扩写",
+    "reviewConclusion": "承接细纲增强版与正文草稿候选已开放，不是完整章/定稿。",
+    "nextAction": "继续扩写完整正文，随后走审稿与合规审查。",
+    "maturity": 45,
+    "planningTags": [
+      "开篇候选",
+      "待扩写",
+      "承接细纲"
+    ]
+  },
+  {
+    "id": "ch16",
+    "number": 16,
+    "title": "第16章",
+    "status": "draft",
+    "summary": "关联 2 份正文/规划/审稿/制作文件。",
+    "updated": "2026-06-10T12:22+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_第11_20章_规划路线_md_6794def2",
+        "title": "《天外来客》第11-20章规划路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章_规划路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第11_20章连载衔接与升级规划_md_a0010e61",
+        "title": "《天外来客》第11-20章连载衔接与升级规划",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章连载衔接与升级规划.md"
+      }
+    ],
+    "audioIds": [],
+    "tags": [
+      "咸阳",
+      "天外来客",
+      "工官",
+      "李鹤",
+      "秦军大帐",
+      "规划"
+    ],
+    "hasText": false,
+    "textSourceRef": "",
+    "textSourceType": "暂无正文",
+    "reviewStatus": "待创作",
+    "reviewConclusion": "尚未形成可开放正文。",
+    "nextAction": "先补章纲、冲突、爽点和承接，再写正文。",
+    "maturity": 18,
+    "planningTags": [
+      "待创作",
+      "章纲优先",
+      "补正文"
+    ]
+  },
+  {
+    "id": "ch17",
+    "number": 17,
+    "title": "第17章",
+    "status": "draft",
+    "summary": "关联 2 份正文/规划/审稿/制作文件。",
+    "updated": "2026-06-10T12:22+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_第11_20章_规划路线_md_6794def2",
+        "title": "《天外来客》第11-20章规划路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章_规划路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第11_20章连载衔接与升级规划_md_a0010e61",
+        "title": "《天外来客》第11-20章连载衔接与升级规划",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章连载衔接与升级规划.md"
+      }
+    ],
+    "audioIds": [],
+    "tags": [
+      "咸阳",
+      "天外来客",
+      "工官",
+      "李鹤",
+      "秦军大帐",
+      "规划"
+    ],
+    "hasText": false,
+    "textSourceRef": "",
+    "textSourceType": "暂无正文",
+    "reviewStatus": "待创作",
+    "reviewConclusion": "尚未形成可开放正文。",
+    "nextAction": "补章节目标、场景、人物行动和结尾钩子。",
+    "maturity": 16,
+    "planningTags": [
+      "待创作",
+      "章纲优先",
+      "补正文"
+    ]
+  },
+  {
+    "id": "ch18",
+    "number": 18,
+    "title": "第18章",
+    "status": "draft",
+    "summary": "关联 2 份正文/规划/审稿/制作文件。",
+    "updated": "2026-06-10T12:22+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_第11_20章_规划路线_md_6794def2",
+        "title": "《天外来客》第11-20章规划路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章_规划路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第11_20章连载衔接与升级规划_md_a0010e61",
+        "title": "《天外来客》第11-20章连载衔接与升级规划",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章连载衔接与升级规划.md"
+      }
+    ],
+    "audioIds": [],
+    "tags": [
+      "咸阳",
+      "天外来客",
+      "工官",
+      "李鹤",
+      "秦军大帐",
+      "规划"
+    ],
+    "hasText": false,
+    "textSourceRef": "",
+    "textSourceType": "暂无正文",
+    "reviewStatus": "待创作",
+    "reviewConclusion": "尚未形成可开放正文。",
+    "nextAction": "补中后段主线推进、反制压力和技术落地边界。",
+    "maturity": 14,
+    "planningTags": [
+      "待创作",
+      "章纲优先",
+      "补正文"
+    ]
+  },
+  {
+    "id": "ch19",
+    "number": 19,
+    "title": "第19章",
+    "status": "draft",
+    "summary": "关联 2 份正文/规划/审稿/制作文件。",
+    "updated": "2026-06-10T12:22+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_第11_20章_规划路线_md_6794def2",
+        "title": "《天外来客》第11-20章规划路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章_规划路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第11_20章连载衔接与升级规划_md_a0010e61",
+        "title": "《天外来客》第11-20章连载衔接与升级规划",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章连载衔接与升级规划.md"
+      }
+    ],
+    "audioIds": [],
+    "tags": [
+      "咸阳",
+      "天外来客",
+      "工官",
+      "李鹤",
+      "秦军大帐",
+      "规划"
+    ],
+    "hasText": false,
+    "textSourceRef": "",
+    "textSourceType": "暂无正文",
+    "reviewStatus": "待创作",
+    "reviewConclusion": "尚未形成可开放正文。",
+    "nextAction": "补高潮前夜的证据链、阵营变化和风险表。",
+    "maturity": 12,
+    "planningTags": [
+      "待创作",
+      "章纲优先",
+      "补正文"
+    ]
+  },
+  {
+    "id": "ch20",
+    "number": 20,
+    "title": "第20章",
+    "status": "draft",
+    "summary": "关联 2 份正文/规划/审稿/制作文件。",
+    "updated": "2026-06-10T12:22+08:00",
+    "files": [
+      {
+        "id": "file_output_天外来客_第11_20章_规划路线_md_6794def2",
+        "title": "《天外来客》第11-20章规划路线",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章_规划路线.md"
+      },
+      {
+        "id": "file_output_天外来客_第11_20章连载衔接与升级规划_md_a0010e61",
+        "title": "《天外来客》第11-20章连载衔接与升级规划",
+        "module": "novel",
+        "sourceRef": "output/天外来客_第11-20章连载衔接与升级规划.md"
+      }
+    ],
+    "audioIds": [],
+    "tags": [
+      "咸阳",
+      "天外来客",
+      "工官",
+      "李鹤",
+      "秦军大帐",
+      "规划"
+    ],
+    "hasText": false,
+    "textSourceRef": "",
+    "textSourceType": "暂无正文",
+    "reviewStatus": "待创作",
+    "reviewConclusion": "尚未形成可开放正文。",
+    "nextAction": "补阶段收束、伏笔回收和下一卷接口。",
+    "maturity": 10,
+    "planningTags": [
+      "待创作",
+      "阶段收束",
+      "补正文"
+    ]
+  }
+]

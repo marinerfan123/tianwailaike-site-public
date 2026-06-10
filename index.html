@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>天外来客 · 项目总控台</title>
+  <script>
+    (function(){
+      try {
+        var theme = localStorage.getItem('twlk-theme') || 'system';
+        var prefersLight = window.matchMedia && window.matchMedia('(prefers-color-scheme: light)').matches;
+        var resolved = theme === 'light' || (theme === 'system' && prefersLight) ? 'light' : 'dark';
+        if (theme === 'light' || theme === 'dark') document.documentElement.dataset.theme = theme;
+        document.documentElement.dataset.themeResolved = resolved;
+      } catch (e) {}
+    })();
+  </script>
+  <link rel="stylesheet" href="assets/style.css?v=20260610-1900-light-contrast" />
+</head>
+<body>
+  <div class="bg-grid"></div>
+  <header class="topbar">
+    <a class="brand" href="#home"><span class="seal">秦</span><span>天外来客 · 项目总控台</span></a>
+    <nav id="nav">
+      <a href="#home">总览</a>
+      <a href="#novel">小说与章节</a>
+      <a href="#short-drama">短剧与资产</a>
+      <a href="#tts">TTS听书</a>
+      <a href="#progress">进度看板</a>
+      <a href="#files">文件资料</a>
+      <a href="#logs">更新日志</a>
+    </nav>
+    <button id="themeToggle" class="theme-toggle" type="button" aria-label="切换颜色模式" title="颜色模式：跟随系统">跟随系统</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">QIN DYNASTY × FUTURE TECH × AI PRODUCTION HUB</p>
+        <h1>天外来客<br><span>项目生产中枢 · 审核监督版</span></h1>
+        <p id="tagline" class="lead">原创小说、审核监督、AI短剧、听书系统、资产生产与模型研究的一体化创作中枢。</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#novel">查看小说正文</a>
+          <a class="btn" href="#tts">听章节音频</a>
+          <a class="btn blue" href="#short-drama">进入短剧制作包</a>
+        </div>
+      </div>
+      <aside class="command-panel">
+        <div class="panel-title">当前阶段</div>
+        <p>世界观、章节正文、审核监督、AI短剧、TTS听书与模型工具研究同步建设；每条线都有状态、证据、审查和下一步。</p>
+        <div id="stats" class="stats-grid"></div>
+      </aside>
+    </section>
+
+    <section id="today" class="section">
+      <div class="section-head">
+        <div>
+          <p class="eyebrow">LIVE DASHBOARD</p>
+          <h2>最新进度 / 今日更新</h2>
+          <p class="muted">正式网站已上线 Netlify，不再使用 localtunnel；下方内容由 JSON 数据层自动渲染。</p>
+        </div>
+        <a class="btn blue site-link" href="https://tianwailaike.netlify.app/" target="_blank" rel="noopener">打开正式网站</a>
+      </div>
+      <div id="liveDashboard" class="dashboard-grid"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <p class="eyebrow">DASHBOARD</p>
+        <h2>项目仪表盘</h2>
+      </div>
+      <div id="modules" class="module-grid"></div>
+    </section>
+
+    <section id="novel" class="section split">
+      <div>
+        <p class="eyebrow">NOVEL / CHAPTERS</p>
+        <h2>小说正文库与章节规划</h2>
+        <p class="muted">每章可点击阅读小说本体；章节卡与正文阅读层同步显示审核状态、完善度、下一步、转载说明与整理出处。</p>
+      </div>
+      <div id="chapters" class="chapter-list"></div>
+    </section>
+
+    <section id="short-drama" class="section">
+      <div class="section-head">
+        <p class="eyebrow">SHORT DRAMA / ASSETS</p>
+        <h2>AI短剧制作包与资产库</h2>
+        <p class="muted">聚合测试片、分镜、母图提示词、资产数据库与制片场务流程。</p>
+      </div>
+      <div id="assets" class="asset-grid"></div>
+    </section>
+
+    <section id="tts" class="section split">
+      <div>
+        <p class="eyebrow">TTS AUDIO</p>
+        <h2>TTS听书系统</h2>
+        <p class="muted">第1-10章完整音频已接入；第1章开头试听版单独标记。支持连续播放、当前高亮、上一集/下一集。</p>
+      </div>
+      <div id="audio" class="audio-list"></div>
+    </section>
+
+    <section id="progress" class="section">
+      <div class="section-head">
+        <p class="eyebrow">KANBAN</p>
+        <h2>进度看板</h2>
+      </div>
+      <div id="tasks" class="kanban"></div>
+    </section>
+
+    <section id="files" class="section">
+      <div class="section-head with-search">
+        <div>
+          <p class="eyebrow">FILES</p>
+          <h2>文件资料库</h2>
+        </div>
+        <input id="fileSearch" type="search" placeholder="搜索：章节 / TTS / 短剧 / 资产 / 网站..." />
+      </div>
+      <div id="filesList" class="file-list"></div>
+    </section>
+
+    <section id="logs" class="section split">
+      <div>
+        <p class="eyebrow">CHANGELOG</p>
+        <h2>更新日志</h2>
+        <p class="muted">由索引脚本根据最近文件变化生成，人工可在 data/logs.json 中补充摘要。</p>
+      </div>
+      <div id="logsList" class="timeline"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span>正式 Netlify 站点已上线 · 不再使用 localtunnel · 数据来自 JSON manifest</span>
+  </footer>
+
+  <script src="app.js?v=20260610-1900-light-contrast"></script>
+</body>
+</html>

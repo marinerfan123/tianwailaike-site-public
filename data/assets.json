@@ -1,0 +1,48 @@
+[
+  {
+    "id": "role_lihe",
+    "type": "角色",
+    "name": "李鹤",
+    "status": "planning",
+    "chapterIds": [
+      "ch01"
+    ],
+    "summary": "主角；后续资产库需建立固定形象描述、母图和服装连续性。",
+    "tags": [
+      "李鹤",
+      "角色母图",
+      "一致性"
+    ]
+  },
+  {
+    "id": "scene_qin_camp",
+    "type": "场景",
+    "name": "秦军大帐",
+    "status": "planning",
+    "chapterIds": [
+      "ch01"
+    ],
+    "summary": "第1章核心场景；需生成全景、中景、特写背景三类可复用资产。",
+    "tags": [
+      "秦军大帐",
+      "黑金",
+      "青铜"
+    ]
+  },
+  {
+    "id": "prop_qin_banner",
+    "type": "道具",
+    "name": "秦军旗帜 / 竹简 / 青铜器",
+    "status": "planning",
+    "chapterIds": [
+      "ch01",
+      "ch04"
+    ],
+    "summary": "用于短剧镜头中的时代氛围与叙事道具。",
+    "tags": [
+      "道具",
+      "秦朝",
+      "连续性"
+    ]
+  }
+]

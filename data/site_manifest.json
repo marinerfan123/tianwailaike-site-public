@@ -1,0 +1,176 @@
+{
+  "site": {
+    "name": "天外来客 · 项目总控台",
+    "version": "0.1.0",
+    "updated": "2026-06-10T18:17+08:00",
+    "visibility": "internal",
+    "tagline": "原创小说 · AI短剧 · 听书系统 · 资产生产 · 模型研究的一体化创作中枢"
+  },
+  "environment": {
+    "node": "v22.22.0",
+    "python": "Python 3.12.3",
+    "strategy": "HTML + CSS + JS + JSON"
+  },
+  "stats": {
+    "chapters": 20,
+    "audio": 44,
+    "outputFiles": 165,
+    "shortDramaFiles": 16,
+    "ttsFiles": 46,
+    "assetFiles": 1
+  },
+  "modules": [
+    {
+      "id": "novel",
+      "name": "小说正文库",
+      "icon": "卷",
+      "status": "in_progress",
+      "progress": 62,
+      "summary": "正文、审稿、版本与关联资源入口。"
+    },
+    {
+      "id": "planning",
+      "name": "章节规划",
+      "icon": "策",
+      "status": "in_progress",
+      "progress": 58,
+      "summary": "总纲、章纲、伏笔、爽点与后续路线。"
+    },
+    {
+      "id": "short-drama",
+      "name": "AI短剧制作包",
+      "icon": "影",
+      "status": "in_progress",
+      "progress": 46,
+      "summary": "测试片、分镜、导演/制片/场务执行表。"
+    },
+    {
+      "id": "assets",
+      "name": "分镜与资产库",
+      "icon": "器",
+      "status": "in_progress",
+      "progress": 34,
+      "summary": "角色、场景、道具、母图提示词与资产数据库。"
+    },
+    {
+      "id": "tts",
+      "name": "TTS听书系统",
+      "icon": "声",
+      "status": "in_progress",
+      "progress": 28,
+      "summary": "音频试听、文本校对、停顿与语气规则。"
+    },
+    {
+      "id": "research",
+      "name": "模型 / 工具研究",
+      "icon": "研",
+      "status": "planning",
+      "progress": 22,
+      "summary": "模型、工具、流程 SOP 与低成本方案沉淀。"
+    },
+    {
+      "id": "progress",
+      "name": "进度看板",
+      "icon": "控",
+      "status": "in_progress",
+      "progress": 40,
+      "summary": "待办、进行中、待确认、已完成的总控视图。"
+    },
+    {
+      "id": "files",
+      "name": "文件资料库",
+      "icon": "库",
+      "status": "indexed",
+      "progress": 70,
+      "summary": "output 目录报告、章节、音频、模板的统一索引。"
+    }
+  ],
+  "latest": [
+    {
+      "title": "《天外来客》第13、14章正式定稿确认与网站同步记录（2026-06-10 18:16）",
+      "module": "novel",
+      "updated": "2026-06-10T18:17+08:00",
+      "summary": "项目总控网站策划、工程审查或建设相关文档。"
+    },
+    {
+      "title": "第13章 旧库验箱（正式定稿）",
+      "module": "novel",
+      "updated": "2026-06-10T18:17+08:00",
+      "summary": "《天外来客》项目阶段性输出文件索引。"
+    },
+    {
+      "title": "第14章 梁申旧名（正式定稿）",
+      "module": "novel",
+      "updated": "2026-06-10T18:17+08:00",
+      "summary": "《天外来客》项目阶段性输出文件索引。"
+    },
+    {
+      "title": "《天外来客》项目监督台账（2026-06-10T18:02+08:00）",
+      "module": "files",
+      "updated": "2026-06-10T18:02+08:00",
+      "summary": "《天外来客》项目阶段性输出文件索引。"
+    },
+    {
+      "title": "《天外来客》第15章《雁门尺差》承接细纲增强版",
+      "module": "novel",
+      "updated": "2026-06-10T17:06+08:00",
+      "summary": "《天外来客》项目阶段性输出文件索引。"
+    },
+    {
+      "title": "《天外来客》网站备份执行报告（2026-06-10 17:01 执行线）",
+      "module": "website",
+      "updated": "2026-06-10T17:06+08:00",
+      "summary": "项目总控网站策划、工程审查或建设相关文档。"
+    }
+  ],
+  "nextActions": [
+    {
+      "id": "task_tts_upgrade",
+      "module": "tts",
+      "title": "TTS听书升级：文本校对、停顿、语气、真人感继续优化",
+      "status": "need_fix",
+      "priority": "high",
+      "owner": "TTS听书线",
+      "nextAction": "优先处理第1章V2/V3样音，再扩展到第2-10章",
+      "updated": "2026-06-10T18:17+08:00"
+    },
+    {
+      "id": "task_ch14_v3",
+      "module": "novel",
+      "title": "第14章《梁申旧名》：v2审计通过方向，需v3小修后再定稿",
+      "status": "review",
+      "priority": "high",
+      "owner": "章节续写/审稿线",
+      "nextAction": "补强旧名兑现、证据链、李鹤主动验证戏",
+      "updated": "2026-06-10T18:17+08:00"
+    },
+    {
+      "id": "task_ch05_en",
+      "module": "tts",
+      "title": "第05章英文听书稿：已有原则/草稿/独立审计，需扩写成完整审稿版",
+      "status": "review",
+      "priority": "medium",
+      "owner": "多语言听书线",
+      "nextAction": "从开篇样稿扩写为完整章节听书稿，再独立审计",
+      "updated": "2026-06-10T18:17+08:00"
+    },
+    {
+      "id": "task_short_test",
+      "module": "short-drama",
+      "title": "LibTV/短剧首测：只读确认登录态、入口和消耗，首测限制3张母图",
+      "status": "in_progress",
+      "priority": "medium",
+      "owner": "短剧制作线",
+      "nextAction": "不批量生成视频，先确认平台入口与额度提示",
+      "updated": "2026-06-10T18:17+08:00"
+    }
+  ],
+  "dataFiles": [
+    "data/chapters.json",
+    "data/novel_texts.json",
+    "data/audio.json",
+    "data/output_files.json",
+    "data/tasks.json",
+    "data/logs.json"
+  ]
+}

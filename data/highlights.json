@@ -1,0 +1,61 @@
+{
+  "updated": "2026-06-09T10:35+08:00",
+  "currentFocus": [
+    {
+      "title": "稳定公开网站",
+      "module": "website",
+      "summary": "Netlify部署进行中，目标是替代localtunnel并回填正式HTTPS链接。",
+      "priority": "high"
+    },
+    {
+      "title": "第1-10章精修",
+      "module": "novel",
+      "summary": "审稿报告已完成，下一步按章节执行文字、节奏、TTS可听性与合规修订。",
+      "priority": "high"
+    },
+    {
+      "title": "第11章开写",
+      "module": "planning",
+      "summary": "第11-20章规划完成，第11章《章台问星》将承接十日真账与内库残片线。",
+      "priority": "high"
+    },
+    {
+      "title": "TTS真人感优化",
+      "module": "tts",
+      "summary": "已有11条音频与播放器，下一步重点优化第1章试听的文本、停顿、语气和真人感。",
+      "priority": "high"
+    },
+    {
+      "title": "AI短剧测试片",
+      "module": "short-drama",
+      "summary": "继续推进第1章30-45秒测试片，聚合分镜、母图、资产连续性与执行表。",
+      "priority": "high"
+    }
+  ],
+  "latestResults": [
+    {
+      "title": "6份最新报告入库",
+      "summary": "连续性、审稿、11-20章规划、部署选型、部署包说明、长期音频存储方案已加入资料库。"
+    },
+    {
+      "title": "1-10章听书体系成型",
+      "summary": "完整章节音频已生成，网站播放器支持连续播放；TTS规则体系待用于二次优化。"
+    },
+    {
+      "title": "第二阶段剧情方向明确",
+      "summary": "第11-20章定位为“章台囚笼与真账十日线”，主线包括真账、星海/回家、继承/赵高。"
+    },
+    {
+      "title": "网站长期架构明确",
+      "summary": "短期 Netlify/Cloudflare Pages；中长期网页与音频解耦，音频迁至对象存储/CDN。"
+    }
+  ],
+  "nextSteps": [
+    "回填Netlify正式链接到 site_manifest.site.liveUrl",
+    "按审稿报告修订第1-10章，优先第1章与第4章篇幅/听感问题",
+    "撰写第11章《章台问星》正文",
+    "制作第1章TTS试听 v2/v3，优化停顿、语气、真人感",
+    "整合第1章30-45秒AI短剧测试片执行包",
+    "当音频扩展至20章前，确定对象存储/CDN迁移路线"
+  ]
+}

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "log_site_v1",
+    "date": "2026-06-10",
+    "module": "website",
+    "summary": "建立 project-hub 静态网站 V1，接入 JSON 数据层和本地预览脚本。",
+    "files": [
+      "project-hub/index.html",
+      "project-hub/data/site_manifest.json"
+    ],
+    "generatedBy": "site-build"
+  },
+  {
+    "id": "log_001",
+    "date": "2026-06-10",
+    "module": "novel",
+    "summary": "索引更新：天外来客_第13_14章_正式定稿确认与网站同步记录_2026-06-10_1816.md",
+    "files": [
+      "output/天外来客_第13_14章_正式定稿确认与网站同步记录_2026-06-10_1816.md"
+    ],
+    "generatedBy": "build_manifest.py"
+  },
+  {
+    "id": "log_002",
+    "date": "2026-06-10",
+    "module": "novel",
+    "summary": "索引更新：天外来客_第13章_旧库验箱_正式定稿_2026-06-10_1816.md",
+    "files": [
+      "output/天外来客_第13章_旧库验箱_正式定稿_2026-06-10_1816.md"
+    ],
+    "generatedBy": "build_manifest.py"
+  },
+  {
+    "id": "log_003",
+    "date": "2026-06-10",
+    "module": "novel",
+    "summary": "索引更新：天外来客_第14章_梁申旧名_正式定稿_2026-06-10_1816.md",
+    "files": [
+      "output/天外来客_第14章_梁申旧名_正式定稿_2026-06-10_1816.md"
+    ],
+    "generatedBy": "build_manifest.py"
+  },
+  {
+    "id": "log_004",
+    "date": "2026-06-10",
+    "module": "files",
+    "summary": "索引更新：天外来客_项目监督台账_2026-06-10_1802.md",
+    "files": [
+      "output/天外来客_项目监督台账_2026-06-10_1802.md"
+    ],
+    "generatedBy": "build_manifest.py"
+  },
+  {
+    "id": "log_005",
+    "date": "2026-06-10",
+    "module": "novel",
+    "summary": "索引更新：天外来客_第15章_雁门尺差_承接细纲增强版_2026-06-10_1701.md",
+    "files": [
+      "output/天外来客_第15章_雁门尺差_承接细纲增强版_2026-06-10_1701.md"
+    ],
+    "generatedBy": "build_manifest.py"
+  },
+  {
+    "id": "log_006",
+    "date": "2026-06-10",
+    "module": "website",
+    "summary": "索引更新：天外来客_网站备份执行报告_2026-06-10_1701.md",
+    "files": [
+      "output/天外来客_网站备份执行报告_2026-06-10_1701.md"
+    ],
+    "generatedBy": "build_manifest.py"
+  },
+  {
+    "id": "log_007",
+    "date": "2026-06-10",
+    "module": "tts",
+    "summary": "索引更新：天外来客_第06章_英文听书稿_自检清单_v1_2026-06-10_1701.md",
+    "files": [
+      "output/天外来客_第06章_英文听书稿_自检清单_v1_2026-06-10_1701.md"
+    ],
+    "generatedBy": "build_manifest.py"
+  },
+  {
+    "id": "log_008",
+    "date": "2026-06-10",
+    "module": "tts",
+    "summary": "索引更新：天外来客_第06章_英文听书稿_草稿候选_v1_2026-06-10_1701.md",
+    "files": [
+      "output/天外来客_第06章_英文听书稿_草稿候选_v1_2026-06-10_1701.md"
+    ],
+    "generatedBy": "build_manifest.py"
+  }
+]
