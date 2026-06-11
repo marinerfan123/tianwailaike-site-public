@@ -6,7 +6,7 @@
 
 const DATA = './data/';
 const DATA_VERSION = '20260610-1936-language-assets';
-const pages = ['home','novel','short-drama','tts','progress','files','logs'];
+const pages = ['home','novel','short-drama','tts','writing-system','progress','files','logs'];
 
 /* ---- Theme: system / light / dark ---- */
 const THEME_KEY = 'twlk-theme';
