@@ -1,72 +1,170 @@
 [
   {
-    "id": "log_site_v1",
-    "date": "2026-06-10",
+    "id": "log_024",
+    "date": "2026-06-17",
     "module": "website",
-    "summary": "建立 project-hub 静态网站 V1，接入 JSON 数据层和本地预览脚本。",
-    "files": [
-      "project-hub/index.html",
-      "project-hub/data/site_manifest.json"
-    ],
-    "generatedBy": "site-build"
+    "summary": "Cloudflare Pages 首次部署成功上线 → tianwailaike.pages.dev",
+    "files": [],
+    "generatedBy": "deploy"
   },
   {
-    "id": "log_001",
-    "date": "2026-06-10",
-    "module": "files",
-    "summary": "索引更新：天外来客_项目监督台账_2026-06-10_1902.md",
-    "files": [
-      "output/天外来客_项目监督台账_2026-06-10_1902.md"
-    ],
-    "generatedBy": "build_manifest.py"
-  },
-  {
-    "id": "log_002",
-    "date": "2026-06-10",
+    "id": "log_023",
+    "date": "2026-06-17",
     "module": "website",
-    "summary": "索引更新：天外来客_网站浅色高对比修复记录_2026-06-10_1900.md",
+    "summary": "站点全面改版为「秦篆未来」主题：篆书风标题/竹简卡片/沉浸阅读/粒子背景/PWA支持",
     "files": [
-      "output/天外来客_网站浅色高对比修复记录_2026-06-10_1900.md"
+      "index.html",
+      "assets/style.css",
+      "app.js",
+      "manifest.json",
+      "sw.js"
     ],
-    "generatedBy": "build_manifest.py"
+    "generatedBy": "redesign"
   },
   {
-    "id": "log_003",
-    "date": "2026-06-10",
+    "id": "log_022",
+    "date": "2026-06-17",
     "module": "website",
-    "summary": "索引更新：天外来客_网站监督台折叠取消修复记录_2026-06-10_1856.md",
-    "files": [
-      "output/天外来客_网站监督台折叠取消修复记录_2026-06-10_1856.md"
-    ],
-    "generatedBy": "build_manifest.py"
+    "summary": "监督台账完整重写：从7条扩展至18条监督线 + 10项任务卡片更新",
+    "files": [],
+    "generatedBy": "auto"
   },
   {
-    "id": "log_004",
-    "date": "2026-06-10",
+    "id": "log_021",
+    "date": "2026-06-17",
+    "module": "novel",
+    "summary": "第21章《铜符初行》独立审稿通过；第22章《暗线回卷》续写细纲就绪",
+    "files": [
+      "output/天外来客_第22章_暗线回卷_续写细纲_2026-06-17.md"
+    ],
+    "generatedBy": "auto"
+  },
+  {
+    "id": "log_020",
+    "date": "2026-06-17",
+    "module": "novel",
+    "summary": "第13章《旧库验箱》正式定稿 + 第14章《梁申旧名》v3小修并定稿",
+    "files": [],
+    "generatedBy": "auto"
+  },
+  {
+    "id": "log_019",
+    "date": "2026-06-17",
     "module": "website",
-    "summary": "索引更新：天外来客_网站折叠交互修复记录_2026-06-10_1853.md",
+    "summary": "Cloudflare Pages 配置 + 部署脚本就绪，Netlify完全废弃",
     "files": [
-      "output/天外来客_网站折叠交互修复记录_2026-06-10_1853.md"
+      "wrangler.toml",
+      "deploy-cloudflare.sh"
     ],
-    "generatedBy": "build_manifest.py"
+    "generatedBy": "auto"
   },
   {
-    "id": "log_005",
-    "date": "2026-06-10",
-    "module": "tts",
-    "summary": "索引更新：天外来客_网站听书区浅色背景修复记录_2026-06-10_1849.md",
+    "id": "log_018",
+    "date": "2026-06-16",
+    "module": "novel",
+    "summary": "第22-30章数据同步至站点，第二卷路线图规划",
     "files": [
-      "output/天外来客_网站听书区浅色背景修复记录_2026-06-10_1849.md"
+      "output/天外来客_第二卷规划_2026-06-16.md"
     ],
-    "generatedBy": "build_manifest.py"
+    "generatedBy": "auto"
   },
   {
-    "id": "log_006",
-    "date": "2026-06-10",
+    "id": "log_017",
+    "date": "2026-06-16",
+    "module": "novel",
+    "summary": "第21章《铜符初行》正文草稿v1完成",
+    "files": [
+      "output/天外来客_第21章_铜符初行_正文草稿v1_2026-06-16.md"
+    ],
+    "generatedBy": "auto"
+  },
+  {
+    "id": "log_016",
+    "date": "2026-06-16",
+    "module": "novel",
+    "summary": "写作系统bible重建完成：world/characters/style + tracker 全套文件",
+    "files": [
+      "bible/world.md",
+      "bible/characters.md",
+      "bible/style.md",
+      "tracker/chapters.md",
+      "tracker/foreshadowing.md",
+      "tracker/items.md",
+      "tracker/timeline.md"
+    ],
+    "generatedBy": "auto"
+  },
+  {
+    "id": "log_015",
+    "date": "2026-06-16",
+    "module": "review",
+    "summary": "第17-20章独立审稿全部通过，更新审稿状态",
+    "files": [],
+    "generatedBy": "auto"
+  },
+  {
+    "id": "log_014",
+    "date": "2026-06-16",
+    "module": "novel",
+    "summary": "第20章《咸阳真相》正文草稿v1完成 — 第一卷·真账十日·完结",
+    "files": [],
+    "generatedBy": "auto"
+  },
+  {
+    "id": "log_013",
+    "date": "2026-06-16",
+    "module": "novel",
+    "summary": "第19章《帝王之锁》正文草稿v1完成",
+    "files": [
+      "output/天外来客_第19章_帝王之锁_正文草稿候选_v1_2026-06-16.md"
+    ],
+    "generatedBy": "auto"
+  },
+  {
+    "id": "log_012",
+    "date": "2026-06-16",
+    "module": "novel",
+    "summary": "第18章《假星真火》正文草稿v1完成",
+    "files": [
+      "output/天外来客_第18章_假星真火_正文草稿候选_v1_2026-06-16.md"
+    ],
+    "generatedBy": "auto"
+  },
+  {
+    "id": "log_011",
+    "date": "2026-06-16",
+    "module": "novel",
+    "summary": "第17章《旧族入局》正文草稿v1完成",
+    "files": [
+      "output/天外来客_第17章_旧族入局_正文草稿候选_v1_2026-06-16.md"
+    ],
+    "generatedBy": "auto"
+  },
+  {
+    "id": "log_010",
+    "date": "2026-06-16",
     "module": "website",
-    "summary": "索引更新：天外来客_网站小说阅读器可读性修复记录_2026-06-10_1831.md",
+    "summary": "批量修复4个UI问题：浅色模式高对比度/折叠交互/阅读器/听书展示",
+    "files": [],
+    "generatedBy": "auto"
+  },
+  {
+    "id": "log_009",
+    "date": "2026-06-16",
+    "module": "novel",
+    "summary": "第15章《雁门尺差》v2小修通过：隗成边界+秦制化表述+听书归纳句",
     "files": [
-      "output/天外来客_网站小说阅读器可读性修复记录_2026-06-10_1831.md"
+      "output/天外来客_第15章_雁门尺差_v2小修_2026-06-16.md"
+    ],
+    "generatedBy": "auto"
+  },
+  {
+    "id": "log_008",
+    "date": "2026-06-10",
+    "module": "novel",
+    "summary": "索引更新：天外来客_第13章_旧库验箱_正式定稿_2026-06-10_1816.md",
+    "files": [
+      "output/天外来客_第13章_旧库验箱_正式定稿_2026-06-10_1816.md"
     ],
     "generatedBy": "build_manifest.py"
   },
@@ -81,13 +179,74 @@
     "generatedBy": "build_manifest.py"
   },
   {
-    "id": "log_008",
+    "id": "log_006",
     "date": "2026-06-10",
-    "module": "novel",
-    "summary": "索引更新：天外来客_第13章_旧库验箱_正式定稿_2026-06-10_1816.md",
+    "module": "website",
+    "summary": "索引更新：天外来客_网站小说阅读器可读性修复记录_2026-06-10_1831.md",
     "files": [
-      "output/天外来客_第13章_旧库验箱_正式定稿_2026-06-10_1816.md"
+      "output/天外来客_网站小说阅读器可读性修复记录_2026-06-10_1831.md"
     ],
     "generatedBy": "build_manifest.py"
+  },
+  {
+    "id": "log_005",
+    "date": "2026-06-10",
+    "module": "tts",
+    "summary": "索引更新：天外来客_网站听书区浅色背景修复记录_2026-06-10_1849.md",
+    "files": [
+      "output/天外来客_网站听书区浅色背景修复记录_2026-06-10_1849.md"
+    ],
+    "generatedBy": "build_manifest.py"
+  },
+  {
+    "id": "log_004",
+    "date": "2026-06-10",
+    "module": "website",
+    "summary": "索引更新：天外来客_网站折叠交互修复记录_2026-06-10_1853.md",
+    "files": [
+      "output/天外来客_网站折叠交互修复记录_2026-06-10_1853.md"
+    ],
+    "generatedBy": "build_manifest.py"
+  },
+  {
+    "id": "log_003",
+    "date": "2026-06-10",
+    "module": "website",
+    "summary": "索引更新：天外来客_网站监督台折叠取消修复记录_2026-06-10_1856.md",
+    "files": [
+      "output/天外来客_网站监督台折叠取消修复记录_2026-06-10_1856.md"
+    ],
+    "generatedBy": "build_manifest.py"
+  },
+  {
+    "id": "log_002",
+    "date": "2026-06-10",
+    "module": "website",
+    "summary": "索引更新：天外来客_网站浅色高对比修复记录_2026-06-10_1900.md",
+    "files": [
+      "output/天外来客_网站浅色高对比修复记录_2026-06-10_1900.md"
+    ],
+    "generatedBy": "build_manifest.py"
+  },
+  {
+    "id": "log_001",
+    "date": "2026-06-10",
+    "module": "files",
+    "summary": "索引更新：天外来客_项目监督台账_2026-06-10_1902.md",
+    "files": [
+      "output/天外来客_项目监督台账_2026-06-10_1902.md"
+    ],
+    "generatedBy": "build_manifest.py"
+  },
+  {
+    "id": "log_site_v1",
+    "date": "2026-06-10",
+    "module": "website",
+    "summary": "建立 project-hub 静态网站 V1，接入 JSON 数据层和本地预览脚本。",
+    "files": [
+      "project-hub/index.html",
+      "project-hub/data/site_manifest.json"
+    ],
+    "generatedBy": "site-build"
   }
 ]
