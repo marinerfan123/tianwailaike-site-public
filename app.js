@@ -361,7 +361,7 @@ function renderAudioPlayer(container, audio){
         <span class="playlist-title">${chapterName}<em>${titleText}</em></span>
         <span class="playlist-meta">${metaText}</span>
       </span>
-      <span class="playlist-state">播放整章</span>
+      <span class="playlist-state">点击播放</span>
     </button>`;
   }).join('');
 

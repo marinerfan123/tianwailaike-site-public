@@ -1795,3 +1795,376 @@ body{
   border-color:rgba(180,130,40,.15) !important;
   color:#7A5A1A !important;
 }
+
+/* =============================================
+   批量修复补丁 2026-06-16：
+   1. 浅色模式全实底 + 深色高对比 + 明显边框
+   2. 折叠控件改为大按钮/整卡点击
+   3. 小说阅读器纸白背景 + 居中
+   4. 听书章节纯整章展示
+   ============================================= */
+
+/* ── Fix 1: 浅色模式高对比度 ── */
+:root[data-theme-resolved="light"],
+:root[data-theme="light"]{
+  --text:#0D0A07 !important;
+  --text-strong:#0A0704 !important;
+  --text-muted:#2A2218 !important;
+  --dimmed:#4A3C2C !important;
+  --border-soft:rgba(95,62,20,.42) !important;
+}
+:root[data-theme-resolved="light"] body,
+:root[data-theme="light"] body{
+  color:#0D0A07 !important;
+}
+:root[data-theme-resolved="light"] .section,
+:root[data-theme="light"] .section{
+  position:relative;
+  z-index:1;
+}
+/* 所有卡片/面板实底不透明 */
+:root[data-theme-resolved="light"] .command-panel,
+:root[data-theme-resolved="light"] .dashboard-card,
+:root[data-theme-resolved="light"] .module-card,
+:root[data-theme-resolved="light"] .audio-player-card,
+:root[data-theme-resolved="light"] .chapter-item,
+:root[data-theme-resolved="light"] .stat-card,
+:root[data-theme-resolved="light"] .asset-card,
+:root[data-theme-resolved="light"] .playlist-item,
+:root[data-theme-resolved="light"] .task-card,
+:root[data-theme-resolved="light"] .file-card,
+:root[data-theme-resolved="light"] .chapter-audio-card,
+:root[data-theme-resolved="light"] .supervision-card,
+:root[data-theme-resolved="light"] .language-card,
+:root[data-theme-resolved="light"] .audio-chapter-group.always-open,
+:root[data-theme-resolved="light"] .mini-list li,
+:root[data-theme-resolved="light"] .next-list li,
+:root[data-theme-resolved="light"] .autoplay-toggle,
+:root[data-theme="light"] .command-panel,
+:root[data-theme="light"] .dashboard-card,
+:root[data-theme="light"] .module-card,
+:root[data-theme="light"] .audio-player-card,
+:root[data-theme="light"] .chapter-item,
+:root[data-theme="light"] .stat-card,
+:root[data-theme="light"] .asset-card,
+:root[data-theme="light"] .playlist-item,
+:root[data-theme="light"] .task-card,
+:root[data-theme="light"] .file-card,
+:root[data-theme="light"] .chapter-audio-card,
+:root[data-theme="light"] .supervision-card,
+:root[data-theme="light"] .language-card,
+:root[data-theme="light"] .audio-chapter-group.always-open,
+:root[data-theme="light"] .mini-list li,
+:root[data-theme="light"] .next-list li,
+:root[data-theme="light"] .autoplay-toggle{
+  background:#FFFFFF !important;
+  border-color:rgba(95,62,20,.35) !important;
+  box-shadow:0 6px 24px rgba(86,62,28,.18) !important;
+}
+:root[data-theme-resolved="light"] .supervision-rule,
+:root[data-theme="light"] .supervision-rule{
+  background:#FFF9EE !important;
+  border-color:rgba(95,62,20,.35) !important;
+}
+:root[data-theme-resolved="light"] .audio-playlist,
+:root[data-theme="light"] .audio-playlist{
+  background:#FFFFFF !important;
+}
+/* 正文阅读器纸白不变 */
+
+/* ── Fix 2: 移除折叠交互 ── */
+/* writing-system 折叠改为始终展开大按钮 */
+.ws-details[open]{display:block}
+.ws-details summary{
+  min-height:52px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:.5rem;
+  padding:.7rem 1rem;
+  font-size:.9rem;
+  font-weight:700;
+  color:var(--blue);
+  background:rgba(59,167,255,.06);
+  border:1px solid rgba(59,167,255,.16);
+  border-radius:12px;
+  cursor:pointer;
+  user-select:none;
+  -webkit-user-select:none;
+  transition:background-color .15s;
+}
+.ws-details summary:hover,
+.ws-details summary:focus-visible{
+  background:rgba(59,167,255,.14);
+}
+.ws-details summary::marker,
+.ws-details summary::-webkit-details-marker{
+  display:none;
+  content:'';
+}
+.ws-details summary::before{
+  content:'📂 ';
+}
+.ws-details[open] summary::before{
+  content:'📖 ';
+}
+/* supervision 证据区大按钮 */
+.supervision-card .evidence-box summary{
+  min-height:44px;
+  display:flex;
+  align-items:center;
+  padding:.5rem .7rem;
+  border-radius:10px;
+  background:rgba(200,155,60,.1);
+  border:1px solid rgba(200,155,60,.16);
+  cursor:pointer;
+}
+.supervision-card .evidence-box summary::marker,
+.supervision-card .evidence-box summary::-webkit-details-marker{
+  display:none;
+  content:'';
+}
+
+/* ── Fix 3: 小说阅读器完美纸白 ── */
+.novel-reader{
+  z-index:120;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  padding:clamp(.75rem,2vw,2rem);
+}
+.novel-reader.open{pointer-events:auto;opacity:1}
+.reader-backdrop{
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.55);
+  backdrop-filter:blur(4px);
+}
+.reader-panel{
+  position:relative;
+  width:min(960px,95vw);
+  max-height:90vh;
+  overflow:auto;
+  margin:auto;
+  background:#FFFDF7 !important;
+  color:#1A120A !important;
+  border:1px solid rgba(139,92,40,.3) !important;
+  border-radius:24px !important;
+  box-shadow:0 32px 100px rgba(0,0,0,.5), 0 0 0 1px rgba(255,255,255,.5) inset !important;
+  padding:clamp(1rem,2.5vw,2.2rem) !important;
+}
+.reader-close{
+  position:sticky;
+  top:.35rem;
+  float:right;
+  width:42px;
+  height:42px;
+  border-radius:999px;
+  background:#2A2118 !important;
+  color:#FFF7E8 !important;
+  border:1px solid rgba(139,92,40,.35) !important;
+  font-size:1.6rem;
+  line-height:1;
+  cursor:pointer;
+  z-index:2;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.reader-body{
+  max-width:860px;
+  margin:1.5rem auto !important;
+  padding:clamp(.5rem,1.5vw,1rem) 0;
+  color:#1A120A !important;
+  font-size:clamp(.95rem,1.6vw,1.05rem) !important;
+  line-height:2 !important;
+  font-family:"Noto Serif SC","Songti SC","STSong","SimSun",serif;
+}
+.reader-body p{
+  color:#1A120A !important;
+  margin:0 0 1rem !important;
+  text-indent:2em;
+  letter-spacing:.015em;
+}
+.reader-meta{color:#8A5A16 !important;letter-spacing:.08em;margin-bottom:.5rem}
+.reader-panel h2{
+  color:#120C06 !important;
+  font-size:clamp(1.3rem,2.8vw,2.1rem);
+  margin:.2rem 3.2rem 1rem 0;
+  line-height:1.2;
+}
+.reader-review{
+  display:grid;
+  grid-template-columns:auto 1fr;
+  gap:.7rem 1rem;
+  align-items:center;
+  margin:1rem 0;
+  border:1px solid rgba(139,92,40,.2);
+  border-radius:16px;
+  padding:.9rem 1rem;
+  background:linear-gradient(135deg,rgba(244,199,106,.15),rgba(86,200,255,.08)) !important;
+  color:#2A2118 !important;
+}
+.reader-source,
+.reader-next,
+.reader-notice{
+  border:1px solid rgba(139,92,40,.18);
+  background:rgba(255,255,255,.7) !important;
+  border-radius:16px;
+  padding:.8rem 1rem;
+  color:#3F3023 !important;
+  line-height:1.7;
+  font-size:.9rem;
+  margin-bottom:.8rem;
+}
+/* 移动端阅读器全屏 */
+@media(max-width:720px){
+  .novel-reader{padding:0;align-items:stretch}
+  .reader-backdrop{background:rgba(0,0,0,.25);backdrop-filter:none}
+  .reader-panel{
+    width:100vw !important;
+    max-height:100dvh;
+    height:100dvh;
+    border-radius:0 !important;
+    padding:1rem !important;
+  }
+  .reader-panel h2{font-size:1.35rem !important;margin-right:2.6rem !important}
+  .reader-body{font-size:1rem !important;line-height:1.9 !important;margin:1rem auto !important}
+  .reader-close{position:sticky;top:.3rem;width:38px;height:38px;font-size:1.4rem}
+}
+
+/* ── Fix 4: 听书显示纯整章 ── */
+/* 隐藏单个segment标签，只显示chapter-level */
+.playlist-item .playlist-title em{
+  display:inline-block;
+  margin-left:.4rem;
+}
+/* audio中的segment no只作为技术信息隐藏 */
+.playlist-item .playlist-no{
+  min-width:3.8rem;
+}
+.chapter-audio-card .playlist-no{
+  min-width:5rem;
+}
+
+/* 移除全屏阅读模式下不必要的右侧弹出样式残留 */
+.novel-reader{
+  position:fixed !important;
+}
+
+/* 折叠控件替代：大卡片整块可点击 */
+.supervision-card .evidence-box{
+  min-height:auto;
+  padding:.75rem;
+}
+.supervision-card .evidence-box ul{
+  margin:.5rem 0 0;
+  padding-left:1.1rem;
+}
+.supervision-card .evidence-box li{
+  margin-bottom:.25rem;
+  font-size:.78rem;
+  line-height:1.5;
+  color:var(--text-muted);
+}
+
+/* 删除ws-details默认marker */
+.ws-details-summary::-webkit-details-marker,
+.ws-details-summary::marker{
+  display:none;
+  content:'';
+}
+
+/* 主题切换按钮更大更好点 */
+.theme-toggle{
+  min-width:5rem;
+  min-height:44px;
+  font-weight:700;
+}
+
+/* 浅色模式所有链接更明显 */
+:root[data-theme-resolved="light"] a,
+:root[data-theme="light"] a{
+  color:#146DB5 !important;
+  font-weight:600;
+}
+
+/* 底部footer浅色可见 */
+:root[data-theme-resolved="light"] footer,
+:root[data-theme="light"] footer{
+  border-top-color:rgba(95,62,20,.25) !important;
+}
+
+/* 导航按钮在浅色模式突出 */
+:root[data-theme-resolved="light"] .topbar nav a,
+:root[data-theme="light"] .topbar nav a{
+  background:rgba(255,255,255,.85) !important;
+  border:1px solid rgba(95,62,20,.3) !important;
+  color:#120D09 !important;
+  font-weight:500;
+}
+:root[data-theme-resolved="light"] .topbar nav a[aria-current],
+:root[data-theme="light"] .topbar nav a[aria-current]{
+  background:#E7C776 !important;
+  border-color:#B97816 !important;
+  color:#120D09 !important;
+  font-weight:700;
+}
+:root[data-theme-resolved="light"] .topbar nav a:hover,
+:root[data-theme="light"] .topbar nav a:hover,
+:root[data-theme-resolved="light"] .topbar nav a:focus-visible,
+:root[data-theme="light"] .topbar nav a:focus-visible{
+  background:#F2DFB6 !important;
+}
+
+/* hero区域浅色高对比 */
+:root[data-theme-resolved="light"] .hero h1,
+:root[data-theme="light"] .hero h1{
+  color:#120C06 !important;
+}
+:root[data-theme-resolved="light"] .hero h1 span,
+:root[data-theme="light"] .hero h1 span{
+  color:#146DB5 !important;
+}
+:root[data-theme-resolved="light"] .hero .lead,
+:root[data-theme="light"] .hero .lead{
+  color:#2A2218 !important;
+}
+
+/* stats数字突出 */
+:root[data-theme-resolved="light"] .stat-card .num,
+:root[data-theme="light"] .stat-card .num{
+  color:#146DB5 !important;
+}
+:root[data-theme-resolved="light"] .stat-card.blue .num,
+:root[data-theme="light"] .stat-card.blue .num{
+  color:#146DB5 !important;
+}
+:root[data-theme-resolved="light"] .stat-card.green .num,
+:root[data-theme="light"] .stat-card.green .num{
+  color:#227161 !important;
+}
+
+/* 进度的百分比高对比 */
+:root[data-theme-resolved="light"] .module-card .pct,
+:root[data-theme="light"] .module-card .pct{
+  color:#146DB5 !important;
+  font-weight:800;
+}
+:root[data-theme-resolved="light"] .module-card h3,
+:root[data-theme="light"] .module-card h3{
+  color:#120D09 !important;
+}
+
+/* 浅色模式多语言卡片细节 */
+:root[data-theme-resolved="light"] .language-card,
+:root[data-theme="light"] .language-card{
+  border-left-width:7px !important;
+}
+
+/* 小说正文弹出层在浅色模式纯白底 */
+@media(min-width:721px){
+  .reader-panel{
+    background:linear-gradient(180deg,#FFFDF7 0%,#F8EFDF 100%) !important;
+  }
+}
