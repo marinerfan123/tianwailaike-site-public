@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-10T19:02+08:00",
+  "updated": "2026-06-16T23:08+08:00",
   "lines": [
     {
       "id": "line_chapter_14",
@@ -229,6 +229,42 @@
       "nextAction": "后续有项目更新就同步到干净仓库，继续敏感扫描；不碰旧仓库系统级存档。",
       "blockers": [],
       "updated": "2026-06-10T19:02+08:00"
+    },
+    {
+      "id": "line_chapter_17",
+      "name": "第17章《旧族入局》正文草稿候选线",
+      "module": "novel",
+      "status": "draft",
+      "progress": 35,
+      "owner": "主线程监督",
+      "evidence": [
+        "output/天外来客_第17章_旧族入局_正文草稿候选_v1_2026-06-16.md"
+      ],
+      "audit": {
+        "status": "needs_revision",
+        "summary": "正文草稿v1已完成，待进入独立审稿。"
+      },
+      "nextAction": "进入独立审稿与合规复扫",
+      "blockers": [],
+      "updated": "2026-06-16T23:08+08:00"
+    },
+    {
+      "id": "line_chapter_18",
+      "name": "第18章《假星真火》正文草稿候选线",
+      "module": "novel",
+      "status": "draft",
+      "progress": 30,
+      "owner": "主线程监督",
+      "evidence": [
+        "output/天外来客_第18章_假星真火_正文草稿候选_v1_2026-06-16.md"
+      ],
+      "audit": {
+        "status": "needs_revision",
+        "summary": "正文草稿v1已完成，待进入独立审稿。"
+      },
+      "nextAction": "进入独立审稿与合规复扫",
+      "blockers": [],
+      "updated": "2026-06-16T23:08+08:00"
     }
   ],
   "rules": {
