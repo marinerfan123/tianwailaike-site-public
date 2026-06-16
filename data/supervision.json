@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-17T01:20+08:00",
+  "updated": "2026-06-17T01:22+08:00",
   "lines": [
     {
       "id": "line_volume_1_done",
@@ -183,7 +183,7 @@
       "name": "第21章《铜符初行》正文草稿线",
       "module": "novel",
       "status": "review",
-      "progress": 40,
+      "progress": 45,
       "owner": "主线程监督",
       "evidence": [
         "正文草稿候选v1 (2026-06-16)",
@@ -203,7 +203,7 @@
       "name": "第二卷格物司制度输出期（第21-30章规划）",
       "module": "novel",
       "status": "in_progress",
-      "progress": 30,
+      "progress": 35,
       "owner": "主线程监督",
       "evidence": [
         "第二卷规划路线已生成 (2026-06-16)",
@@ -216,7 +216,7 @@
         "status": "active_guardrail",
         "summary": "第二卷规划已就绪。后续每章需走标准流程：细纲→正文草稿→独立审稿→定稿候选。"
       },
-      "nextAction": "第22章《暗线回卷》续写准备或启动第21章独立审稿",
+      "nextAction": "第21章审稿通过，第22章续写细纲已就绪，开始正文草稿",
       "blockers": [],
       "updated": "2026-06-17T01:21+08:00"
     },
@@ -340,6 +340,25 @@
       "nextAction": "每次更新后同步到GitHub干净仓库",
       "blockers": [],
       "updated": "2026-06-17T01:20+08:00"
+    },
+    {
+      "id": "line_chapter_22",
+      "name": "第22章《暗线回卷》续写准备线",
+      "module": "novel",
+      "status": "draft",
+      "progress": 15,
+      "owner": "主线程监督",
+      "evidence": [
+        "续写细纲v1已完成 (2026-06-17)",
+        "核心冲突：赵高以旧例合法阻滞格物司"
+      ],
+      "audit": {
+        "status": "pending",
+        "summary": "细纲已就绪，待审核后进入正文草稿。"
+      },
+      "nextAction": "审核细纲 → 若通过则进入第22章正文草稿",
+      "blockers": [],
+      "updated": "2026-06-17T01:22+08:00"
     }
   ],
   "rules": {

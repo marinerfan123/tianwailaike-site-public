@@ -42,22 +42,22 @@
   {
     "id": "task_ch21_review",
     "module": "novel",
-    "title": "第21章《铜符初行》：正文草稿候选v1 → 独立审稿",
+    "title": "第21章《铜符初行》：独立审稿通过 → 升格审稿版候选",
     "status": "done",
     "priority": "high",
     "owner": "章节续写/审稿线",
     "nextAction": "第21章审稿完成，准备升格审稿版候选",
-    "updated": "2026-06-17T01:21+08:00"
+    "updated": "2026-06-17T01:22+08:00"
   },
   {
     "id": "task_ch22_write",
     "module": "novel",
-    "title": "第22章《暗线回卷》：续写准备",
+    "title": "第22章《暗线回卷》：续写细纲已就绪 → 正文草稿",
     "status": "in_progress",
     "priority": "high",
     "owner": "章节续写/审稿线",
-    "nextAction": "启动第22章《暗线回卷》续写细纲",
-    "updated": "2026-06-17T01:21+08:00"
+    "nextAction": "审核细纲后启动第22章正文草稿",
+    "updated": "2026-06-17T01:22+08:00"
   },
   {
     "id": "task_tts_v2_v3",
