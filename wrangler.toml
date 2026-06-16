@@ -1,0 +1,10 @@
+name = "tianwailaike"
+compatibility_date = "2026-06-17"
+
+[site]
+bucket = "./"
+include = ["*"]
+exclude = [".git/*", ".gitignore", "node_modules/*", "*.tar", "inbound/*"]
+
+[env.production]
+routes = [{ pattern = "tianwailaike.com", custom_domain = true }]
