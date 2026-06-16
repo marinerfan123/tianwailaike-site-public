@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-16T23:08+08:00",
+  "updated": "2026-06-16T23:14+08:00",
   "lines": [
     {
       "id": "line_chapter_14",
@@ -265,6 +265,42 @@
       "nextAction": "进入独立审稿与合规复扫",
       "blockers": [],
       "updated": "2026-06-16T23:08+08:00"
+    },
+    {
+      "id": "line_chapter_19",
+      "name": "第19章《帝王之锁》正文草稿候选线",
+      "module": "novel",
+      "status": "draft",
+      "progress": 25,
+      "owner": "主线程监督",
+      "evidence": [
+        "output/天外来客_第19章_帝王之锁_正文草稿候选_v1_2026-06-16.md"
+      ],
+      "audit": {
+        "status": "needs_revision",
+        "summary": "正文草稿v1已完成，待进入独立审稿。"
+      },
+      "nextAction": "进入独立审稿与合规复扫",
+      "blockers": [],
+      "updated": "2026-06-16T23:14+08:00"
+    },
+    {
+      "id": "line_volume_1_done",
+      "name": "第一卷·真账十日·完结",
+      "module": "novel",
+      "status": "done",
+      "progress": 100,
+      "owner": "主线程监督",
+      "evidence": [
+        "第11-20章全部正文草稿完成"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "第一卷正式完结，格物司制度输出阶段开启。"
+      },
+      "nextAction": "进入第二卷创作",
+      "blockers": [],
+      "updated": "2026-06-16T23:14+08:00"
     }
   ],
   "rules": {

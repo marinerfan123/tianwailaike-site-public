@@ -1,10 +1,10 @@
 {
   "site": {
     "name": "天外来客 · 项目总控台",
-    "version": "0.1.1",
-    "updated": "2026-06-16T22:51+08:00",
+    "version": "0.3.0",
+    "updated": "2026-06-16T23:14+08:00",
     "visibility": "internal",
-    "tagline": "原创小说 · AI短剧 · 听书系统 · 资产生产 · 模型研究的一体化创作中枢"
+    "tagline": "第一卷·真账十日·完结"
   },
   "environment": {
     "node": "v22.22.0",
