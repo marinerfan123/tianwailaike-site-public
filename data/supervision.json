@@ -182,33 +182,35 @@
       "id": "line_chapter_21",
       "name": "第21章《铜符初行》正文草稿线",
       "module": "novel",
-      "status": "draft",
-      "progress": 30,
+      "status": "review",
+      "progress": 40,
       "owner": "主线程监督",
       "evidence": [
         "正文草稿候选v1 (2026-06-16)",
-        "第二卷规划路线已就绪（第21-30章）"
+        "第二卷规划路线已就绪（第21-30章）",
+        "独立审稿报告v1通过 (2026-06-17)"
       ],
       "audit": {
-        "status": "needs_revision",
-        "summary": "正文草稿v1已完成，待独立审稿。第二卷开篇章。"
+        "status": "pending_final_check",
+        "summary": "正文草稿通过独立审稿，可升格审稿版候选v1。"
       },
-      "nextAction": "进入独立审稿流程",
+      "nextAction": "升格审稿版候选 → 小修 → 定稿候选",
       "blockers": [],
-      "updated": "2026-06-17T01:20+08:00"
+      "updated": "2026-06-17T01:21+08:00"
     },
     {
       "id": "line_volume_2_planning",
       "name": "第二卷格物司制度输出期（第21-30章规划）",
       "module": "novel",
       "status": "in_progress",
-      "progress": 25,
+      "progress": 30,
       "owner": "主线程监督",
       "evidence": [
         "第二卷规划路线已生成 (2026-06-16)",
         "5条主线已规划：格物司制度输出/宫禁反扑/铁券显形/六国取星/李鹤个人线",
         "第21章正文草稿已完成",
-        "第22-30章标题与核心事件已规划"
+        "第22-30章标题与核心事件已规划",
+        "第21章独立审稿完成 (2026-06-17)"
       ],
       "audit": {
         "status": "active_guardrail",
@@ -216,7 +218,7 @@
       },
       "nextAction": "第22章《暗线回卷》续写准备或启动第21章独立审稿",
       "blockers": [],
-      "updated": "2026-06-17T01:20+08:00"
+      "updated": "2026-06-17T01:21+08:00"
     },
     {
       "id": "line_compliance",
