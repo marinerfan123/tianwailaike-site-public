@@ -1,62 +1,102 @@
 [
   {
-    "id": "task_site_v1",
-    "module": "website",
-    "title": "网站索引机制升级：听书按章节聚合、审稿状态显式显示",
-    "status": "done",
-    "priority": "high",
-    "owner": "网站建设执行线",
-    "nextAction": "后续新增音频/审稿后自动重建索引并发布",
-    "updated": "2026-06-10T19:02+08:00"
-  },
-  {
-    "id": "task_tts_index_fix",
-    "module": "tts",
-    "title": "听书区去重升级：分段音频归入对应章节，不再堆成重复第1章",
-    "status": "done",
-    "priority": "high",
-    "owner": "TTS听书线",
-    "nextAction": "继续把第1-10章升级为更自然的完整听书版",
-    "updated": "2026-06-10T19:02+08:00"
-  },
-  {
-    "id": "task_tts_upgrade",
-    "module": "tts",
-    "title": "TTS听书升级：文本校对、停顿、语气、真人感继续优化",
-    "status": "need_fix",
-    "priority": "high",
-    "owner": "TTS听书线",
-    "nextAction": "优先处理第1章V2/V3样音，再扩展到第2-10章",
-    "updated": "2026-06-10T19:02+08:00"
-  },
-  {
-    "id": "task_ch14_v3",
+    "id": "task_volume_1_done",
     "module": "novel",
-    "title": "第14章《梁申旧名》：v2审计通过方向，需v3小修后再定稿",
-    "status": "review",
+    "title": "第一卷·真账十日完结，第二卷启动",
+    "status": "done",
     "priority": "high",
     "owner": "章节续写/审稿线",
-    "nextAction": "补强旧名兑现、证据链、李鹤主动验证戏",
-    "updated": "2026-06-10T19:02+08:00"
+    "nextAction": "继续推进第21章审稿和第22章续写",
+    "updated": "2026-06-17T01:20+08:00"
   },
   {
-    "id": "task_ch05_en",
+    "id": "task_ch15_final",
+    "module": "novel",
+    "title": "第15章《雁门尺差》：审稿版候选v2 → 最终一致性审查 → 定稿",
+    "status": "in_progress",
+    "priority": "high",
+    "owner": "章节续写/审稿线",
+    "nextAction": "最终一致性审查与定稿确认",
+    "updated": "2026-06-17T01:20+08:00"
+  },
+  {
+    "id": "task_ch16_final",
+    "module": "novel",
+    "title": "第16章《胡亥取巧》：审稿版候选v2.1 → 最终一致性审查 → 定稿候选",
+    "status": "in_progress",
+    "priority": "high",
+    "owner": "章节续写/审稿线",
+    "nextAction": "最终一致性审查与尾部状态修复",
+    "updated": "2026-06-17T01:20+08:00"
+  },
+  {
+    "id": "task_ch17_18_19_20_upgrade",
+    "module": "novel",
+    "title": "第17-20章：从审稿版候选升级为定稿候选流程",
+    "status": "in_progress",
+    "priority": "high",
+    "owner": "章节续写/审稿线",
+    "nextAction": "按审稿建议逐章小修 → 小修清单 → 定稿候选",
+    "updated": "2026-06-17T01:20+08:00"
+  },
+  {
+    "id": "task_ch21_review",
+    "module": "novel",
+    "title": "第21章《铜符初行》：正文草稿候选v1 → 独立审稿",
+    "status": "in_progress",
+    "priority": "high",
+    "owner": "章节续写/审稿线",
+    "nextAction": "启动第21章独立审稿",
+    "updated": "2026-06-17T01:20+08:00"
+  },
+  {
+    "id": "task_ch22_write",
+    "module": "novel",
+    "title": "第22章《暗线回卷》：续写准备",
+    "status": "pending",
+    "priority": "high",
+    "owner": "章节续写/审稿线",
+    "nextAction": "等第21章审稿后再启动第22章续写",
+    "updated": "2026-06-17T01:20+08:00"
+  },
+  {
+    "id": "task_tts_v2_v3",
     "module": "tts",
-    "title": "第05章英文听书稿：已有原则/草稿/独立审计，需扩写成完整审稿版",
-    "status": "review",
-    "priority": "medium",
-    "owner": "多语言听书线",
-    "nextAction": "从开篇样稿扩写为完整章节听书稿，再独立审计",
-    "updated": "2026-06-10T19:02+08:00"
-  },
-  {
-    "id": "task_short_test",
-    "module": "short-drama",
-    "title": "LibTV/短剧首测：只读确认登录态、入口和消耗，首测限制3张母图",
+    "title": "TTS听书升级：第1章V2/V3样音优化 → 扩展到第2-6章",
     "status": "in_progress",
     "priority": "medium",
+    "owner": "TTS听书线",
+    "nextAction": "文本校对、停顿优化、语气调整",
+    "updated": "2026-06-17T01:20+08:00"
+  },
+  {
+    "id": "task_en_tts_expand",
+    "module": "tts",
+    "title": "英文听书稿：第1-7章扩写/修订",
+    "status": "in_progress",
+    "priority": "medium",
+    "owner": "多语言听书线",
+    "nextAction": "完成第1-7章的完整听书稿扩写",
+    "updated": "2026-06-17T01:20+08:00"
+  },
+  {
+    "id": "task_deploy_cloudflare",
+    "module": "website",
+    "title": "Cloudflare Pages部署（需用户配合wrangler login）",
+    "status": "blocked",
+    "priority": "medium",
+    "owner": "网站建设执行线",
+    "nextAction": "用户需运行 wrangler login 完成Cloudflare身份验证，然后运行 bash deploy-cloudflare.sh",
+    "updated": "2026-06-17T01:20+08:00"
+  },
+  {
+    "id": "task_libtv_first_test",
+    "module": "short-drama",
+    "title": "LibTV/短剧首测：确认登录/入口/额度后启动3张母图",
+    "status": "blocked",
+    "priority": "medium",
     "owner": "短剧制作线",
-    "nextAction": "不批量生成视频，先确认平台入口与额度提示",
-    "updated": "2026-06-10T19:02+08:00"
+    "nextAction": "确认LibTV登录态与额度提示后启动首测",
+    "updated": "2026-06-17T01:20+08:00"
   }
 ]

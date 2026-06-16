@@ -1,119 +1,303 @@
 {
-  "updated": "2026-06-16T23:14+08:00",
+  "updated": "2026-06-17T01:20+08:00",
   "lines": [
     {
+      "id": "line_volume_1_done",
+      "name": "第一卷·真账十日·完结",
+      "module": "novel",
+      "status": "done",
+      "progress": 100,
+      "owner": "主线程监督",
+      "evidence": [
+        "第11-20章全部正文草稿完成",
+        "第13、14章正式定稿",
+        "第17-20章独立审稿通过",
+        "第20章可标注'第一卷完结'"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "第一卷正式完结，格物司制度输出阶段开启。"
+      },
+      "nextAction": "进入第二卷创作。第21章《铜符初行》正文草稿候选已完成。",
+      "blockers": [],
+      "updated": "2026-06-17T01:20+08:00"
+    },
+    {
+      "id": "line_chapter_13",
+      "name": "第13章《旧库验箱》正式定稿线",
+      "module": "novel",
+      "status": "done",
+      "progress": 100,
+      "owner": "主线程监督",
+      "evidence": [
+        "正式定稿已由总控确认升格",
+        "最终一致性审查通过",
+        "网站已同步"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "正式定稿。后续小修仅限排版/错字/TTS适配。"
+      },
+      "nextAction": "维持定稿状态",
+      "blockers": [],
+      "updated": "2026-06-17T01:20+08:00"
+    },
+    {
       "id": "line_chapter_14",
-      "name": "第14章《梁申旧名》推进线",
+      "name": "第14章《梁申旧名》正式定稿线",
+      "module": "novel",
+      "status": "done",
+      "progress": 100,
+      "owner": "主线程监督",
+      "evidence": [
+        "正式定稿已由总控确认升格",
+        "独立审稿报告通过",
+        "网站已同步"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "正式定稿。后续小修仅限排版/错字/TTS适配。"
+      },
+      "nextAction": "维持定稿状态",
+      "blockers": [],
+      "updated": "2026-06-17T01:20+08:00"
+    },
+    {
+      "id": "line_chapter_15",
+      "name": "第15章《雁门尺差》审稿版候选线",
+      "module": "novel",
+      "status": "review",
+      "progress": 78,
+      "owner": "主线程监督",
+      "evidence": [
+        "审稿版候选v2 (2026-06-16)"
+      ],
+      "audit": {
+        "status": "pending_final_check",
+        "summary": "审稿版候选v2，待最终一致性审查后定稿。"
+      },
+      "nextAction": "最终一致性审查 → 定稿",
+      "blockers": [],
+      "updated": "2026-06-17T01:20+08:00"
+    },
+    {
+      "id": "line_chapter_16",
+      "name": "第16章《胡亥取巧》审稿版候选线",
       "module": "novel",
       "status": "review",
       "progress": 72,
       "owner": "主线程监督",
       "evidence": [
-        "output/天外来客_第14章_梁申旧名_正式定稿_2026-06-10_1816.md",
-        "output/天外来客_第14章_梁申旧名_独立审稿报告_2026-06-10_1701.md",
-        "output/天外来客_第14章_梁申旧名_定稿候选_v4_2026-06-10_1701.md",
-        "output/天外来客_第14章_梁申旧名_v3修订稿_2026-06-10_1501.md",
-        "output/天外来客_第14章_梁申旧名_v2独立审计报告_2026-06-10_1401.md",
-        "output/天外来客_第14章_梁申旧名_续写草稿候选_v2_2026-06-10_1301.md"
-      ],
-      "audit": {
-        "status": "needs_revision",
-        "summary": "已有v2独立审计，结论为可作审稿版候选；需v3小修后再定稿。",
-        "evidence": [
-          "output/天外来客_第14章_梁申旧名_独立审稿报告_2026-06-10_1701.md",
-          "output/天外来客_第14章_梁申旧名_v2独立审计报告_2026-06-10_1401.md"
-        ]
-      },
-      "nextAction": "推进v3小修：补强旧名兑现、证据链、李鹤主动验证戏；小修后再做定稿前审查。",
-      "blockers": [],
-      "updated": "2026-06-10T19:02+08:00"
-    },
-    {
-      "id": "line_chapter_13",
-      "name": "第13章《旧库验箱》定稿候选线",
-      "module": "novel",
-      "status": "review",
-      "progress": 82,
-      "owner": "主线程监督",
-      "evidence": [
-        "output/天外来客_第13章_旧库验箱_正式定稿_2026-06-10_1816.md",
-        "output/天外来客_第13章_旧库验箱_最终一致性审查报告_2026-06-10_1701.md",
-        "output/天外来客_第13章_旧库验箱_定稿候选_v3_2026-06-10_1701.md",
-        "output/天外来客_第13章_旧库验箱_承接细纲与开篇方向候选_2026-06-10_0806.md",
-        "output/天外来客_第13章_旧库验箱_正文草稿候选_v1_2026-06-10_0908.md",
-        "output/天外来客_第13章_旧库验箱_审稿版候选_v2_2026-06-10_1101.md"
+        "审稿版候选 v2.1 (2026-06-10)",
+        "独立审稿报告通过",
+        "v2终审与预发布检查条件通过",
+        "尾部状态措辞已修复为v2"
       ],
       "audit": {
         "status": "pending_final_check",
-        "summary": "已有审稿版候选和独立审稿报告；不得越权直接标正式定稿。",
-        "evidence": [
-          "output/天外来客_第13章_旧库验箱_审稿版候选_v2_2026-06-10_1101.md",
-          "output/天外来客_第13章_旧库验箱_独立审稿报告_v1_2026-06-10_1011.md"
-        ]
+        "summary": "v2终审条件通过；仍需修正尾部状态措辞后才可预发布索引。"
       },
-      "nextAction": "做定稿候选v3微润色与最终一致性审查。",
+      "nextAction": "最终一致性审查 → 定稿候选",
       "blockers": [],
-      "updated": "2026-06-10T19:02+08:00"
+      "updated": "2026-06-17T01:20+08:00"
     },
     {
-      "id": "line_en_ch05",
-      "name": "第05章英文听书稿线",
-      "module": "tts",
+      "id": "line_chapter_17",
+      "name": "第17章《旧族入局》审稿线",
+      "module": "novel",
       "status": "review",
-      "progress": 46,
+      "progress": 55,
       "owner": "主线程监督",
       "evidence": [
-        "output/天外来客_第05章_英文听书稿_审计补充_v2_2026-06-10_1701.md",
-        "output/天外来客_第05章_英文听书稿_审稿版候选_v2_2026-06-10_1701.md",
-        "output/天外来客_第05章_英文听书稿_独立审计报告_v1_2026-06-10_1401.md",
-        "output/天外来客_第05章_英文听书稿_草稿候选_v1_2026-06-10_1401.md",
-        "output/天外来客_第05章_英文听书稿_创作原则_2026-06-10_1401.md"
+        "正文草稿候选v1 (2026-06-16)",
+        "独立审稿报告通过，可升格审稿版候选"
       ],
       "audit": {
-        "status": "needs_expansion",
-        "summary": "已有创作原则、草稿候选/开篇样稿、独立审计；目前不能称定稿。",
-        "evidence": [
-          "output/天外来客_第05章_英文听书稿_审计补充_v2_2026-06-10_1701.md",
-          "output/天外来客_第05章_英文听书稿_审稿版候选_v2_2026-06-10_1701.md",
-          "output/天外来客_第05章_英文听书稿_独立审计报告_v1_2026-06-10_1401.md",
-          "output/天外来客_第05章_英文听书稿_草稿候选_v1_2026-06-10_1401.md",
-          "output/天外来客_第05章_英文听书稿_创作原则_2026-06-10_1401.md"
-        ]
+        "status": "pending_final_check",
+        "summary": "草稿通过审稿，可升格审稿版候选v1。旧族非脸谱化，证据链完整。"
       },
-      "nextAction": "按多语言原则扩写成完整章节听书稿，再走独立审计。",
+      "nextAction": "升格为审稿版候选 → 小修 → 定稿候选",
       "blockers": [],
-      "updated": "2026-06-10T19:02+08:00"
+      "updated": "2026-06-17T01:20+08:00"
+    },
+    {
+      "id": "line_chapter_18",
+      "name": "第18章《假星真火》审稿线",
+      "module": "novel",
+      "status": "review",
+      "progress": 50,
+      "owner": "主线程监督",
+      "evidence": [
+        "正文草稿候选v1 (2026-06-16)",
+        "独立审稿报告通过，可升格审稿版候选"
+      ],
+      "audit": {
+        "status": "pending_final_check",
+        "summary": "草稿通过审稿，可升格审稿版候选v1。假星非迷信化，铁券线索重磅。"
+      },
+      "nextAction": "升格为审稿版候选 → 小修 → 定稿候选",
+      "blockers": [],
+      "updated": "2026-06-17T01:20+08:00"
+    },
+    {
+      "id": "line_chapter_19",
+      "name": "第19章《帝王之锁》审稿线",
+      "module": "novel",
+      "status": "review",
+      "progress": 50,
+      "owner": "主线程监督",
+      "evidence": [
+        "正文草稿候选v1 (2026-06-16)",
+        "独立审稿报告通过，可升格审稿版候选"
+      ],
+      "audit": {
+        "status": "pending_final_check",
+        "summary": "草稿通过审稿，可升格审稿版候选v1。权力转折核心章。"
+      },
+      "nextAction": "升格为审稿版候选 → 小修 → 定稿候选",
+      "blockers": [],
+      "updated": "2026-06-17T01:20+08:00"
+    },
+    {
+      "id": "line_chapter_20",
+      "name": "第20章《咸阳真相》审稿线",
+      "module": "novel",
+      "status": "review",
+      "progress": 55,
+      "owner": "主线程监督",
+      "evidence": [
+        "正文草稿候选v1 (2026-06-16)",
+        "独立审稿报告通过，可升格审稿版候选",
+        "可标注'第一卷完结'"
+      ],
+      "audit": {
+        "status": "pending_final_check",
+        "summary": "草稿通过审稿，可升格审稿版候选v1。第一卷收官章，制度产物成型。"
+      },
+      "nextAction": "升格为审稿版候选 → 小修 → 标注'第一卷完结'",
+      "blockers": [],
+      "updated": "2026-06-17T01:20+08:00"
+    },
+    {
+      "id": "line_chapter_21",
+      "name": "第21章《铜符初行》正文草稿线",
+      "module": "novel",
+      "status": "draft",
+      "progress": 30,
+      "owner": "主线程监督",
+      "evidence": [
+        "正文草稿候选v1 (2026-06-16)",
+        "第二卷规划路线已就绪（第21-30章）"
+      ],
+      "audit": {
+        "status": "needs_revision",
+        "summary": "正文草稿v1已完成，待独立审稿。第二卷开篇章。"
+      },
+      "nextAction": "进入独立审稿流程",
+      "blockers": [],
+      "updated": "2026-06-17T01:20+08:00"
+    },
+    {
+      "id": "line_volume_2_planning",
+      "name": "第二卷格物司制度输出期（第21-30章规划）",
+      "module": "novel",
+      "status": "in_progress",
+      "progress": 25,
+      "owner": "主线程监督",
+      "evidence": [
+        "第二卷规划路线已生成 (2026-06-16)",
+        "5条主线已规划：格物司制度输出/宫禁反扑/铁券显形/六国取星/李鹤个人线",
+        "第21章正文草稿已完成",
+        "第22-30章标题与核心事件已规划"
+      ],
+      "audit": {
+        "status": "active_guardrail",
+        "summary": "第二卷规划已就绪。后续每章需走标准流程：细纲→正文草稿→独立审稿→定稿候选。"
+      },
+      "nextAction": "第22章《暗线回卷》续写准备或启动第21章独立审稿",
+      "blockers": [],
+      "updated": "2026-06-17T01:20+08:00"
+    },
+    {
+      "id": "line_compliance",
+      "name": "调性合规与连续性审查线",
+      "module": "review",
+      "status": "in_progress",
+      "progress": 82,
+      "owner": "主线程监督",
+      "evidence": [
+        "第17-20章审稿中合规检查全部通过",
+        "第13-16章合规无问题"
+      ],
+      "audit": {
+        "status": "active_guardrail",
+        "summary": "全章审稿均嵌入合规检查，目前无违规。后续每章续写/审稿继续嵌入合规扫描。"
+      },
+      "nextAction": "将合规扫描嵌入每次巡检/审稿",
+      "blockers": [],
+      "updated": "2026-06-17T01:20+08:00"
     },
     {
       "id": "line_tts_upgrade",
       "name": "中文TTS听书升级线",
       "module": "tts",
       "status": "need_fix",
-      "progress": 38,
+      "progress": 40,
       "owner": "主线程监督",
       "evidence": [
-        "output/天外来客_网站听书区浅色背景修复记录_2026-06-10_1849.md",
-        "output/天外来客_第06章_英文听书稿_自检清单_v1_2026-06-10_1701.md",
-        "output/天外来客_第06章_英文听书稿_草稿候选_v1_2026-06-10_1701.md",
-        "output/天外来客_第05章_英文听书稿_审计补充_v2_2026-06-10_1701.md",
-        "output/天外来客_第05章_英文听书稿_审稿版候选_v2_2026-06-10_1701.md",
-        "output/天外来客_网站听书与审稿索引机制修复报告_20260610_1526.md"
+        "第1章TTS V2/V3样音文本处理记录",
+        "TTS停顿/语气/校对规则已成型",
+        "第1-6章音频文件已生成"
       ],
       "audit": {
         "status": "needs_quality_upgrade",
-        "summary": "网站听书索引已修复，但音频真人感、停顿、文本校对仍需持续升级。",
-        "evidence": [
-          "output/天外来客_网站听书区浅色背景修复记录_2026-06-10_1849.md",
-          "output/天外来客_网站听书与审稿索引机制修复报告_20260610_1526.md",
-          "output/tts/小说TTS语气情绪导演规则_天外来客.md",
-          "output/tts/真人感小说TTS引擎深化方案_天外来客.md",
-          "output/tts/小说TTS停顿节奏规则_天外来客.md",
-          "output/tts/小说TTS文本审稿校对规则_天外来客.md"
-        ]
+        "summary": "音频文件已生成，但真人感/停顿/文本校对仍需持续升级。"
       },
-      "nextAction": "优先第1章V2/V3样音：先校正文稿和停顿，再扩展第2-10章。",
+      "nextAction": "优先第1章V2/V3样音优化（文本校对、停顿、语气），再扩展到第2-6章",
       "blockers": [],
-      "updated": "2026-06-10T19:02+08:00"
+      "updated": "2026-06-17T01:20+08:00"
+    },
+    {
+      "id": "line_en_tts",
+      "name": "英文听书稿线",
+      "module": "tts",
+      "status": "review",
+      "progress": 55,
+      "owner": "主线程监督",
+      "evidence": [
+        "第1-7章英文听书稿草稿/审稿已完成",
+        "英文创作原则已确立"
+      ],
+      "audit": {
+        "status": "needs_expansion",
+        "summary": "第1-7章英文听书稿各有进展，但多数仍需扩写或修订。"
+      },
+      "nextAction": "按多语言原则继续扩写剩余章节",
+      "blockers": [],
+      "updated": "2026-06-17T01:20+08:00"
+    },
+    {
+      "id": "line_website",
+      "name": "网站与索引发布线",
+      "module": "website",
+      "status": "in_progress",
+      "progress": 88,
+      "owner": "主线程监督",
+      "evidence": [
+        "第1-21章内容已就绪",
+        "第1-6章音频已就绪",
+        "UI修复已完成（浅色模式、折叠交互、阅读器可读性）",
+        "待部署到Cloudflare Pages"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "站点文件准备就绪；Cloudflare Pages部署需用户协助登录wrangler。"
+      },
+      "nextAction": "Cloudflare Pages部署（需用户配合wrangler login登录）",
+      "blockers": [
+        "wrangler未登录Cloudflare，无config.json"
+      ],
+      "updated": "2026-06-17T01:20+08:00"
     },
     {
       "id": "line_libtv_short",
@@ -123,188 +307,41 @@
       "progress": 35,
       "owner": "主线程监督",
       "evidence": [
-        "output/天外来客_短剧首测3张母图执行包与只读检查结果_2026-06-10_1701.md",
-        "output/天外来客_LibTV短剧首测只读检查清单_2026-06-10_1401.md",
-        "output/天外来客_AI模型研究_第一章测试片实用选型_2026-06-09.md",
-        "output/天外来客_第一章30-45秒测试片_制作包推进稿.md",
-        "output/天外来客_第一章测试片_首批母图提示词.md",
-        "output/天外来客_第一章短剧母图任务单_2026-06-09.md"
+        "第一章测试片制作包、母图提示词已就绪",
+        "首测3张母图执行包已就绪"
       ],
       "audit": {
         "status": "guarded",
-        "summary": "只允许只读检查登录态/入口/消耗；首测限制3张母图，不批量生成视频。",
-        "evidence": [
-          "output/天外来客_短剧首测3张母图执行包与只读检查结果_2026-06-10_1701.md",
-          "output/天外来客_LibTV短剧首测只读检查清单_2026-06-10_1401.md",
-          "output/天外来客_AI模型研究_第一章测试片实用选型_2026-06-09.md",
-          "output/天外来客_第一章30-45秒测试片_制作包推进稿.md",
-          "output/天外来客_第一章测试片_首批母图提示词.md",
-          "output/天外来客_第一章短剧母图任务单_2026-06-09.md"
-        ]
+        "summary": "首测限制3张母图，不批量生成视频。需先确认平台入口与额度。"
       },
-      "nextAction": "继续只读确认入口和消耗提示；遇验证码/扫码/额度确认再单项询问用户。",
+      "nextAction": "只读确认LibTV登录态/入口/消耗提示后启动首测",
       "blockers": [
         "可能需要LibTV登录/验证码/额度确认"
       ],
-      "updated": "2026-06-10T19:02+08:00"
+      "updated": "2026-06-17T01:20+08:00"
     },
     {
-      "id": "line_compliance",
-      "name": "调性合规与连续性审查线",
-      "module": "review",
-      "status": "in_progress",
-      "progress": 78,
-      "owner": "主线程监督",
-      "evidence": [
-        "output/天外来客_连续性总表与设定监督报告.md",
-        "output/天外来客_调性合规专项巡查报告_2026-06-10_1214.md",
-        "output/天外来客_调性合规专项扫描明细_2026-06-10.tsv"
-      ],
-      "audit": {
-        "status": "active_guardrail",
-        "summary": "已完成专项纠偏；后续每次新增剧本/提示词/资产说明都要复扫。",
-        "evidence": [
-          "output/天外来客_连续性总表与设定监督报告.md",
-          "output/天外来客_调性合规专项巡查报告_2026-06-10_1214.md",
-          "output/天外来客_调性合规专项扫描明细_2026-06-10.tsv"
-        ]
-      },
-      "nextAction": "将合规扫描嵌入每次巡检：积极向上、反迷信、非鬼片化、非血腥猎奇、细节仍合理。",
-      "blockers": [],
-      "updated": "2026-06-10T19:02+08:00"
-    },
-    {
-      "id": "line_website",
-      "name": "网站与索引发布线",
-      "module": "website",
-      "status": "done",
-      "progress": 88,
-      "owner": "主线程监督",
-      "evidence": [
-        "output/天外来客_网站浅色高对比修复记录_2026-06-10_1900.md",
-        "output/天外来客_网站监督台折叠取消修复记录_2026-06-10_1856.md",
-        "output/天外来客_网站折叠交互修复记录_2026-06-10_1853.md",
-        "output/天外来客_网站听书区浅色背景修复记录_2026-06-10_1849.md",
-        "output/天外来客_网站小说阅读器可读性修复记录_2026-06-10_1831.md",
-        "output/天外来客_第13_14章_正式定稿确认与网站同步记录_2026-06-10_1816.md"
-      ],
-      "audit": {
-        "status": "passed",
-        "summary": "听书按章节聚合、审稿/升级状态进入看板；线上仍需用户体验复查。",
-        "evidence": [
-          "output/天外来客_网站听书区浅色背景修复记录_2026-06-10_1849.md",
-          "output/天外来客_网站听书与审稿索引机制修复报告_20260610_1526.md",
-          "output/天外来客_网站备份巡检摘要_2026-06-10_0501.md",
-          "output/天外来客_网站备份巡检摘要_2026-06-10_0301.md",
-          "output/天外来客_网站回归检查报告_2026-06-10.md"
-        ]
-      },
-      "nextAction": "每次发布后不只查文件数，还要查栏目展示是否符合用户理解。",
-      "blockers": [],
-      "updated": "2026-06-10T19:02+08:00"
-    },
-    {
-      "id": "line_backup_clean",
+      "id": "line_backup",
       "name": "GitHub干净备份线",
       "module": "backup",
       "status": "done",
-      "progress": 90,
+      "progress": 92,
       "owner": "主线程监督",
       "evidence": [
-        "output/天外来客_网站备份执行报告_2026-06-10_1701.md",
-        "output/天外来客_网站备份巡检摘要_2026-06-10_0501.md",
-        "output/天外来客_网站备份巡检摘要_2026-06-10_0301.md",
-        "output/天外来客_网站待发布与备份待推送清单_2026-06-10_0806.md"
+        "备份已同步到tianwailaike-project-backup-clean仓库",
+        "站点文件已同步到tianwailaike-site-public仓库"
       ],
       "audit": {
         "status": "passed",
-        "summary": "已迁移到干净仓库 tianwailaike-project-backup-clean，不再碰乌班图虾旧仓库。",
-        "evidence": [
-          "output/天外来客_网站备份执行报告_2026-06-10_1701.md",
-          "output/天外来客_网站备份巡检摘要_2026-06-10_0501.md",
-          "output/天外来客_网站备份巡检摘要_2026-06-10_0301.md",
-          "output/天外来客_网站待发布与备份待推送清单_2026-06-10_0806.md"
-        ]
+        "summary": "干净仓库备份正常。后续更新需同步。"
       },
-      "nextAction": "后续有项目更新就同步到干净仓库，继续敏感扫描；不碰旧仓库系统级存档。",
+      "nextAction": "每次更新后同步到GitHub干净仓库",
       "blockers": [],
-      "updated": "2026-06-10T19:02+08:00"
-    },
-    {
-      "id": "line_chapter_17",
-      "name": "第17章《旧族入局》正文草稿候选线",
-      "module": "novel",
-      "status": "draft",
-      "progress": 35,
-      "owner": "主线程监督",
-      "evidence": [
-        "output/天外来客_第17章_旧族入局_正文草稿候选_v1_2026-06-16.md"
-      ],
-      "audit": {
-        "status": "needs_revision",
-        "summary": "正文草稿v1已完成，待进入独立审稿。"
-      },
-      "nextAction": "进入独立审稿与合规复扫",
-      "blockers": [],
-      "updated": "2026-06-16T23:08+08:00"
-    },
-    {
-      "id": "line_chapter_18",
-      "name": "第18章《假星真火》正文草稿候选线",
-      "module": "novel",
-      "status": "draft",
-      "progress": 30,
-      "owner": "主线程监督",
-      "evidence": [
-        "output/天外来客_第18章_假星真火_正文草稿候选_v1_2026-06-16.md"
-      ],
-      "audit": {
-        "status": "needs_revision",
-        "summary": "正文草稿v1已完成，待进入独立审稿。"
-      },
-      "nextAction": "进入独立审稿与合规复扫",
-      "blockers": [],
-      "updated": "2026-06-16T23:08+08:00"
-    },
-    {
-      "id": "line_chapter_19",
-      "name": "第19章《帝王之锁》正文草稿候选线",
-      "module": "novel",
-      "status": "draft",
-      "progress": 25,
-      "owner": "主线程监督",
-      "evidence": [
-        "output/天外来客_第19章_帝王之锁_正文草稿候选_v1_2026-06-16.md"
-      ],
-      "audit": {
-        "status": "needs_revision",
-        "summary": "正文草稿v1已完成，待进入独立审稿。"
-      },
-      "nextAction": "进入独立审稿与合规复扫",
-      "blockers": [],
-      "updated": "2026-06-16T23:14+08:00"
-    },
-    {
-      "id": "line_volume_1_done",
-      "name": "第一卷·真账十日·完结",
-      "module": "novel",
-      "status": "done",
-      "progress": 100,
-      "owner": "主线程监督",
-      "evidence": [
-        "第11-20章全部正文草稿完成"
-      ],
-      "audit": {
-        "status": "passed",
-        "summary": "第一卷正式完结，格物司制度输出阶段开启。"
-      },
-      "nextAction": "进入第二卷创作",
-      "blockers": [],
-      "updated": "2026-06-16T23:14+08:00"
+      "updated": "2026-06-17T01:20+08:00"
     }
   ],
   "rules": {
-    "updated": "2026-06-10T19:02+08:00",
+    "updated": "2026-06-17T01:20+08:00",
     "principle": "每件事有记录、有章法；有发展就有审查、有监督。",
     "requiredFields": [
       "status",
