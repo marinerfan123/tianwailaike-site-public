@@ -1,9 +1,15 @@
 [
   {
-    "id": "task_ch22_review",
-    "title": "第22章《暗线回卷》：正文草稿v1 → 独立审稿 → 审稿版候选",
+    "id": "task_ch23_write",
+    "title": "第23章《北境来使》：续写细纲 → 正文草稿",
     "status": "in_progress",
-    "updated": "2026-06-21T16:40+08:00"
+    "updated": "2026-06-21T16:50+08:00"
+  },
+  {
+    "id": "task_ch22_review",
+    "title": "第22章《暗线回卷》：独立审稿通过 → 审稿版候选 v1 ✅",
+    "status": "done",
+    "updated": "2026-06-21T16:50+08:00"
   },
   {
     "id": "task_volume_1_done",
@@ -18,12 +24,12 @@
   {
     "id": "task_ch15_final",
     "module": "novel",
-    "title": "第15章《雁门尺差》：审稿版候选v2 → 最终一致性审查 → 定稿",
-    "status": "in_progress",
+    "title": "第15章《雁门尺差》：正式定稿 ✅",
+    "status": "done",
     "priority": "high",
     "owner": "章节续写/审稿线",
     "nextAction": "最终一致性审查与定稿确认",
-    "updated": "2026-06-17T01:20+08:00"
+    "updated": "2026-06-21T16:50+08:00"
   },
   {
     "id": "task_ch16_final",
@@ -88,12 +94,12 @@
   {
     "id": "task_deploy_cloudflare",
     "module": "website",
-    "title": "Cloudflare Pages部署（需用户配合wrangler login）",
-    "status": "blocked",
+    "title": "Cloudflare Pages部署：已完成 ✅",
+    "status": "done",
     "priority": "medium",
     "owner": "网站建设执行线",
     "nextAction": "用户需运行 wrangler login 完成Cloudflare身份验证，然后运行 bash deploy-cloudflare.sh",
-    "updated": "2026-06-17T01:20+08:00"
+    "updated": "2026-06-21T16:48+08:00"
   },
   {
     "id": "task_libtv_first_test",

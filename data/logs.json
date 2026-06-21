@@ -1,5 +1,24 @@
 [
   {
+    "id": "log_027",
+    "date": "2026-06-21",
+    "module": "review",
+    "summary": "第15章《雁门尺差》最终一致性审查通过 → 正式定稿；第22章《暗线回卷》独立审稿通过 → 审稿版候选v1",
+    "files": [
+      "output/天外来客_第15章_雁门尺差_最终一致性审查_2026-06-21.md",
+      "output/天外来客_第22章_暗线回卷_独立审稿报告_v1_2026-06-21.md"
+    ],
+    "generatedBy": "auto"
+  },
+  {
+    "id": "log_026",
+    "date": "2026-06-21",
+    "module": "website",
+    "summary": "网站数据大同步：ch16-21正文状态/成熟度/来源全部更新，Cloudflare部署标记完成",
+    "files": [],
+    "generatedBy": "auto"
+  },
+  {
     "id": "log_025",
     "date": "2026-06-21",
     "module": "novel",
