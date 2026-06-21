@@ -1,9 +1,15 @@
 [
   {
-    "id": "task_ch23_write",
-    "title": "第23章《北境来使》：续写细纲 → 正文草稿",
+    "id": "task_ch23_review",
+    "title": "第23章《北境来使》：正文草稿v1 → 独立审稿 → 审稿版候选",
     "status": "in_progress",
-    "updated": "2026-06-21T16:50+08:00"
+    "updated": "2026-06-21T19:32+08:00"
+  },
+  {
+    "id": "task_ch23_write",
+    "title": "第23章《北境来使》：正文草稿v1完成 → 待审稿",
+    "status": "done",
+    "updated": "2026-06-21T19:32+08:00"
   },
   {
     "id": "task_ch22_review",
@@ -34,22 +40,22 @@
   {
     "id": "task_ch16_final",
     "module": "novel",
-    "title": "第16章《胡亥取巧》：审稿版候选v2.1 → 最终一致性审查 → 定稿候选",
-    "status": "in_progress",
+    "title": "第16章《胡亥取巧》：最终审查通过 → 定稿候选 v2.1 ✅",
+    "status": "done",
     "priority": "high",
     "owner": "章节续写/审稿线",
     "nextAction": "最终一致性审查与尾部状态修复",
-    "updated": "2026-06-17T01:20+08:00"
+    "updated": "2026-06-21T19:32+08:00"
   },
   {
     "id": "task_ch17_18_19_20_upgrade",
     "module": "novel",
-    "title": "第17-20章：从审稿版候选升级为定稿候选流程",
-    "status": "in_progress",
+    "title": "第17-20章：批量一致性审查通过 → 定稿候选（6处小修待补）✅",
+    "status": "done",
     "priority": "high",
     "owner": "章节续写/审稿线",
     "nextAction": "按审稿建议逐章小修 → 小修清单 → 定稿候选",
-    "updated": "2026-06-17T01:20+08:00"
+    "updated": "2026-06-21T19:32+08:00"
   },
   {
     "id": "task_ch21_review",

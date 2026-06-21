@@ -41,6 +41,8 @@ cd "$(dirname "$0")/../tianwailaike-project-backup-clean" 2>/dev/null || {
 echo ""
 echo "== 部署到 Cloudflare Pages =="
 cd "$(dirname "$0")"
+# 从 wrangler 配置中读取 token（非交互环境兼容）
+export CLOUDFLARE_API_TOKEN="$(grep oauth_token ~/.config/.wrangler/config/default.toml 2>/dev/null | head -1 | cut -d'"' -f2)"
 npx wrangler pages deploy . --project-name=tianwailaike --branch main
 
 echo ""
