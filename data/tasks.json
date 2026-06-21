@@ -1,9 +1,39 @@
 [
   {
-    "id": "task_ch23_review",
-    "title": "第23章《北境来使》：正文草稿v1 → 独立审稿 → 审稿版候选",
+    "id": "task_ch7_8_bridge",
+    "title": "第7-8章桥接修补：赵高callback+扶苏过渡",
     "status": "in_progress",
-    "updated": "2026-06-21T19:32+08:00"
+    "updated": "2026-06-21T19:40+08:00"
+  },
+  {
+    "id": "task_ch1_6_quickfix",
+    "title": "第1-6章快速修补：批量审稿发现的小修项",
+    "status": "in_progress",
+    "updated": "2026-06-21T19:40+08:00"
+  },
+  {
+    "id": "task_ch9_10_fix",
+    "title": "第9-10章修复：赵高台词压暗+胡亥年龄调整+星海误差+物理证物",
+    "status": "in_progress",
+    "updated": "2026-06-21T19:40+08:00"
+  },
+  {
+    "id": "task_ch25_review",
+    "title": "第25章《铁券主人》：正文草稿v1 → 独立审稿 → 审稿版候选",
+    "status": "in_progress",
+    "updated": "2026-06-21T19:40+08:00"
+  },
+  {
+    "id": "task_ch24_review",
+    "title": "第24章《碎片地图》：正文草稿v1 → 独立审稿 → 审稿版候选",
+    "status": "in_progress",
+    "updated": "2026-06-21T19:40+08:00"
+  },
+  {
+    "id": "task_ch23_review",
+    "title": "第23章《北境来使》：独立审稿通过 → 审稿版候选 v1 ✅",
+    "status": "done",
+    "updated": "2026-06-21T19:40+08:00"
   },
   {
     "id": "task_ch23_write",

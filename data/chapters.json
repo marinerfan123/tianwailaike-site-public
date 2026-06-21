@@ -3,9 +3,9 @@
     "id": "ch01",
     "number": 1,
     "title": "第01章 天外来客｜清洗版",
-    "status": "in_progress",
+    "status": "review",
     "summary": "青铜剑落下来的时候，李鹤刚刚恢复意识。 他先闻到的是铁锈般的气味。 不是实验室里消毒水和金属冷却液混在一起的味道，也不是上海地下实验基地里那种恒温空气循环系统的干净气味。 而是汗、皮革、尘土、火油、铁锈，还有某种更原始、更粗粝的腥气。 像一头巨兽张开了嘴。 他睁开眼。 视野先是一片模糊的红。 随后，火光晃动。 黑色帐幕……",
-    "updated": "2026-06-10T17:04+08:00",
+    "updated": "2026-06-21T19:40+08:00",
     "files": [
       {
         "id": "file_output_audio_天外来客_第1章_TTS_V2听感优化说明_2026_06_10_md_0c1a2bf5",
@@ -156,10 +156,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_01_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "待复核",
+    "reviewStatus": "批量审稿通过",
     "reviewConclusion": "清洗正文已开放，需做最终文本校对与停顿/TTS一致性复核。",
-    "nextAction": "完成错字、标点、节奏和人物口吻复核后升为审稿版。",
-    "maturity": 72,
+    "nextAction": "开篇节奏已达标；补3处小修后升级",
+    "maturity": 78,
     "planningTags": [
       "清洗正文",
       "TTS复核",
@@ -172,7 +172,7 @@
     "title": "第02章 三日铸钢｜清洗版",
     "status": "review",
     "summary": "“这等凡铁，也配叫兵器。” 李鹤的话落下。 大帐内死寂。 蒙恬的脸色瞬间沉了下去。 他手中的青铜剑，是秦军制式长剑中最精良的一批。 出自咸阳工官。 经数十名匠人反复锻磨。 剑身笔直。 刃口锋锐。 跟随他斩过六国甲士，也劈开过赵人盾牌。 可现在。 这个来历不明的怪人竟说它是破铜烂铁。 “狂妄。” 蒙恬声音压得极低。 那是……",
-    "updated": "2026-06-10T12:22+08:00",
+    "updated": "2026-06-21T19:40+08:00",
     "files": [
       {
         "id": "file_output_revisions_天外来客_第2_4章赵高暗线弱化替换表_2026_06_09__88df9414",
@@ -288,10 +288,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_02_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "待复核",
+    "reviewStatus": "批量审稿通过",
     "reviewConclusion": "清洗正文已开放，需做设定连续性与听书断句复核。",
-    "nextAction": "补一次章节评分与TTS停顿标记。",
-    "maturity": 70,
+    "nextAction": "补小修后升级",
+    "maturity": 78,
     "planningTags": [
       "清洗正文",
       "制度压力",
@@ -304,7 +304,7 @@
     "title": "第03章 入咸阳｜清洗版",
     "status": "review",
     "summary": "咸阳在西。 秦军拔营时，天还没有亮。 黑旗从夜色里一面面竖起，像沉默的铁林。 战马嘶鸣。 甲士列队。 车轮碾过冻硬的泥土，发出低沉的轰响。 李鹤坐在一辆黑色辎车上，双手仍被铁链锁着。 锁链不重。 但足够提醒他一件事。 他还不是客人。 他是被秦王暂时留下的一件危险兵器。 蒙恬骑马走在车旁。 那柄新铸的钢剑被他横在膝上，用……",
-    "updated": "2026-06-10T12:22+08:00",
+    "updated": "2026-06-21T19:40+08:00",
     "files": [
       {
         "id": "file_output_revisions_天外来客_第2_4章赵高暗线弱化替换表_2026_06_09__88df9414",
@@ -396,10 +396,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_03_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "待复核",
+    "reviewStatus": "批量审稿通过",
     "reviewConclusion": "清洗正文已开放，需复核入咸阳段落的历史调性与人物动机。",
-    "nextAction": "补审稿报告并确认与第4章衔接。",
-    "maturity": 70,
+    "nextAction": "补小修后升级",
+    "maturity": 78,
     "planningTags": [
       "清洗正文",
       "入咸阳",
@@ -579,7 +579,7 @@
     "title": "第05章 章台亲验｜清洗版",
     "status": "review",
     "summary": "格物司第一批成品送入章台宫时，天色还未全亮。 十把短刃、三十枚箭镞、几段车轴铁件，被分别置于黑漆木案上。它们不华丽，甚至算不上锋芒逼人。短刃表面仍带着粗糙的锻痕，箭镞也没有贵族佩剑那种精细装饰，车轴铁件更像一堆沉默的黑骨。 可懂工事的人一眼就能看出异样。 它们太像了。 不是一件好，而是一排都差不多。 嬴政坐在高处，没有……",
-    "updated": "2026-06-10T17:04+08:00",
+    "updated": "2026-06-21T19:40+08:00",
     "files": [
       {
         "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
@@ -704,10 +704,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_05_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "待审",
+    "reviewStatus": "批量审稿通过",
     "reviewConclusion": "清洗正文已开放，多语言稿仍需完整扩写和独立审计。",
-    "nextAction": "补中文正文审稿与英文听书稿审计闭环。",
-    "maturity": 62,
+    "nextAction": "补2处小修后升级",
+    "maturity": 76,
     "planningTags": [
       "清洗正文",
       "多语言",
@@ -720,7 +720,7 @@
     "title": "第06章 百工有名｜清洗版",
     "status": "review",
     "summary": "格物司的新令真正落到人身上，是从名字开始的。 李鹤命章邯重新登记百工。 不是按官匠、私匠、罪匠、奴籍役夫排，也不是按谁是谁的徒弟、谁听谁的吩咐排，而是按会什么、做过什么、犯过什么错、立过什么功排。 这一排，格物司前院便乱了。 有人怕。 底层工匠怕被记录。 他们这辈子最常见的记录，是罪名、欠役、鞭数和连坐。 有人怒。 旧……",
-    "updated": "2026-06-10T17:05+08:00",
+    "updated": "2026-06-21T19:40+08:00",
     "files": [
       {
         "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
@@ -833,10 +833,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_06_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "待审",
+    "reviewStatus": "批量审稿通过",
     "reviewConclusion": "清洗正文已开放，英文听书原则已立，完整审计未完成。",
-    "nextAction": "补章节审稿、英文听书稿与连续性检查。",
-    "maturity": 58,
+    "nextAction": "补小修后升级",
+    "maturity": 76,
     "planningTags": [
       "清洗正文",
       "百工线",
@@ -847,9 +847,9 @@
     "id": "ch07",
     "number": 7,
     "title": "第07章 纸上秦法｜清洗版",
-    "status": "review",
+    "status": "done",
     "summary": "格物司最先被压垮的，不是炉火。 是竹简。 开司不到一月，记录房便堆满了竹简。 料有来处，要记。 炉有成败，要记。 功有名字，要记。 罪有证据，也要记。 章邯抱着半人高的竹简摔在门口时，李鹤正在看一批短刃验收。 “先生。” 章邯坐在地上，灰头土脸。 “找一炉记录，要翻半屋竹简。” “若再这么记下去，格物司先被自己的册子埋……",
-    "updated": "2026-06-10T12:22+08:00",
+    "updated": "2026-06-21T19:40+08:00",
     "files": [
       {
         "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
@@ -944,10 +944,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_07_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "待审",
+    "reviewStatus": "定稿候选",
     "reviewConclusion": "清洗正文已开放，需检查纸上秦法设定的制度逻辑。",
-    "nextAction": "补制度线、人物线与爽点密度复核。",
-    "maturity": 56,
+    "nextAction": "补1处赵高call-back后正式定稿",
+    "maturity": 92,
     "planningTags": [
       "清洗正文",
       "制度法",
@@ -958,9 +958,9 @@
     "id": "ch08",
     "number": 8,
     "title": "第08章 北境急报｜清洗版",
-    "status": "review",
+    "status": "done",
     "summary": "北境急报抵达咸阳时，信使的马倒在宫门外。 边防压力骤增。 军械损耗严重。 车马器具坏得比报上来的更多。 补给迟缓，维修跟不上，军中怨气渐起。 章台宫内，王贲第一句便是： “格物司先给军方。” 蒙恬没有像王贲那样拍案，却也看向李鹤。 他比任何人都知道北境的冷、远和苦。 一件器物坏在咸阳，只是记录上的损耗。 坏在边境，可能……",
-    "updated": "2026-06-10T12:22+08:00",
+    "updated": "2026-06-21T19:40+08:00",
     "files": [
       {
         "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
@@ -1054,10 +1054,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_08_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "待审",
+    "reviewStatus": "定稿候选",
     "reviewConclusion": "清洗正文已开放，需检查北境急报与主线压力衔接。",
-    "nextAction": "补军事压力线的合规表达与后文伏笔表。",
-    "maturity": 56,
+    "nextAction": "补1处扶苏桥接后正式定稿",
+    "maturity": 90,
     "planningTags": [
       "清洗正文",
       "北境压力",
@@ -1070,7 +1070,7 @@
     "title": "第09章 扶苏问道｜清洗版",
     "status": "review",
     "summary": "扶苏来到格物司那日，没有仪仗。 他穿素色深衣，身后只跟两名侍从。入门时，正看见阿炭抱着格物簿从料棚跑过，脸上沾着炭灰，手里却护着竹简，像护着一件比命还贵的东西。 扶苏停下。 “他是官匠？” 李鹤道： “曾是奴籍役夫。” “现在呢？” “炭料验看学徒。” 扶苏看了阿炭很久。 “贱役也可记功？” 李鹤没有立刻回答。 这句话……",
-    "updated": "2026-06-10T12:22+08:00",
+    "updated": "2026-06-21T19:40+08:00",
     "files": [
       {
         "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
@@ -1164,10 +1164,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_09_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "待审",
+    "reviewStatus": "审稿发现阻塞项",
     "reviewConclusion": "清洗正文已开放，需检查扶苏问道的人物成长与史观边界。",
-    "nextAction": "补人物弧光、价值表达和连续性审查。",
-    "maturity": 58,
+    "nextAction": "赵高台词需压暗+胡亥行为需调年龄",
+    "maturity": 70,
     "planningTags": [
       "清洗正文",
       "扶苏线",
@@ -1180,7 +1180,7 @@
     "title": "第10章 秦亡倒计时｜清洗版",
     "status": "review",
     "summary": "第十章的风，是从章台宫地下吹出来的。 李鹤借呈送北境军械摘要与格物簿样本，再次进入章台深处。 星海已经被他调到低能耗模式。 蓝光不再稳定，提示也时断时续。 【警告：继续追踪将加速消耗。】 李鹤没有追。 至少没有立刻追。 他先把三份账摆在嬴政面前。 第一份，格物司物料异常。 第二份，北境军械损耗异常。 第三份，宫中内库旧……",
-    "updated": "2026-06-10T12:22+08:00",
+    "updated": "2026-06-21T19:40+08:00",
     "files": [
       {
         "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
@@ -1275,10 +1275,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_10_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "待审",
+    "reviewStatus": "审稿发现阻塞项",
     "reviewConclusion": "清洗正文已开放，需复核倒计时主线和第11章承接。",
-    "nextAction": "补十日真账前置证据链和追读钩子审查。",
-    "maturity": 60,
+    "nextAction": "星海推演需加误差+补物理证物",
+    "maturity": 68,
     "planningTags": [
       "清洗正文",
       "倒计时",
@@ -1930,16 +1930,16 @@
   {
     "number": 21,
     "title": "第21章 铜符初行",
-    "status": "review",
+    "status": "done",
     "summary": "王命铜符第一次用于实地核查——铁器铺已空，铸器司记录中发现'见真券'三字。",
-    "reviewStatus": "独立审稿通过",
+    "reviewStatus": "审稿版候选",
     "chapterId": "ch21",
     "hasText": true,
-    "maturity": 55,
-    "nextAction": "审稿已通过，待与第22章衔接复核",
+    "maturity": 82,
+    "nextAction": "审稿通过，待与22章衔接复核",
     "textSourceRef": "output/天外来客_第21章_铜符初行_正文草稿候选_v1_2026-06-16.md",
     "textSourceType": "审稿版候选 v1",
-    "updated": "2026-06-21T16:48+08:00"
+    "updated": "2026-06-21T19:40+08:00"
   },
   {
     "number": 22,
@@ -1963,29 +1963,41 @@
   {
     "number": 23,
     "title": "第23章 北境来使",
-    "status": "review",
+    "status": "done",
     "summary": "蒙恬的密使在第五日清晨进城。\n\n不是军报的驿道——军报走的是官马，每过一城都要换符验牒，一路留下记录。密使走的是北境戍卒私下传递家书的旧路，不换符、不验牒，翻山过县，身上没有任何能证明身份的文书。\n\n他把一封没有署名的密信交到章邯手中时，手指已经冻裂了三根。\n\n信里装的不是军情。\n\n是一小块封在蜡丸里的朱砂墨碎屑。\n\n章邯把蜡丸送到李鹤案上时，蜡丸表面还残留着北境的风沙。李鹤用小刀切开蜡封，把碎屑...",
-    "updated": "2026-06-21T19:32+08:00",
-    "maturity": 45,
+    "updated": "2026-06-21T19:40+08:00",
+    "maturity": 78,
     "hasText": true,
-    "nextAction": "待独立审稿",
+    "nextAction": "独立审稿通过→审稿版候选；2处可选修点",
     "textSourceRef": "output/天外来客_第23章_北境来使_正文草稿_v1_2026-06-21.md",
     "textSourceType": "正文草稿 v1",
-    "reviewStatus": "待审稿"
+    "reviewStatus": "审稿版候选 v1"
   },
   {
     "number": 24,
     "title": "第24章 碎片地图",
-    "status": "draft",
+    "status": "review",
     "summary": "李鹤开始写星海知识文书的第七日，记录房的炭火熄了一次。\n\n不是炭烧完了。是文吏们轮流抄写到深夜，没有人记得添炭。李鹤从章台回来时，记录房里冷得像地窖，几个文吏缩着肩膀抄简，笔尖冻得发抖。\n\n他没有责怪任何人。他自己也在适应这个时代的寒冷。\n\n他坐到案前，摊开第七日要写的部分——星海的导航原理。\n\n「星海通过定位多个能量锚点的相对位置，计算空间坐标偏移量。锚点数量越多，定位精度越高。目前残留碎片可追...",
-    "updated": "2026-06-17T01:00:08.975741"
+    "updated": "2026-06-21T19:40+08:00",
+    "maturity": 50,
+    "hasText": true,
+    "nextAction": "待独立审稿",
+    "textSourceRef": "output/天外来客_第24章_碎片地图_正文草稿_v1_2026-06-21.md",
+    "textSourceType": "正文草稿 v1",
+    "reviewStatus": "待审稿"
   },
   {
     "number": 25,
     "title": "第25章 铁券主人",
-    "status": "draft",
+    "status": "review",
     "summary": "那枚旧印归属的名字，是从一卷残账里翻出来的。\n\n不是秦吏查出来的。是阿炭。\n\n他在整理旧库铁器铺那批废料清单时，发现一卷封口已裂的支簿——边角被老鼠啃过，墨迹受潮模糊，签收栏处有一枚暗红色的印痕清晰得不像真的。\n\n阿炭把支簿送到李鹤案上时，手指上还沾着灰。支簿的边角被老鼠啃过，但签收栏那枚暗红色的印痕完整得像是昨天才盖上去的——旧墨遇到光，反而比周围的字迹更清晰。\n\n\"先生，这印和之前那枚不一样。...",
-    "updated": "2026-06-17T01:00:08.975769"
+    "updated": "2026-06-21T19:40+08:00",
+    "maturity": 50,
+    "hasText": true,
+    "nextAction": "待独立审稿",
+    "textSourceRef": "output/天外来客_第25章_铁券主人_正文草稿_v1_2026-06-21.md",
+    "textSourceType": "正文草稿 v1",
+    "reviewStatus": "待审稿"
   },
   {
     "number": 26,
