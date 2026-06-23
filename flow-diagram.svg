@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" font-family="'Noto Serif SC', monospace, sans-serif">
+  <defs>
+    <marker id="ah" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#58a6ff"/>
+    </marker>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0b0e"/>
+      <stop offset="100%" style="stop-color:#12141c"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="520" fill="url(#bg2)"/>
+  
+  <text x="450" y="38" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="bold">部署脚本执行流程</text>
+  <text x="450" y="58" font-size="12" fill="#8b949e" text-anchor="middle">deploy-cloudflare.sh 逐行解析</text>
+  
+  <!-- Step 1 -->
+  <rect x="310" y="80" width="280" height="60" rx="10" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+  <text x="450" y="105" font-size="13" fill="#58a6ff" text-anchor="middle" font-weight="bold">① set -e + cd "$(dirname "$0")"</text>
+  <text x="450" y="125" font-size="10" fill="#8b949e" text-anchor="middle">安全模式 | 定位脚本目录</text>
+  
+  <!-- Arrow down -->
+  <line x1="450" y1="140" x2="450" y2="165" stroke="#58a6ff" stroke-width="2" marker-end="url(#ah)"/>
+  
+  <!-- Step 2 -->
+  <rect x="310" y="165" width="280" height="60" rx="10" fill="#161b22" stroke="#7ee787" stroke-width="2"/>
+  <text x="450" y="190" font-size="13" fill="#7ee787" text-anchor="middle" font-weight="bold">② 生成 BUILD_TIME + HASH</text>
+  <text x="450" y="210" font-size="10" fill="#8b949e" text-anchor="middle">时间戳: 2026-06-22T21:45:00+08:00 | Hash: 5a985b6d</text>
+  
+  <!-- Arrow down -->
+  <line x1="450" y1="225" x2="450" y2="250" stroke="#58a6ff" stroke-width="2" marker-end="url(#ah)"/>
+  
+  <!-- Step 3 -->
+  <rect x="100" y="250" width="310" height="60" rx="10" fill="#161b22" stroke="#f0883e" stroke-width="2"/>
+  <text x="255" y="275" font-size="13" fill="#f0883e" text-anchor="middle" font-weight="bold">③ sed 替换页脚时间戳</text>
+  <text x="255" y="295" font-size="10" fill="#8b949e" text-anchor="middle">index.html 中 datetime 属性 + &lt;time&gt; 标签</text>
+  
+  <!-- Arrow down -->
+  <line x1="255" y1="310" x2="255" y2="335" stroke="#58a6ff" stroke-width="2" marker-end="url(#ah)"/>
+  
+  <!-- Step 4 -->
+  <rect x="490" y="250" width="310" height="60" rx="10" fill="#161b22" stroke="#d2a8ff" stroke-width="2"/>
+  <text x="645" y="275" font-size="13" fill="#d2a8ff" text-anchor="middle" font-weight="bold">④ sed 替换 CSS/JS 缓存版本</text>
+  <text x="645" y="295" font-size="10" fill="#8b949e" text-anchor="middle">app.js?v=5a985b6d | style.css?v=5a985b6d</text>
+  
+  <!-- Arrow down -->
+  <line x1="450" y1="310" x2="450" y2="335" stroke="#58a6ff" stroke-width="2" marker-end="url(#ah)"/>
+  
+  <!-- Step 5 -->
+  <rect x="310" y="335" width="280" height="60" rx="10" fill="#161b22" stroke="#f778ba" stroke-width="2"/>
+  <text x="450" y="360" font-size="13" fill="#f778ba" text-anchor="middle" font-weight="bold">⑤ git add -A + commit + push</text>
+  <text x="450" y="380" font-size="10" fill="#8b949e" text-anchor="middle">提交到 GitHub 备份仓库 (marinerfan123)</text>
+  
+  <!-- Arrow down -->
+  <line x1="450" y1="395" x2="450" y2="420" stroke="#58a6ff" stroke-width="2" marker-end="url(#ah)"/>
+  
+  <!-- Step 6 -->
+  <rect x="310" y="420" width="280" height="60" rx="10" fill="#161b22" stroke="#238636" stroke-width="2"/>
+  <text x="450" y="445" font-size="13" fill="#238636" text-anchor="middle" font-weight="bold">⑥ wrangler pages deploy</text>
+  <text x="450" y="465" font-size="10" fill="#8b949e" text-anchor="middle">部署到 Cloudflare Pages → tianwailaike.pages.dev</text>
+  
+</svg>

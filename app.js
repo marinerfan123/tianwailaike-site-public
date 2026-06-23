@@ -724,6 +724,419 @@ if('serviceWorker' in navigator){
   });
 }
 
+/* ================================================================
+   图像工作室 · Agnes Image 2.1 Flash
+   ================================================================ */
+
+  /* ---- 模板库 ---- */
+  var TEMPLATES = [
+    {
+      icon:'🏛', title:'天外来客·世界观概念图', tag:'世界观',
+      prompt:'A vast ancient Chinese qin dynasty palace floating in the clouds above a misty canyon, bronze seals and jade tablets scattered across stone terraces, golden hour sunlight filtering through clouds, cinematic realism, wide-angle composition, rich architectural details inspired by qin dynasty aesthetics, high visual density, epic scale'
+    },
+    {
+      icon:'👤', title:'角色概念设计', tag:'角色',
+      prompt:'A mysterious traveler from the stars wearing a qin dynasty general armor with subtle alien bioluminescent patterns, standing on a cliff overlooking an ancient chinese city at dusk, wind blowing through long hair, dramatic cinematic lighting, detailed character portrait, fantasy realism, medium shot'
+    },
+    {
+      icon:'🎬', title:'海报草图', tag:'营销',
+      prompt:'An epic movie poster composition: a lone figure silhouetted against a massive celestial phenomenon above an ancient chinese landscape, golden and jade color palette, dramatic perspective, qin dynasty seal script elements integrated into the design, cinematic lighting, high contrast, professional poster layout, ultra-detailed'
+    },
+    {
+      icon:'🌌', title:'宇宙奇观', tag:'场景',
+      prompt:'A breathtaking cosmic scene: a massive alien spacecraft emerging from a nebula above an ancient chinese civilization, aurora-like energy waves in jade and gold colors, starfield background, cinematic wide shot, sci-fi meets ancient chinese aesthetics, high visual density, ethereal atmosphere'
+    },
+    {
+      icon:'📜', title:'古籍插画风格', tag:'艺术',
+      prompt:'An ancient chinese illuminated manuscript page depicting a celestial visitor, qin dynasty brush painting style mixed with modern digital art, gold leaf accents on dark ink, detailed borders with qin script patterns, mystical atmosphere, warm candlelight tones, high detail, artistic composition'
+    },
+    {
+      icon:'🎭', title:'分镜场景', tag:'短剧',
+      prompt:'A cinematic storyboard frame: a tense confrontation scene in a qin dynasty command hall, a foreign visitor standing before an emperor on a bronze throne, dramatic side lighting casting long shadows, ancient chinese military banners in background, tension-filled atmosphere, widescreen aspect ratio, film grain texture'
+    }
+  ];
+
+  var API_BASE = 'https://apihub.agnes-ai.com';
+  var MODEL_NAME = 'agnes-image-2.1-flash';
+
+  /* ---- DOM refs ---- */
+  var promptInput = document.getElementById('promptInput');
+  var sizeSelect = document.getElementById('sizeSelect');
+  var customSizeRow = document.getElementById('customSizeRow');
+  var customSizeInput = document.getElementById('customSizeInput');
+  var apiKeyInput = document.getElementById('apiKeyInput');
+  var generateBtn = document.getElementById('generateBtn');
+  var resultEmpty = document.getElementById('resultEmpty');
+  var resultLoaded = document.getElementById('resultLoaded');
+  var resultStatus = document.getElementById('resultStatus');
+  var resultImage = document.getElementById('resultImage');
+  var resultMeta = document.getElementById('resultMeta');
+  var downloadBtn = document.getElementById('downloadBtn');
+  var copyUrlBtn = document.getElementById('copyUrlBtn');
+  var toggleKeyBtn = document.getElementById('toggleKeyBtn');
+  var uploadArea = document.getElementById('uploadArea');
+  var imageFileInput = document.getElementById('imageFileInput');
+  var imageUrlInput = document.getElementById('imageUrlInput');
+  var loadUrlBtn = document.getElementById('loadUrlBtn');
+  var previewImg = document.getElementById('previewImg');
+  var uploadPreview = document.getElementById('uploadPreview');
+  var uploadPlaceholder = document.getElementById('uploadPlaceholder');
+  var removeImageBtn = document.getElementById('removeImageBtn');
+  var promptHint = document.getElementById('promptHint');
+  var historySection = document.getElementById('historySection');
+  var historyGrid = document.getElementById('historyGrid');
+  var clearHistoryBtn = document.getElementById('clearHistoryBtn');
+  var templateGrid = document.getElementById('templateGrid');
+
+  var currentMode = 'txt2img';
+  var currentFormat = 'url';
+  var currentResultUrl = '';
+  var currentResultBase64 = '';
+  var currentImageBase64 = '';
+
+  /* ---- 初始化模板 ---- */
+  function initTemplates(){
+    templateGrid.innerHTML = TEMPLATES.map(function(t,i){
+      return '<div class="template-card" data-idx="'+i+'">'+
+        '<div class="tc-head"><span class="tc-icon">'+t.icon+'</span><span class="tc-title">'+t.title+'</span><span class="tc-tag">'+t.tag+'</span></div>'+
+        '<div class="tc-prompt">'+t.prompt+'</div></div>';
+    }).join('');
+
+    templateGrid.addEventListener('click', function(e){
+      var card = e.target.closest('.template-card');
+      if(!card) return;
+      var idx = parseInt(card.getAttribute('data-idx'));
+      var tpl = TEMPLATES[idx];
+      promptInput.value = tpl.prompt;
+      promptHint.textContent = '"'+tpl.title+'" — 点击可填入提示词';
+      promptHint.style.color = 'var(--jade-light)';
+      setTimeout(function(){ promptHint.textContent = '按推荐结构填写可获得更好效果'; promptHint.style.color = ''; }, 2000);
+      promptInput.focus();
+    });
+  }
+
+  /* ---- 模式切换 ---- */
+  function initTabs(){
+    var tabs = document.querySelectorAll('.studio-tab');
+    tabs.forEach(function(tab){
+      tab.addEventListener('click', function(){
+        tabs.forEach(function(t){ t.classList.remove('active'); });
+        tab.classList.add('active');
+        currentMode = tab.getAttribute('data-mode');
+        document.querySelectorAll('.img2img-only').forEach(function(el){
+          el.style.display = currentMode === 'img2img' ? '' : 'none';
+        });
+      });
+    });
+  }
+
+  /* ---- 格式切换 ---- */
+  function initFormatSwitch(){
+    var btns = document.querySelectorAll('.fmt-btn');
+    btns.forEach(function(btn){
+      btn.addEventListener('click', function(){
+        btns.forEach(function(b){ b.classList.remove('active'); });
+        btn.classList.add('active');
+        currentFormat = btn.getAttribute('data-fmt');
+      });
+    });
+  }
+
+  /* ---- 尺寸切换 ---- */
+  function initSizeSelect(){
+    sizeSelect.addEventListener('change', function(){
+      customSizeRow.style.display = sizeSelect.value === 'custom' ? '' : 'none';
+    });
+  }
+
+  /* ---- API Key 显示切换 ---- */
+  function initToggleKey(){
+    toggleKeyBtn.addEventListener('click', function(){
+      var isPassword = apiKeyInput.type === 'password';
+      apiKeyInput.type = isPassword ? 'text' : 'password';
+      toggleKeyBtn.textContent = isPassword ? '🙈' : '👁';
+    });
+  }
+
+  /* ---- 图片上传 ---- */
+  function initImageUpload(){
+    uploadArea.addEventListener('click', function(e){
+      if(e.target === removeImageBtn || removeImageBtn.contains(e.target)) return;
+      if(uploadPreview.style.display !== 'none') return;
+      imageFileInput.click();
+    });
+
+    uploadArea.addEventListener('dragover', function(e){ e.preventDefault(); uploadArea.style.borderColor = 'var(--gold)'; });
+    uploadArea.addEventListener('dragleave', function(){ uploadArea.style.borderColor = ''; });
+    uploadArea.addEventListener('drop', function(e){
+      e.preventDefault();
+      uploadArea.style.borderColor = '';
+      var file = e.dataTransfer.files[0];
+      if(file && file.type.startsWith('image/')) processFile(file);
+    });
+
+    imageFileInput.addEventListener('change', function(){
+      if(imageFileInput.files[0]) processFile(imageFileInput.files[0]);
+    });
+
+    loadUrlBtn.addEventListener('click', function(){
+      var url = imageUrlInput.value.trim();
+      if(url){
+        previewImg.src = url;
+        uploadPreview.style.display = '';
+        uploadPlaceholder.style.display = 'none';
+        currentResultUrl = url;
+      }
+    });
+
+    removeImageBtn.addEventListener('click', function(e){
+      e.stopPropagation();
+      uploadPreview.style.display = 'none';
+      uploadPlaceholder.style.display = '';
+      imageFileInput.value = '';
+      imageUrlInput.value = '';
+      currentImageBase64 = '';
+    });
+
+    function processFile(file){
+      var reader = new FileReader();
+      reader.onload = function(e){
+        currentImageBase64 = e.target.result;
+        previewImg.src = currentImageBase64;
+        uploadPreview.style.display = '';
+        uploadPlaceholder.style.display = 'none';
+      };
+      reader.readAsDataURL(file);
+    }
+  }
+
+  /* ---- 获取实际尺寸 ---- */
+  function getActualSize(){
+    if(sizeSelect.value === 'custom'){
+      var v = customSizeInput.value.trim();
+      if(v && /^\d+x\d+$/.test(v)) return v;
+    }
+    return sizeSelect.value;
+  }
+
+  /* ---- 获取历史记录 ---- */
+  function getHistory(){
+    try { return JSON.parse(localStorage.getItem('twlk-studio-history') || '[]'); }
+    catch(e){ return []; }
+  }
+  function saveToHistory(item){
+    var h = getHistory();
+    h.unshift(item);
+    if(h.length > 20) h = h.slice(0, 20);
+    try { localStorage.setItem('twlk-studio-history', JSON.stringify(h)); } catch(e){}
+  }
+  function renderHistory(){
+    var h = getHistory();
+    if(h.length === 0){
+      historySection.style.display = 'none';
+      return;
+    }
+    historySection.style.display = '';
+    historyGrid.innerHTML = h.map(function(item){
+      var src = item.url || item.base64 || '';
+      return '<div class="history-thumb" data-src="'+src+'"><img src="'+src+'" alt="" /></div>';
+    }).join('');
+    historyGrid.querySelectorAll('.history-thumb').forEach(function(thumb){
+      thumb.addEventListener('click', function(){
+        var src = this.getAttribute('data-src');
+        if(src){
+          resultImage.src = src;
+          resultEmpty.style.display = 'none';
+          resultLoaded.style.display = '';
+        }
+      });
+    });
+  }
+
+  /* ---- 生成 ---- */
+  async function generate(){
+    var apiKey = apiKeyInput.value.trim();
+    var prompt = promptInput.value.trim();
+    var size = getActualSize();
+
+    if(!apiKey){ alert('请输入 API Key'); apiKeyInput.focus(); return; }
+    if(!prompt){ alert('请输入提示词'); promptInput.focus(); return; }
+    if(!size){ alert('请选择输出尺寸'); return; }
+    if(currentMode === 'img2img' && !currentImageBase64){ alert('请先上传或输入图片'); return; }
+
+    /* UI: loading */
+    generateBtn.disabled = true;
+    generateBtn.innerHTML = '<span class="spinner"></span> 生成中…';
+    resultEmpty.style.display = 'none';
+    resultLoaded.style.display = '';
+    resultStatus.className = 'result-status loading';
+    resultStatus.innerHTML = '<span class="spinner"></span> 正在生成图片…';
+    resultMeta.textContent = '';
+
+    var body = {
+      model: MODEL_NAME,
+      prompt: prompt,
+      size: size
+    };
+
+    if(currentMode === 'img2img'){
+      body.extra_body = {
+        image: [currentImageBase64]
+      };
+      if(currentFormat === 'b64_json'){
+        body.extra_body.response_format = 'b64_json';
+      }
+    } else {
+      if(currentFormat === 'b64'){
+        body.return_base64 = true;
+      } else {
+        body.extra_body = { response_format: 'url' };
+      }
+    }
+
+    try {
+      var resp = await fetch(API_BASE + '/v1/images/generations', {
+        method: 'POST',
+        headers: {
+          'Authorization': 'Bearer ' + apiKey,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(body)
+      });
+
+      if(!resp.ok){
+        var errText = await resp.text();
+        throw new Error('HTTP '+resp.status+': '+errText.substring(0,200));
+      }
+
+      var data = await resp.json();
+      var result = data.data && data.data[0];
+
+      if(!result){
+        throw new Error('未获取到生成结果');
+      }
+
+      currentResultUrl = result.url || '';
+      currentResultBase64 = result.b64_json || '';
+
+      if(currentFormat === 'url' && currentResultUrl){
+        resultImage.src = currentResultUrl;
+        resultStatus.textContent = '✅ 生成完成';
+        resultStatus.className = 'result-status';
+        resultMeta.textContent = 'URL: ' + currentResultUrl.substring(0, 80) + '…';
+      } else if(currentFormat === 'b64_json' && currentResultBase64){
+        resultImage.src = 'data:image/png;base64,' + currentResultBase64;
+        resultStatus.textContent = '✅ 生成完成 (Base64)';
+        resultStatus.className = 'result-status';
+        resultMeta.textContent = 'Base64 长度: ' + currentResultBase64.length + ' 字符';
+      } else if(currentResultUrl){
+        resultImage.src = currentResultUrl;
+        resultStatus.textContent = '✅ 生成完成';
+        resultStatus.className = 'result-status';
+      } else {
+        throw new Error('未知返回格式');
+      }
+
+      /* 保存历史 */
+      saveToHistory({
+        url: currentResultUrl,
+        base64: currentResultBase64,
+        prompt: prompt,
+        size: size,
+        time: Date.now()
+      });
+      renderHistory();
+
+    } catch(e){
+      resultStatus.textContent = '❌ 生成失败: ' + e.message;
+      resultStatus.className = 'result-status';
+      resultStatus.style.color = 'var(--cinnabar-light)';
+      console.error('生成失败:', e);
+    } finally {
+      generateBtn.disabled = false;
+      generateBtn.innerHTML = '<span class="btn-icon">✦</span> 开始生成';
+    }
+  }
+
+  /* ---- 下载 ---- */
+  function initDownload(){
+    downloadBtn.addEventListener('click', function(){
+      if(currentResultUrl){
+        var a = document.createElement('a');
+        a.href = currentResultUrl;
+        a.download = 'twlk-' + Date.now() + '.png';
+        a.target = '_blank';
+        a.rel = 'noopener';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      } else if(currentResultBase64){
+        var a = document.createElement('a');
+        a.href = 'data:image/png;base64,' + currentResultBase64;
+        a.download = 'twlk-' + Date.now() + '.png';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+      }
+    });
+  }
+
+  /* ---- 复制 URL ---- */
+  function initCopyUrl(){
+    copyUrlBtn.addEventListener('click', function(){
+      var text = currentResultUrl || ('data:image/png;base64,' + currentResultBase64);
+      if(text){
+        navigator.clipboard.writeText(text).then(function(){
+          copyUrlBtn.textContent = '✅ 已复制';
+          setTimeout(function(){ copyUrlBtn.textContent = '📋 复制链接'; }, 2000);
+        }).catch(function(){
+          alert('复制失败，请手动复制');
+        });
+      }
+    });
+  }
+
+  /* ---- 清空历史 ---- */
+  function initClearHistory(){
+    clearHistoryBtn.addEventListener('click', function(){
+      if(confirm('确定清空所有历史记录？')){
+        try { localStorage.removeItem('twlk-studio-history'); } catch(e){}
+        renderHistory();
+      }
+    });
+  }
+
+  /* ---- 快捷键 ---- */
+  document.addEventListener('keydown', function(e){
+    if((e.ctrlKey || e.metaKey) && e.key === 'Enter'){
+      e.preventDefault();
+      generate();
+    }
+  });
+
+  /* ---- 初始化 ---- */
+  function initStudio(){
+    initTemplates();
+    initTabs();
+    initFormatSwitch();
+    initSizeSelect();
+    initToggleKey();
+    initImageUpload();
+    initDownload();
+    initCopyUrl();
+    initClearHistory();
+    renderHistory();
+
+    generateBtn.addEventListener('click', generate);
+  }
+
+  /* 延迟初始化，等 DOM 就绪 */
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', initStudio);
+  } else {
+    initStudio();
+  }
+
 init();
 
 })();

@@ -31,7 +31,7 @@
       } catch(e) {}
     })();
   </script>
-  <link rel="stylesheet" href="assets/style.css?v=5a985b6d" />
+  <link rel="stylesheet" href="assets/style.css?v=762eca97" />
 </head>
 <body class="theme-transition">
 
@@ -54,6 +54,7 @@
         <a href="#progress" class="nav-link" data-section="progress">进度</a>
         <a href="#files" class="nav-link" data-section="files">资料</a>
         <a href="#writing-system" class="nav-link" data-section="writing-system">写作系统</a>
+        <a href="#studio" class="nav-link" data-section="studio">图像工作室</a>
         <a href="#logs" class="nav-link" data-section="logs">日志</a>
       </nav>
       <button id="themeToggle" class="theme-btn" type="button" aria-label="切换颜色模式" title="切换颜色模式">◐</button>
@@ -85,6 +86,10 @@
     <a href="#progress" class="mnav-link" data-section="progress" aria-label="进度">
       <span class="mnav-icon">控</span>
       <span class="mnav-label">进度</span>
+    </a>
+    <a href="#studio" class="mnav-link" data-section="studio" aria-label="图像工作室">
+      <span class="mnav-icon">画</span>
+      <span class="mnav-label">图像</span>
     </a>
   </nav>
 
@@ -382,6 +387,172 @@
       <div id="filesList" class="file-list"></div>
     </section>
 
+    <!-- ── 图像工作室 ── -->
+    <section id="studio" class="section studio-section">
+      <div class="section-header fade-up">
+        <div>
+          <p class="section-eyebrow">🎨 IMAGE STUDIO · AGNES IMAGE 2.1 FLASH</p>
+          <h2>图像工作室</h2>
+          <p class="section-desc">基于 Agnes Image 2.1 Flash 的高密度图像生成引擎，为《天外来客》项目提供概念图、海报、角色视觉、分镜素材等一站式图像生产。</p>
+        </div>
+      </div>
+
+      <!-- 模式切换 -->
+      <div class="studio-tabs fade-up">
+        <button class="studio-tab active" data-mode="txt2img" type="button">✦ 文生图</button>
+        <button class="studio-tab" data-mode="img2img" type="button">◈ 图生图</button>
+      </div>
+
+      <!-- 主工作区 -->
+      <div class="studio-workspace fade-up">
+        <!-- 左侧：参数面板 -->
+        <div class="studio-panel-left">
+          <!-- 提示词 -->
+          <div class="studio-field">
+            <label for="promptInput">提示词 <span class="required">*</span></label>
+            <textarea id="promptInput" rows="4" placeholder="描述你想要的画面…"></textarea>
+            <div class="prompt-hint" id="promptHint">按推荐结构填写可获得更好效果</div>
+          </div>
+
+          <!-- 图生图：上传/输入图片 -->
+          <div class="studio-field img2img-only" style="display:none">
+            <label for="imageInput">输入图片 <span class="required">*</span></label>
+            <div class="image-upload-area" id="uploadArea">
+              <input type="file" id="imageFileInput" accept="image/*" style="display:none" />
+              <div class="upload-placeholder" id="uploadPlaceholder">
+                <span class="upload-icon">🖼</span>
+                <span>点击选择图片或拖拽到此处</span>
+                <span class="upload-sub">支持 URL 粘贴或本地文件</span>
+              </div>
+              <div class="upload-url-row">
+                <input type="text" id="imageUrlInput" placeholder="或粘贴图片 URL…" />
+                <button class="btn btn-small" id="loadUrlBtn" type="button">加载</button>
+              </div>
+              <div class="upload-preview" id="uploadPreview" style="display:none">
+                <img id="previewImg" src="" alt="预览" />
+                <button class="btn btn-small btn-remove" id="removeImageBtn" type="button">✕ 移除</button>
+              </div>
+            </div>
+          </div>
+
+          <!-- 尺寸 -->
+          <div class="studio-field">
+            <label for="sizeSelect">输出尺寸</label>
+            <select id="sizeSelect">
+              <option value="1024x1024">1024×1024（方形）</option>
+              <option value="1024x768" selected>1024×768（横版）</option>
+              <option value="768x1024">768×1024（竖版）</option>
+              <option value="1280x720">1280×720（宽屏）</option>
+              <option value="custom">自定义…</option>
+            </select>
+            <div class="custom-size-row" id="customSizeRow" style="display:none">
+              <input type="text" id="customSizeInput" placeholder="例：800x600" />
+            </div>
+          </div>
+
+          <!-- 输出格式 -->
+          <div class="studio-field">
+            <label>输出格式</label>
+            <div class="format-switch">
+              <button class="fmt-btn active" data-fmt="url" type="button">🔗 URL</button>
+              <button class="fmt-btn" data-fmt="base64" type="button">📦 Base64</button>
+            </div>
+          </div>
+
+          <!-- API Key -->
+          <div class="studio-field">
+            <label for="apiKeyInput">API Key <span class="required">*</span></label>
+            <div class="api-key-row">
+              <input type="password" id="apiKeyInput" placeholder="输入你的 Agnes API Key" />
+              <button class="btn btn-small btn-eye" id="toggleKeyBtn" type="button">👁</button>
+            </div>
+            <div class="field-hint">Key 仅保存在浏览器本地，不会上传到任何服务器</div>
+          </div>
+
+          <!-- 生成按钮 -->
+          <button class="btn btn-primary btn-generate" id="generateBtn" type="button">
+            <span class="btn-icon">✦</span> 开始生成
+          </button>
+        </div>
+
+        <!-- 右侧：结果展示 -->
+        <div class="studio-panel-right">
+          <div class="result-empty" id="resultEmpty">
+            <span class="empty-icon">🎨</span>
+            <p>生成的图片将在这里展示</p>
+            <p class="empty-hint">输入提示词，点击「开始生成」即可</p>
+          </div>
+          <div class="result-loaded" id="resultLoaded" style="display:none">
+            <div class="result-toolbar">
+              <span class="result-status" id="resultStatus"></span>
+              <div class="result-actions">
+                <button class="btn btn-small btn-jade" id="downloadBtn" type="button">💾 下载</button>
+                <button class="btn btn-small" id="copyUrlBtn" type="button">📋 复制链接</button>
+              </div>
+            </div>
+            <div class="result-image-wrap">
+              <img id="resultImage" src="" alt="生成结果" />
+            </div>
+            <div class="result-meta" id="resultMeta"></div>
+          </div>
+          <!-- 历史记录 -->
+          <div class="history-section" id="historySection" style="display:none">
+            <div class="history-header">
+              <span>📜 生成历史</span>
+              <button class="btn btn-small" id="clearHistoryBtn" type="button">清空</button>
+            </div>
+            <div class="history-grid" id="historyGrid"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 提示词模板 -->
+      <div class="studio-templates fade-up">
+        <h3>📝 提示词模板（天外来客专属）</h3>
+        <div class="template-grid" id="templateGrid"></div>
+      </div>
+
+      <!-- 使用说明 -->
+      <div class="studio-guide fade-up">
+        <h3>📖 使用说明</h3>
+        <div class="guide-grid">
+          <div class="guide-card">
+            <h4>✦ 文生图</h4>
+            <p>根据文字描述生成图片。提示词越具体，效果越好。</p>
+            <div class="formula">[主体] + [场景] + [风格] + [光照] + [构图] + [质量要求]</div>
+            <p class="example">例：一座悬浮在晨雾峡谷上方的发光城市，电影级写实风格，广角构图，丰富的建筑细节，柔和金色光线，高信息密度</p>
+          </div>
+          <div class="guide-card">
+            <h4>◈ 图生图</h4>
+            <p>基于已有图片进行风格转换、场景重塑或视觉增强，尽量保持原图构图。</p>
+            <div class="formula">[修改要求] + [新风格/场景] + [添加/移除元素] + [保留元素]</div>
+            <p class="example">例：将场景转换为雨夜赛博朋克风格，添加霓虹灯反射，保持原有构图和主体结构</p>
+          </div>
+          <div class="guide-card">
+            <h4>⚡ 高信息密度</h4>
+            <p>模型针对复杂、细节丰富的画面优化。建议明确描述视觉层级。</p>
+            <ul>
+              <li>主体（画面核心对象）</li>
+              <li>背景环境（场景氛围）</li>
+              <li>次要元素（丰富画面层次）</li>
+              <li>风格与光照（整体调性）</li>
+              <li>构图约束（视角、景别）</li>
+            </ul>
+          </div>
+          <div class="guide-card">
+            <h4>⚙ 注意事项</h4>
+            <ul>
+              <li>API Key 仅存储在浏览器本地</li>
+              <li>图片生成需数秒至数十秒，请耐心等待</li>
+              <li>图生图需先上传或输入图片 URL</li>
+              <li>生成费用：$0.003/张</li>
+              <li>建议客户端超时 60-360 秒</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ── 更新日志 ── -->
     <section id="logs" class="section logs-section">
       <div class="section-header fade-up">
@@ -408,11 +579,11 @@
       </div>
       <p class="footer-meta">GitHub Pages HTTPS 站点已上线 · 数据来自 JSON manifest · 监控每5分钟 <span id="cronBeat" class="cron-beat">●</span></p>
       <p class="footer-version">版本 <span id="siteVersion">0.5.1</span> · 秦篆未来主题</p>
-      <p class="footer-updated" title="页面最后构建时间，若早于当前时间太多则为缓存">最后更新：<time id="lastUpdated" datetime="2026-06-21T19:41:05+08:00">2026-06-21 19:41</time>  <span class="cache-hint">(强刷 Ctrl+F5 清除缓存)</span></p>
+      <p class="footer-updated" title="页面最后构建时间，若早于当前时间太多则为缓存">最后更新：<time id="lastUpdated" datetime="2026-06-23T23:15:12+08:00">2026-06-23 23:15</time>  <span class="cache-hint">(强刷 Ctrl+F5 清除缓存)</span></p>
     </div>
   </footer>
 
-  <script src="app.js?v=5a985b6d"></script>
+  <script src="app.js?v=762eca97"></script>
   <script>
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/sw.js').catch(function(err) {

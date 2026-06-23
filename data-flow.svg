@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" font-family="'Noto Serif SC', monospace, sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0b0e"/>
+      <stop offset="100%" style="stop-color:#12141c"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="500" fill="url(#bg3)"/>
+  
+  <text x="450" y="35" font-size="20" fill="#e6edf3" text-anchor="middle" font-weight="bold">data/ 目录数据文件关系</text>
+  <text x="450" y="55" font-size="12" fill="#8b949e" text-anchor="middle">站点核心数据源 (共 11 个 JSON 文件)</text>
+  
+  <!-- Central node -->
+  <rect x="350" y="80" width="200" height="50" rx="25" fill="#161b22" stroke="#58a6ff" stroke-width="2"/>
+  <text x="450" y="110" font-size="14" fill="#58a6ff" text-anchor="middle" font-weight="bold">index.html</text>
+  <text x="450" y="128" font-size="10" fill="#8b949e" text-anchor="middle">主页面 (24KB, 424行)</text>
+  
+  <!-- Lines to data files -->
+  <line x1="350" y1="120" x2="180" y2="180" stroke="#30363d" stroke-width="1"/>
+  <line x1="350" y1="120" x2="180" y2="240" stroke="#30363d" stroke-width="1"/>
+  <line x1="350" y1="120" x2="180" y2="300" stroke="#30363d" stroke-width="1"/>
+  <line x1="350" y1="120" x2="180" y2="360" stroke="#30363d" stroke-width="1"/>
+  
+  <line x1="550" y1="120" x2="720" y2="180" stroke="#30363d" stroke-width="1"/>
+  <line x1="550" y1="120" x2="720" y2="240" stroke="#30363d" stroke-width="1"/>
+  <line x1="550" y1="120" x2="720" y2="300" stroke="#30363d" stroke-width="1"/>
+  <line x1="550" y1="120" x2="720" y2="360" stroke="#30363d" stroke-width="1"/>
+  
+  <line x1="450" y1="130" x2="450" y2="420" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Left column -->
+  <rect x="40" y="165" width="280" height="40" rx="8" fill="#1a1b2e" stroke="#f0883e" stroke-width="1.5"/>
+  <text x="180" y="190" font-size="12" fill="#f0883e" text-anchor="middle" font-weight="bold">novel_texts.json (346KB)</text>
+  <text x="180" y="205" font-size="9" fill="#8b949e" text-anchor="middle">小说正文数据</text>
+  
+  <rect x="40" y="225" width="280" height="40" rx="8" fill="#1a1b2e" stroke="#7ee787" stroke-width="1.5"/>
+  <text x="180" y="250" font-size="12" fill="#7ee787" text-anchor="middle" font-weight="bold">chapters.json</text>
+  <text x="180" y="265" font-size="9" fill="#8b949e" text-anchor="middle">章节元数据</text>
+  
+  <rect x="40" y="285" width="280" height="40" rx="8" fill="#1a1b2e" stroke="#d2a8ff" stroke-width="1.5"/>
+  <text x="180" y="310" font-size="12" fill="#d2a8ff" text-anchor="middle" font-weight="bold">audio.json</text>
+  <text x="180" y="325" font-size="9" fill="#8b949e" text-anchor="middle">TTS 音频信息</text>
+  
+  <rect x="40" y="345" width="280" height="40" rx="8" fill="#1a1b2e" stroke="#f778ba" stroke-width="1.5"/>
+  <text x="180" y="370" font-size="12" fill="#f778ba" text-anchor="middle" font-weight="bold">supervision.json</text>
+  <text x="180" y="385" font-size="9" fill="#8b949e" text-anchor="middle">监督巡检配置</text>
+  
+  <!-- Right column -->
+  <rect x="580" y="165" width="280" height="40" rx="8" fill="#1a1b2e" stroke="#79c0ff" stroke-width="1.5"/>
+  <text x="720" y="190" font-size="12" fill="#79c0ff" text-anchor="middle" font-weight="bold">logs.json</text>
+  <text x="720" y="205" font-size="9" fill="#8b949e" text-anchor="middle">运行日志</text>
+  
+  <rect x="580" y="225" width="280" height="40" rx="8" fill="#1a1b2e" stroke="#ffa657" stroke-width="1.5"/>
+  <text x="720" y="250" font-size="12" fill="#ffa657" text-anchor="middle" font-weight="bold">tasks.json</text>
+  <text x="720" y="265" font-size="9" fill="#8b949e" text-anchor="middle">任务状态追踪</text>
+  
+  <rect x="580" y="285" width="280" height="40" rx="8" fill="#1a1b2e" stroke="#ff7b72" stroke-width="1.5"/>
+  <text x="720" y="310" font-size="12" fill="#ff7b72" text-anchor="middle" font-weight="bold">assets.json</text>
+  <text x="720" y="325" font-size="9" fill="#8b949e" text-anchor="middle">资产索引</text>
+  
+  <rect x="580" y="345" width="280" height="40" rx="8" fill="#1a1b2e" stroke="#d2a8ff" stroke-width="1.5"/>
+  <text x="720" y="370" font-size="12" fill="#d2a8ff" text-anchor="middle" font-weight="bold">highlights.json</text>
+  <text x="720" y="385" font-size="9" fill="#8b949e" text-anchor="middle">高光片段</text>
+  
+  <!-- Bottom -->
+  <rect x="300" y="420" width="300" height="40" rx="8" fill="#1a1b2e" stroke="#58a6ff" stroke-width="1.5"/>
+  <text x="450" y="445" font-size="12" fill="#58a6ff" text-anchor="middle" font-weight="bold">site_manifest.json + output_files.json</text>
+  <text x="450" y="460" font-size="9" fill="#8b949e" text-anchor="middle">站点清单 + 产出文件列表</text>
+  
+  <!-- Legend -->
+  <rect x="40" y="480" width="820" height="0" fill="transparent"/>
+  
+</svg>
