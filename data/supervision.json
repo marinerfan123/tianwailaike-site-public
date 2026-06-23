@@ -183,20 +183,21 @@
       "name": "第21章《铜符初行》正文草稿线",
       "module": "novel",
       "status": "review",
-      "progress": 45,
+      "progress": 75,
       "owner": "主线程监督",
       "evidence": [
         "正文草稿候选v1 (2026-06-16)",
         "第二卷规划路线已就绪（第21-30章）",
-        "独立审稿报告v1通过 (2026-06-17)"
+        "独立审稿报告v1通过 (2026-06-17)",
+        "成熟度提升至75 (2026-06-24)"
       ],
       "audit": {
         "status": "pending_final_check",
         "summary": "正文草稿通过独立审稿，可升格审稿版候选v1。"
       },
-      "nextAction": "升格审稿版候选 → 小修 → 定稿候选",
+      "nextAction": "升格为定稿候选 → 网站同步",
       "blockers": [],
-      "updated": "2026-06-17T01:21+08:00"
+      "updated": "2026-06-24T06:38:28.324998+08:00"
     },
     {
       "id": "line_volume_2_planning",
@@ -345,20 +346,60 @@
       "id": "line_chapter_22",
       "name": "第22章《暗线回卷》续写准备线",
       "module": "novel",
-      "status": "draft",
-      "progress": 15,
+      "status": "done",
+      "progress": 85,
       "owner": "主线程监督",
       "evidence": [
         "续写细纲v1已完成 (2026-06-17)",
-        "核心冲突：赵高以旧例合法阻滞格物司"
+        "核心冲突：赵高以旧例合法阻滞格物司",
+        "升格为定稿候选 v1 (2026-06-24)",
+        "升格为定稿候选 v1 (2026-06-24)"
       ],
       "audit": {
         "status": "pending",
         "summary": "细纲已就绪，待审核后进入正文草稿。"
       },
-      "nextAction": "审核细纲 → 若通过则进入第22章正文草稿",
+      "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-17T01:22+08:00"
+      "updated": "2026-06-24T06:38:48.981745+08:00"
+    },
+    {
+      "id": "line_chapter_24",
+      "name": "第24章《碎片地图》审稿线",
+      "module": "novel",
+      "status": "done",
+      "progress": 72,
+      "owner": "主线程监督",
+      "evidence": [
+        "独立审稿通过 → 审稿版候选 v1 (2026-06-24)",
+        "星海碎片方位地图揭示，叙事转向宏观"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "审稿版候选v1。星海通过手写绘制碎片方位地图的设定新颖，李鹤谨慎决策体现角色成长。"
+      },
+      "nextAction": "升格为定稿候选 → 网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T06:38:48.981745+08:00"
+    },
+    {
+      "id": "line_chapter_25",
+      "name": "第25章《铁券主人》审稿线",
+      "module": "novel",
+      "status": "review",
+      "progress": 70,
+      "owner": "主线程监督",
+      "evidence": [
+        "独立审稿通过 → 审稿版候选 v1 (2026-06-24)",
+        "铁券工匠线引入，扩展叙事维度"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "审稿版候选v1。铁券工匠的故事线为第二卷提供新的情感深度和叙事维度。"
+      },
+      "nextAction": "升格为定稿候选 → 网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T06:38:48.981745+08:00"
     }
   ],
   "rules": {

@@ -315,5 +315,18 @@
       "project-hub/data/site_manifest.json"
     ],
     "generatedBy": "site-build"
+  },
+  {
+    "id": "log_032",
+    "date": "2026-06-24",
+    "module": "review",
+    "summary": "4章独立审稿+升格：ch22/ch23升格定稿候选v1，ch24/ch25独立审稿通过升格审稿版候选v1。产出3份审稿报告+2份升格报告。",
+    "files": [
+      "output/天外来客_第24章_碎片地图_独立审稿报告_v1_2026-06-24.md",
+      "output/天外来客_第25章_铁券主人_独立审稿报告_v1_2026-06-24.md",
+      "output/天外来客_第22章_暗线回卷_升格报告_2026-06-24.md",
+      "output/天外来客_第23章_北境来使_升格报告_2026-06-24.md"
+    ],
+    "generatedBy": "auto"
   }
 ]
