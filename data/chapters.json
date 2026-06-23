@@ -5,7 +5,7 @@
     "title": "第01章 天外来客｜清洗版",
     "status": "review",
     "summary": "青铜剑落下来的时候，李鹤刚刚恢复意识。 他先闻到的是铁锈般的气味。 不是实验室里消毒水和金属冷却液混在一起的味道，也不是上海地下实验基地里那种恒温空气循环系统的干净气味。 而是汗、皮革、尘土、火油、铁锈，还有某种更原始、更粗粝的腥气。 像一头巨兽张开了嘴。 他睁开眼。 视野先是一片模糊的红。 随后，火光晃动。 黑色帐幕……",
-    "updated": "2026-06-21T19:40+08:00",
+    "updated": "2026-06-24T06:45:21.785670+08:00",
     "files": [
       {
         "id": "file_output_audio_天外来客_第1章_TTS_V2听感优化说明_2026_06_10_md_0c1a2bf5",
@@ -156,10 +156,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_01_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "批量审稿通过",
+    "reviewStatus": "批量审稿通过 → 小修中",
     "reviewConclusion": "清洗正文已开放，需做最终文本校对与停顿/TTS一致性复核。",
-    "nextAction": "开篇节奏已达标；补3处小修后升级",
-    "maturity": 78,
+    "nextAction": "补小修后升级至定稿候选（成熟度85/100）",
+    "maturity": 85,
     "planningTags": [
       "清洗正文",
       "TTS复核",
@@ -172,7 +172,7 @@
     "title": "第02章 三日铸钢｜清洗版",
     "status": "review",
     "summary": "“这等凡铁，也配叫兵器。” 李鹤的话落下。 大帐内死寂。 蒙恬的脸色瞬间沉了下去。 他手中的青铜剑，是秦军制式长剑中最精良的一批。 出自咸阳工官。 经数十名匠人反复锻磨。 剑身笔直。 刃口锋锐。 跟随他斩过六国甲士，也劈开过赵人盾牌。 可现在。 这个来历不明的怪人竟说它是破铜烂铁。 “狂妄。” 蒙恬声音压得极低。 那是……",
-    "updated": "2026-06-21T19:40+08:00",
+    "updated": "2026-06-24T06:45:21.785670+08:00",
     "files": [
       {
         "id": "file_output_revisions_天外来客_第2_4章赵高暗线弱化替换表_2026_06_09__88df9414",
@@ -288,10 +288,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_02_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "批量审稿通过",
+    "reviewStatus": "批量审稿通过 → 小修中",
     "reviewConclusion": "清洗正文已开放，需做设定连续性与听书断句复核。",
-    "nextAction": "补小修后升级",
-    "maturity": 78,
+    "nextAction": "补小修后升级至定稿候选（成熟度85/100）",
+    "maturity": 85,
     "planningTags": [
       "清洗正文",
       "制度压力",
@@ -304,7 +304,7 @@
     "title": "第03章 入咸阳｜清洗版",
     "status": "review",
     "summary": "咸阳在西。 秦军拔营时，天还没有亮。 黑旗从夜色里一面面竖起，像沉默的铁林。 战马嘶鸣。 甲士列队。 车轮碾过冻硬的泥土，发出低沉的轰响。 李鹤坐在一辆黑色辎车上，双手仍被铁链锁着。 锁链不重。 但足够提醒他一件事。 他还不是客人。 他是被秦王暂时留下的一件危险兵器。 蒙恬骑马走在车旁。 那柄新铸的钢剑被他横在膝上，用……",
-    "updated": "2026-06-21T19:40+08:00",
+    "updated": "2026-06-24T06:45:21.785670+08:00",
     "files": [
       {
         "id": "file_output_revisions_天外来客_第2_4章赵高暗线弱化替换表_2026_06_09__88df9414",
@@ -396,10 +396,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_03_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "批量审稿通过",
+    "reviewStatus": "批量审稿通过 → 小修中",
     "reviewConclusion": "清洗正文已开放，需复核入咸阳段落的历史调性与人物动机。",
-    "nextAction": "补小修后升级",
-    "maturity": 78,
+    "nextAction": "补小修后升级至定稿候选（成熟度85/100）",
+    "maturity": 85,
     "planningTags": [
       "清洗正文",
       "入咸阳",
@@ -579,7 +579,7 @@
     "title": "第05章 章台亲验｜清洗版",
     "status": "review",
     "summary": "格物司第一批成品送入章台宫时，天色还未全亮。 十把短刃、三十枚箭镞、几段车轴铁件，被分别置于黑漆木案上。它们不华丽，甚至算不上锋芒逼人。短刃表面仍带着粗糙的锻痕，箭镞也没有贵族佩剑那种精细装饰，车轴铁件更像一堆沉默的黑骨。 可懂工事的人一眼就能看出异样。 它们太像了。 不是一件好，而是一排都差不多。 嬴政坐在高处，没有……",
-    "updated": "2026-06-21T19:40+08:00",
+    "updated": "2026-06-24T06:45:21.785670+08:00",
     "files": [
       {
         "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
@@ -704,10 +704,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_05_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "批量审稿通过",
+    "reviewStatus": "批量审稿通过 → 小修中",
     "reviewConclusion": "清洗正文已开放，多语言稿仍需完整扩写和独立审计。",
-    "nextAction": "补2处小修后升级",
-    "maturity": 76,
+    "nextAction": "补小修后升级至定稿候选（成熟度85/100）",
+    "maturity": 85,
     "planningTags": [
       "清洗正文",
       "多语言",
@@ -720,7 +720,7 @@
     "title": "第06章 百工有名｜清洗版",
     "status": "review",
     "summary": "格物司的新令真正落到人身上，是从名字开始的。 李鹤命章邯重新登记百工。 不是按官匠、私匠、罪匠、奴籍役夫排，也不是按谁是谁的徒弟、谁听谁的吩咐排，而是按会什么、做过什么、犯过什么错、立过什么功排。 这一排，格物司前院便乱了。 有人怕。 底层工匠怕被记录。 他们这辈子最常见的记录，是罪名、欠役、鞭数和连坐。 有人怒。 旧……",
-    "updated": "2026-06-21T19:40+08:00",
+    "updated": "2026-06-24T06:45:21.785670+08:00",
     "files": [
       {
         "id": "file_output_天外来客_B线_第04_10章_30_45秒测试片候选清单_md_79187549",
@@ -833,10 +833,10 @@
     "hasText": true,
     "textSourceRef": "output/audio/full_chapters/chapter_06_clean.md",
     "textSourceType": "清洗正文",
-    "reviewStatus": "批量审稿通过",
+    "reviewStatus": "批量审稿通过 → 小修中",
     "reviewConclusion": "清洗正文已开放，英文听书原则已立，完整审计未完成。",
-    "nextAction": "补小修后升级",
-    "maturity": 76,
+    "nextAction": "补小修后升级至定稿候选（成熟度85/100）",
+    "maturity": 85,
     "planningTags": [
       "清洗正文",
       "百工线",
