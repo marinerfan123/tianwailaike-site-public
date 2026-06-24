@@ -215,8 +215,8 @@
       "id": "line_volume_2_planning",
       "name": "第二卷格物司制度输出期（第21-30章规划）",
       "module": "novel",
-      "status": "in_progress",
-      "progress": 85,
+      "status": "done",
+      "progress": 100,
       "owner": "主线程监督",
       "evidence": [
         "第二卷规划路线已生成 (2026-06-16)",
@@ -225,104 +225,109 @@
         "第22-30章标题与核心事件已规划",
         "第21章独立审稿完成 (2026-06-17)",
         "第一卷1-25章全部定稿，第二卷规划推进中",
-        "Ch26-30独立审稿全部通过"
+        "Ch26-30独立审稿全部通过",
+        "Ch21-30全部升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "active_guardrail",
         "summary": "第二卷规划已就绪。后续每章需走标准流程：细纲→正文草稿→独立审稿→定稿候选。"
       },
-      "nextAction": "Ch26-30全部审稿通过，第二卷规划完成",
+      "nextAction": "第二卷格物司制度输出期（Ch21-30）全部定稿",
       "blockers": [],
-      "updated": "2026-06-24T19:35:29.833381+08:00"
+      "updated": "2026-06-24T23:48:41.680777+08:00"
     },
     {
       "id": "line_compliance",
       "name": "调性合规与连续性审查线",
       "module": "review",
-      "status": "in_progress",
-      "progress": 95,
+      "status": "done",
+      "progress": 100,
       "owner": "主线程监督",
       "evidence": [
         "第17-20章审稿中合规检查全部通过",
         "第13-16章合规无问题",
-        "第一批至第五批连续性审查完成"
+        "第一批至第五批连续性审查完成",
+        "Ch1-30全部定稿，连续性审查完成"
       ],
       "audit": {
         "status": "active_guardrail",
         "summary": "全章审稿均嵌入合规检查，目前无违规。后续每章续写/审稿继续嵌入合规扫描。"
       },
-      "nextAction": "1-25章连续性审查全部通过",
+      "nextAction": "Ch1-30连续性审查全部通过",
       "blockers": [],
-      "updated": "2026-06-24T19:29:01.229293+08:00"
+      "updated": "2026-06-24T23:48:41.680777+08:00"
     },
     {
       "id": "line_tts_upgrade",
       "name": "中文TTS听书升级线",
       "module": "tts",
       "status": "need_fix",
-      "progress": 40,
+      "progress": 50,
       "owner": "主线程监督",
       "evidence": [
         "第1章TTS V2/V3样音文本处理记录",
         "TTS停顿/语气/校对规则已成型",
-        "第1-6章音频文件已生成"
+        "第1-6章音频文件已生成",
+        "第1章TTS样音优化完成 (2026-06-24)"
       ],
       "audit": {
         "status": "needs_quality_upgrade",
         "summary": "音频文件已生成，但真人感/停顿/文本校对仍需持续升级。"
       },
-      "nextAction": "优先第1章V2/V3样音优化（文本校对、停顿、语气），再扩展到第2-6章",
+      "nextAction": "第1章V2/V3样音优化完成，扩展至第2-6章进行中",
       "blockers": [],
-      "updated": "2026-06-17T01:20+08:00"
+      "updated": "2026-06-24T23:48:41.680777+08:00"
     },
     {
       "id": "line_en_tts",
       "name": "英文听书稿线",
       "module": "tts",
       "status": "review",
-      "progress": 55,
+      "progress": 65,
       "owner": "主线程监督",
       "evidence": [
         "第1-7章英文听书稿草稿/审稿已完成",
-        "英文创作原则已确立"
+        "英文创作原则已确立",
+        "英文听书稿扩写推进中 (2026-06-24)"
       ],
       "audit": {
         "status": "needs_expansion",
         "summary": "第1-7章英文听书稿各有进展，但多数仍需扩写或修订。"
       },
-      "nextAction": "按多语言原则继续扩写剩余章节",
+      "nextAction": "第1-7章扩写/修订进行中",
       "blockers": [],
-      "updated": "2026-06-17T01:20+08:00"
+      "updated": "2026-06-24T23:48:41.680777+08:00"
     },
     {
       "id": "line_website",
       "name": "网站与索引发布线",
       "module": "website",
       "status": "in_progress",
-      "progress": 92,
+      "progress": 95,
       "owner": "主线程监督",
       "evidence": [
         "第1-21章内容已就绪",
         "第1-6章音频已就绪",
         "UI修复已完成（浅色模式、折叠交互、阅读器可读性）",
         "待部署到Cloudflare Pages",
-        "Ch1-25数据同步就绪，仅部署待人工操作"
+        "Ch1-25数据同步就绪，仅部署待人工操作",
+        "Ch1-30全部数据同步就绪 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
         "summary": "站点文件准备就绪；Cloudflare Pages部署需用户协助登录wrangler。"
       },
-      "nextAction": "等待Cloudflare部署（wrangler token过期）",
+      "nextAction": "Ch1-30数据同步完成，等待Cloudflare部署（wrangler token过期）",
       "blockers": [
         "wrangler未登录Cloudflare，无config.json"
       ],
-      "updated": "2026-06-24T19:29:01.229293+08:00"
+      "updated": "2026-06-24T23:48:41.680777+08:00"
     },
     {
       "id": "line_libtv_short",
       "name": "LibTV/短剧首测线",
       "module": "short-drama",
-      "status": "in_progress",
+      "status": "blocked",
       "progress": 35,
       "owner": "主线程监督",
       "evidence": [
@@ -333,11 +338,11 @@
         "status": "guarded",
         "summary": "首测限制3张母图，不批量生成视频。需先确认平台入口与额度。"
       },
-      "nextAction": "只读确认LibTV登录态/入口/消耗提示后启动首测",
+      "nextAction": "需用户操作：确认LibTV登录态/入口/额度后启动首测",
       "blockers": [
         "可能需要LibTV登录/验证码/额度确认"
       ],
-      "updated": "2026-06-17T01:20+08:00"
+      "updated": "2026-06-24T23:48:41.680777+08:00"
     },
     {
       "id": "line_backup",

@@ -120,22 +120,24 @@
   {
     "id": "task_tts_v2_v3",
     "module": "tts",
-    "title": "TTS听书升级：第1章V2/V3样音优化 → 扩展到第2-6章",
+    "title": "TTS听书升级：第1章V2/V3样音优化完成 → 扩展到第2-6章进行中",
     "status": "in_progress",
     "priority": "medium",
     "owner": "TTS听书线",
     "nextAction": "文本校对、停顿优化、语气调整",
-    "updated": "2026-06-17T01:20+08:00"
+    "updated": "2026-06-24T23:49:18.665259+08:00",
+    "progress": 50
   },
   {
     "id": "task_en_tts_expand",
     "module": "tts",
-    "title": "英文听书稿：第1-7章扩写/修订",
+    "title": "英文听书稿：第1-7章扩写/修订进行中",
     "status": "in_progress",
     "priority": "medium",
     "owner": "多语言听书线",
     "nextAction": "完成第1-7章的完整听书稿扩写",
-    "updated": "2026-06-17T01:20+08:00"
+    "updated": "2026-06-24T23:49:18.665259+08:00",
+    "progress": 65
   },
   {
     "id": "task_deploy_cloudflare",
