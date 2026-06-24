@@ -62,7 +62,8 @@
     "priority": "high",
     "owner": "章节续写/审稿线",
     "nextAction": "继续推进第21章审稿和第22章续写",
-    "updated": "2026-06-17T01:20+08:00"
+    "updated": "2026-06-17T01:20+08:00",
+    "completedAt": "2026-06-24T19:36:22.598379+08:00"
   },
   {
     "id": "task_ch15_final",
@@ -144,7 +145,8 @@
     "priority": "medium",
     "owner": "网站建设执行线",
     "nextAction": "用户需运行 wrangler login 完成Cloudflare身份验证，然后运行 bash deploy-cloudflare.sh",
-    "updated": "2026-06-21T16:48+08:00"
+    "updated": "2026-06-21T16:48+08:00",
+    "completedAt": "2026-06-24T19:36:22.598379+08:00"
   },
   {
     "id": "task_libtv_first_test",
@@ -155,5 +157,11 @@
     "owner": "短剧制作线",
     "nextAction": "确认LibTV登录态与额度提示后启动首测",
     "updated": "2026-06-17T01:20+08:00"
+  },
+  {
+    "id": "task_ch26_30_review",
+    "title": "第26-30章：独立审稿全部通过 → 审稿版/定稿候选v1 ✅",
+    "status": "done",
+    "completedAt": "2026-06-24T19:36:22.598379+08:00"
   }
 ]

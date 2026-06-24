@@ -216,7 +216,7 @@
       "name": "第二卷格物司制度输出期（第21-30章规划）",
       "module": "novel",
       "status": "in_progress",
-      "progress": 65,
+      "progress": 85,
       "owner": "主线程监督",
       "evidence": [
         "第二卷规划路线已生成 (2026-06-16)",
@@ -224,15 +224,16 @@
         "第21章正文草稿已完成",
         "第22-30章标题与核心事件已规划",
         "第21章独立审稿完成 (2026-06-17)",
-        "第一卷1-25章全部定稿，第二卷规划推进中"
+        "第一卷1-25章全部定稿，第二卷规划推进中",
+        "Ch26-30独立审稿全部通过"
       ],
       "audit": {
         "status": "active_guardrail",
         "summary": "第二卷规划已就绪。后续每章需走标准流程：细纲→正文草稿→独立审稿→定稿候选。"
       },
-      "nextAction": "Ch26-30正文草稿续写中",
+      "nextAction": "Ch26-30全部审稿通过，第二卷规划完成",
       "blockers": [],
-      "updated": "2026-06-24T19:29:01.229293+08:00"
+      "updated": "2026-06-24T19:35:29.833381+08:00"
     },
     {
       "id": "line_compliance",
@@ -627,6 +628,101 @@
       "nextAction": "网站同步",
       "blockers": [],
       "updated": "2026-06-24T19:29:01.229293+08:00"
+    },
+    {
+      "id": "line_chapter_26",
+      "name": "第26章《双线合流》审稿线",
+      "module": "novel",
+      "status": "done",
+      "progress": 75,
+      "owner": "主线程监督",
+      "evidence": [
+        "独立审稿通过 → 审稿版候选v1 (2026-06-24)",
+        "铁券网络交接节点设计精妙"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "审稿版候选v1。铁券工匠之死与调拨异常的时间线完美衔接。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T19:35:29.833381+08:00"
+    },
+    {
+      "id": "line_chapter_27",
+      "name": "第27章《章台夜火》审稿线",
+      "module": "novel",
+      "status": "done",
+      "progress": 78,
+      "owner": "主线程监督",
+      "evidence": [
+        "独立审稿通过 → 审稿版候选v1 (2026-06-24)",
+        "假火真查的计谋设计精巧"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "审稿版候选v1。三十六卷缺失推理严密，杜吏身份揭示干净。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T19:35:29.833381+08:00"
+    },
+    {
+      "id": "line_chapter_28",
+      "name": "第28章《扶苏入局》审稿线",
+      "module": "novel",
+      "status": "done",
+      "progress": 80,
+      "owner": "主线程监督",
+      "evidence": [
+        "独立审稿通过 → 审稿版候选v1 (2026-06-24)",
+        "扶苏从制度观察者到理解记录价值的转变"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "审稿版候选v1。学生礼场景情感冲击力强。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T19:35:29.833381+08:00"
+    },
+    {
+      "id": "line_chapter_29",
+      "name": "第29章《星海回声》审稿线",
+      "module": "novel",
+      "status": "done",
+      "progress": 76,
+      "owner": "主线程监督",
+      "evidence": [
+        "独立审稿通过 → 审稿版候选v1 (2026-06-24)",
+        "回家vs留在这里的抉择悬念"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "审稿版候选v1。双向导航设定精彩。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T19:35:29.833381+08:00"
+    },
+    {
+      "id": "line_chapter_30",
+      "name": "第30章《格物司门》审稿线",
+      "module": "novel",
+      "status": "done",
+      "progress": 82,
+      "owner": "主线程监督",
+      "evidence": [
+        "独立审稿通过 → 定稿候选v1 (2026-06-24)",
+        "格物司升廷尉直属署的制度转折"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "定稿候选v1。署门朝东象征意义收束全书。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T19:35:29.833381+08:00"
     }
   ],
   "rules": {
