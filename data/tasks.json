@@ -1,21 +1,24 @@
 [
   {
     "id": "task_ch7_8_bridge",
-    "title": "第7-8章桥接修补：赵高callback+扶苏过渡",
-    "status": "in_progress",
-    "updated": "2026-06-21T19:40+08:00"
+    "title": "第7-8章桥接修补：赵高call-back+扶苏过渡完成 → 正式定稿 ✅",
+    "status": "done",
+    "updated": "2026-06-21T19:40+08:00",
+    "completedAt": "2026-06-24T18:19:24.289780+08:00"
   },
   {
     "id": "task_ch1_6_quickfix",
-    "title": "第1-6章快速修补：批量审稿发现的小修项",
-    "status": "in_progress",
-    "updated": "2026-06-21T19:40+08:00"
+    "title": "第1-6章快速修补：批量审稿小修完成 → ch1-3,5-6升格定稿候选v1 ✅",
+    "status": "done",
+    "updated": "2026-06-21T19:40+08:00",
+    "completedAt": "2026-06-24T18:19:24.289780+08:00"
   },
   {
     "id": "task_ch9_10_fix",
-    "title": "第9-10章修复：赵高台词压暗+胡亥年龄调整+星海误差+物理证物",
-    "status": "in_progress",
-    "updated": "2026-06-21T19:40+08:00"
+    "title": "第9-10章修复：赵高台词压暗+胡亥年龄调整+星海误差+物理证物 → 定稿候选v1 ✅",
+    "status": "done",
+    "updated": "2026-06-21T19:40+08:00",
+    "completedAt": "2026-06-24T18:19:24.289780+08:00"
   },
   {
     "id": "task_ch25_review",

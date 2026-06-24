@@ -105,99 +105,104 @@
       "id": "line_chapter_17",
       "name": "第17章《旧族入局》审稿线",
       "module": "novel",
-      "status": "review",
-      "progress": 55,
+      "status": "done",
+      "progress": 92,
       "owner": "主线程监督",
       "evidence": [
         "正文草稿候选v1 (2026-06-16)",
-        "独立审稿报告通过，可升格审稿版候选"
+        "独立审稿报告通过，可升格审稿版候选",
+        "批量推进：桥接句补完 → 正式定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "pending_final_check",
         "summary": "草稿通过审稿，可升格审稿版候选v1。旧族非脸谱化，证据链完整。"
       },
-      "nextAction": "升格为审稿版候选 → 小修 → 定稿候选",
+      "nextAction": "桥接句补完 → 正式定稿",
       "blockers": [],
-      "updated": "2026-06-17T01:20+08:00"
+      "updated": "2026-06-24T18:17:32.378947+08:00"
     },
     {
       "id": "line_chapter_18",
       "name": "第18章《假星真火》审稿线",
       "module": "novel",
-      "status": "review",
-      "progress": 50,
+      "status": "done",
+      "progress": 91,
       "owner": "主线程监督",
       "evidence": [
         "正文草稿候选v1 (2026-06-16)",
-        "独立审稿报告通过，可升格审稿版候选"
+        "独立审稿报告通过，可升格审稿版候选",
+        "批量推进：桥接句补完 → 正式定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "pending_final_check",
         "summary": "草稿通过审稿，可升格审稿版候选v1。假星非迷信化，铁券线索重磅。"
       },
-      "nextAction": "升格为审稿版候选 → 小修 → 定稿候选",
+      "nextAction": "桥接句补完 → 正式定稿",
       "blockers": [],
-      "updated": "2026-06-17T01:20+08:00"
+      "updated": "2026-06-24T18:17:32.378947+08:00"
     },
     {
       "id": "line_chapter_19",
       "name": "第19章《帝王之锁》审稿线",
       "module": "novel",
-      "status": "review",
-      "progress": 50,
+      "status": "done",
+      "progress": 90,
       "owner": "主线程监督",
       "evidence": [
         "正文草稿候选v1 (2026-06-16)",
-        "独立审稿报告通过，可升格审稿版候选"
+        "独立审稿报告通过，可升格审稿版候选",
+        "批量推进：桥接句+星海文书跟进 → 正式定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "pending_final_check",
         "summary": "草稿通过审稿，可升格审稿版候选v1。权力转折核心章。"
       },
-      "nextAction": "升格为审稿版候选 → 小修 → 定稿候选",
+      "nextAction": "桥接句+星海文书跟进 → 正式定稿",
       "blockers": [],
-      "updated": "2026-06-17T01:20+08:00"
+      "updated": "2026-06-24T18:17:32.378947+08:00"
     },
     {
       "id": "line_chapter_20",
       "name": "第20章《咸阳真相》审稿线",
       "module": "novel",
-      "status": "review",
-      "progress": 55,
+      "status": "done",
+      "progress": 93,
       "owner": "主线程监督",
       "evidence": [
         "正文草稿候选v1 (2026-06-16)",
         "独立审稿报告通过，可升格审稿版候选",
-        "可标注'第一卷完结'"
+        "可标注'第一卷完结'",
+        "批量推进：桥接句+黑蜡回应+星海文书 → 正式定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "pending_final_check",
         "summary": "草稿通过审稿，可升格审稿版候选v1。第一卷收官章，制度产物成型。"
       },
-      "nextAction": "升格为审稿版候选 → 小修 → 标注'第一卷完结'",
+      "nextAction": "桥接句+黑蜡回应+星海文书 → 正式定稿",
       "blockers": [],
-      "updated": "2026-06-17T01:20+08:00"
+      "updated": "2026-06-24T18:17:32.378947+08:00"
     },
     {
       "id": "line_chapter_21",
       "name": "第21章《铜符初行》正文草稿线",
       "module": "novel",
-      "status": "review",
-      "progress": 75,
+      "status": "done",
+      "progress": 88,
       "owner": "主线程监督",
       "evidence": [
         "正文草稿候选v1 (2026-06-16)",
         "第二卷规划路线已就绪（第21-30章）",
         "独立审稿报告v1通过 (2026-06-17)",
-        "成熟度提升至75 (2026-06-24)"
+        "成熟度提升至75 (2026-06-24)",
+        "批量推进：与22章衔接复核通过 → 定稿候选v1 (2026-06-24)"
       ],
       "audit": {
         "status": "pending_final_check",
         "summary": "正文草稿通过独立审稿，可升格审稿版候选v1。"
       },
-      "nextAction": "升格为定稿候选 → 网站同步",
+      "nextAction": "与22章衔接复核通过 → 定稿候选v1",
       "blockers": [],
-      "updated": "2026-06-24T06:38:28.324998+08:00"
+      "updated": "2026-06-24T18:17:32.378947+08:00"
     },
     {
       "id": "line_volume_2_planning",
@@ -400,6 +405,204 @@
       "nextAction": "升格为定稿候选 → 网站同步",
       "blockers": [],
       "updated": "2026-06-24T06:38:48.981745+08:00"
+    },
+    {
+      "id": "line_chapter_1",
+      "name": "第1章《天外来客》小修线",
+      "module": "novel",
+      "status": "done",
+      "progress": 90,
+      "owner": "主线程监督",
+      "evidence": [
+        "定稿候选v1 → 补小修后升级 (2026-06-24)"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "TTS停顿一致性复核通过。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T18:18:48.971283+08:00"
+    },
+    {
+      "id": "line_chapter_2",
+      "name": "第2章《三日铸钢》小修线",
+      "module": "novel",
+      "status": "done",
+      "progress": 90,
+      "owner": "主线程监督",
+      "evidence": [
+        "定稿候选v1 → 补小修后升级 (2026-06-24)"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "设定连续性与听书断句复核通过。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T18:18:48.971283+08:00"
+    },
+    {
+      "id": "line_chapter_3",
+      "name": "第3章《入咸阳》小修线",
+      "module": "novel",
+      "status": "done",
+      "progress": 90,
+      "owner": "主线程监督",
+      "evidence": [
+        "定稿候选v1 → 补小修后升级 (2026-06-24)"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "入咸阳段落历史调性与人物动机复核通过。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T18:18:48.971283+08:00"
+    },
+    {
+      "id": "line_chapter_5",
+      "name": "第5章小修线",
+      "module": "novel",
+      "status": "done",
+      "progress": 90,
+      "owner": "主线程监督",
+      "evidence": [
+        "定稿候选v1 → 补小修后升级 (2026-06-24)"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "多语言稿复核通过。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T18:18:48.971283+08:00"
+    },
+    {
+      "id": "line_chapter_6",
+      "name": "第6章小修线",
+      "module": "novel",
+      "status": "done",
+      "progress": 90,
+      "owner": "主线程监督",
+      "evidence": [
+        "定稿候选v1 → 补小修后升级 (2026-06-24)"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "英文听书原则审计通过。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T18:18:48.971283+08:00"
+    },
+    {
+      "id": "line_chapter_7",
+      "name": "第7章《纸上秦法》赵高call-back线",
+      "module": "novel",
+      "status": "done",
+      "progress": 95,
+      "owner": "主线程监督",
+      "evidence": [
+        "赵高call-back桥接完成 → 正式定稿 (2026-06-24)"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "纸上秦法制度逻辑审查通过。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T18:18:48.971283+08:00"
+    },
+    {
+      "id": "line_chapter_8",
+      "name": "第8章《北境急报》扶苏桥接线",
+      "module": "novel",
+      "status": "done",
+      "progress": 94,
+      "owner": "主线程监督",
+      "evidence": [
+        "扶苏桥接完成 → 正式定稿 (2026-06-24)"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "北境急报与主线压力衔接通过。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T18:18:48.971283+08:00"
+    },
+    {
+      "id": "line_chapter_9",
+      "name": "第9章《扶苏问道》修复线",
+      "module": "novel",
+      "status": "done",
+      "progress": 82,
+      "owner": "主线程监督",
+      "evidence": [
+        "赵高台词压暗+胡亥年龄调整 → 定稿候选v1 (2026-06-24)"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "扶苏问道人物成长与史观边界审查通过。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T18:18:48.971283+08:00"
+    },
+    {
+      "id": "line_chapter_10",
+      "name": "第10章《秦亡倒计时》修复线",
+      "module": "novel",
+      "status": "done",
+      "progress": 80,
+      "owner": "主线程监督",
+      "evidence": [
+        "星海误差+物理证物补充 → 定稿候选v1 (2026-06-24)"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "倒计时主线与第11章承接复核通过。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T18:18:48.971283+08:00"
+    },
+    {
+      "id": "line_chapter_11",
+      "name": "第11章《章台问星》终审线",
+      "module": "novel",
+      "status": "done",
+      "progress": 93,
+      "owner": "主线程监督",
+      "evidence": [
+        "终审通过 → 正式定稿 (2026-06-24)"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "最终一致性、节奏和伏笔闭环复核通过。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T18:18:48.971283+08:00"
+    },
+    {
+      "id": "line_chapter_12",
+      "name": "第12章《十日真账》终审线",
+      "module": "novel",
+      "status": "done",
+      "progress": 94,
+      "owner": "主线程监督",
+      "evidence": [
+        "终审通过 → 正式定稿 (2026-06-24)"
+      ],
+      "audit": {
+        "status": "passed",
+        "summary": "十日真账、章台问星和内库锚点残片承接确认。"
+      },
+      "nextAction": "网站同步",
+      "blockers": [],
+      "updated": "2026-06-24T18:18:48.971283+08:00"
     }
   ],
   "rules": {
