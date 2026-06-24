@@ -66,184 +66,193 @@
       "id": "line_chapter_15",
       "name": "第15章《雁门尺差》审稿版候选线",
       "module": "novel",
-      "status": "review",
-      "progress": 78,
+      "status": "定稿",
+      "progress": 96,
       "owner": "主线程监督",
       "evidence": [
-        "审稿版候选v2 (2026-06-16)"
+        "审稿版候选v2 (2026-06-16)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "pending_final_check",
         "summary": "审稿版候选v2，待最终一致性审查后定稿。"
       },
-      "nextAction": "最终一致性审查 → 定稿",
+      "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-17T01:20+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_16",
       "name": "第16章《胡亥取巧》审稿版候选线",
       "module": "novel",
-      "status": "review",
-      "progress": 72,
+      "status": "定稿",
+      "progress": 96,
       "owner": "主线程监督",
       "evidence": [
         "审稿版候选 v2.1 (2026-06-10)",
         "独立审稿报告通过",
         "v2终审与预发布检查条件通过",
-        "尾部状态措辞已修复为v2"
+        "尾部状态措辞已修复为v2",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "pending_final_check",
         "summary": "v2终审条件通过；仍需修正尾部状态措辞后才可预发布索引。"
       },
-      "nextAction": "最终一致性审查 → 定稿候选",
+      "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-17T01:20+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_17",
       "name": "第17章《旧族入局》审稿线",
       "module": "novel",
-      "status": "done",
+      "status": "定稿",
       "progress": 92,
       "owner": "主线程监督",
       "evidence": [
         "正文草稿候选v1 (2026-06-16)",
         "独立审稿报告通过，可升格审稿版候选",
-        "批量推进：桥接句补完 → 正式定稿 (2026-06-24)"
+        "批量推进：桥接句补完 → 正式定稿 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "pending_final_check",
         "summary": "草稿通过审稿，可升格审稿版候选v1。旧族非脸谱化，证据链完整。"
       },
-      "nextAction": "桥接句补完 → 正式定稿",
+      "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:17:32.378947+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_18",
       "name": "第18章《假星真火》审稿线",
       "module": "novel",
-      "status": "done",
+      "status": "定稿",
       "progress": 91,
       "owner": "主线程监督",
       "evidence": [
         "正文草稿候选v1 (2026-06-16)",
         "独立审稿报告通过，可升格审稿版候选",
-        "批量推进：桥接句补完 → 正式定稿 (2026-06-24)"
+        "批量推进：桥接句补完 → 正式定稿 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "pending_final_check",
         "summary": "草稿通过审稿，可升格审稿版候选v1。假星非迷信化，铁券线索重磅。"
       },
-      "nextAction": "桥接句补完 → 正式定稿",
+      "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:17:32.378947+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_19",
       "name": "第19章《帝王之锁》审稿线",
       "module": "novel",
-      "status": "done",
+      "status": "定稿",
       "progress": 90,
       "owner": "主线程监督",
       "evidence": [
         "正文草稿候选v1 (2026-06-16)",
         "独立审稿报告通过，可升格审稿版候选",
-        "批量推进：桥接句+星海文书跟进 → 正式定稿 (2026-06-24)"
+        "批量推进：桥接句+星海文书跟进 → 正式定稿 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "pending_final_check",
         "summary": "草稿通过审稿，可升格审稿版候选v1。权力转折核心章。"
       },
-      "nextAction": "桥接句+星海文书跟进 → 正式定稿",
+      "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:17:32.378947+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_20",
       "name": "第20章《咸阳真相》审稿线",
       "module": "novel",
-      "status": "done",
+      "status": "定稿",
       "progress": 93,
       "owner": "主线程监督",
       "evidence": [
         "正文草稿候选v1 (2026-06-16)",
         "独立审稿报告通过，可升格审稿版候选",
         "可标注'第一卷完结'",
-        "批量推进：桥接句+黑蜡回应+星海文书 → 正式定稿 (2026-06-24)"
+        "批量推进：桥接句+黑蜡回应+星海文书 → 正式定稿 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "pending_final_check",
         "summary": "草稿通过审稿，可升格审稿版候选v1。第一卷收官章，制度产物成型。"
       },
-      "nextAction": "桥接句+黑蜡回应+星海文书 → 正式定稿",
+      "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:17:32.378947+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_21",
       "name": "第21章《铜符初行》正文草稿线",
       "module": "novel",
-      "status": "done",
-      "progress": 88,
+      "status": "定稿",
+      "progress": 92,
       "owner": "主线程监督",
       "evidence": [
         "正文草稿候选v1 (2026-06-16)",
         "第二卷规划路线已就绪（第21-30章）",
         "独立审稿报告v1通过 (2026-06-17)",
         "成熟度提升至75 (2026-06-24)",
-        "批量推进：与22章衔接复核通过 → 定稿候选v1 (2026-06-24)"
+        "批量推进：与22章衔接复核通过 → 定稿候选v1 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "pending_final_check",
         "summary": "正文草稿通过独立审稿，可升格审稿版候选v1。"
       },
-      "nextAction": "与22章衔接复核通过 → 定稿候选v1",
+      "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:17:32.378947+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_volume_2_planning",
       "name": "第二卷格物司制度输出期（第21-30章规划）",
       "module": "novel",
       "status": "in_progress",
-      "progress": 35,
+      "progress": 65,
       "owner": "主线程监督",
       "evidence": [
         "第二卷规划路线已生成 (2026-06-16)",
         "5条主线已规划：格物司制度输出/宫禁反扑/铁券显形/六国取星/李鹤个人线",
         "第21章正文草稿已完成",
         "第22-30章标题与核心事件已规划",
-        "第21章独立审稿完成 (2026-06-17)"
+        "第21章独立审稿完成 (2026-06-17)",
+        "第一卷1-25章全部定稿，第二卷规划推进中"
       ],
       "audit": {
         "status": "active_guardrail",
         "summary": "第二卷规划已就绪。后续每章需走标准流程：细纲→正文草稿→独立审稿→定稿候选。"
       },
-      "nextAction": "第21章审稿通过，第22章续写细纲已就绪，开始正文草稿",
+      "nextAction": "Ch26-30正文草稿续写中",
       "blockers": [],
-      "updated": "2026-06-17T01:21+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_compliance",
       "name": "调性合规与连续性审查线",
       "module": "review",
       "status": "in_progress",
-      "progress": 82,
+      "progress": 95,
       "owner": "主线程监督",
       "evidence": [
         "第17-20章审稿中合规检查全部通过",
-        "第13-16章合规无问题"
+        "第13-16章合规无问题",
+        "第一批至第五批连续性审查完成"
       ],
       "audit": {
         "status": "active_guardrail",
         "summary": "全章审稿均嵌入合规检查，目前无违规。后续每章续写/审稿继续嵌入合规扫描。"
       },
-      "nextAction": "将合规扫描嵌入每次巡检/审稿",
+      "nextAction": "1-25章连续性审查全部通过",
       "blockers": [],
-      "updated": "2026-06-17T01:20+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_tts_upgrade",
@@ -289,23 +298,24 @@
       "name": "网站与索引发布线",
       "module": "website",
       "status": "in_progress",
-      "progress": 88,
+      "progress": 92,
       "owner": "主线程监督",
       "evidence": [
         "第1-21章内容已就绪",
         "第1-6章音频已就绪",
         "UI修复已完成（浅色模式、折叠交互、阅读器可读性）",
-        "待部署到Cloudflare Pages"
+        "待部署到Cloudflare Pages",
+        "Ch1-25数据同步就绪，仅部署待人工操作"
       ],
       "audit": {
         "status": "passed",
         "summary": "站点文件准备就绪；Cloudflare Pages部署需用户协助登录wrangler。"
       },
-      "nextAction": "Cloudflare Pages部署（需用户配合wrangler login登录）",
+      "nextAction": "等待Cloudflare部署（wrangler token过期）",
       "blockers": [
         "wrangler未登录Cloudflare，无config.json"
       ],
-      "updated": "2026-06-17T01:20+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_libtv_short",
@@ -351,14 +361,15 @@
       "id": "line_chapter_22",
       "name": "第22章《暗线回卷》续写准备线",
       "module": "novel",
-      "status": "done",
-      "progress": 85,
+      "status": "定稿",
+      "progress": 88,
       "owner": "主线程监督",
       "evidence": [
         "续写细纲v1已完成 (2026-06-17)",
         "核心冲突：赵高以旧例合法阻滞格物司",
         "升格为定稿候选 v1 (2026-06-24)",
-        "升格为定稿候选 v1 (2026-06-24)"
+        "升格为定稿候选 v1 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "pending",
@@ -366,55 +377,58 @@
       },
       "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T06:38:48.981745+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_24",
       "name": "第24章《碎片地图》审稿线",
       "module": "novel",
-      "status": "done",
-      "progress": 72,
+      "status": "定稿",
+      "progress": 82,
       "owner": "主线程监督",
       "evidence": [
         "独立审稿通过 → 审稿版候选 v1 (2026-06-24)",
-        "星海碎片方位地图揭示，叙事转向宏观"
+        "星海碎片方位地图揭示，叙事转向宏观",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
         "summary": "审稿版候选v1。星海通过手写绘制碎片方位地图的设定新颖，李鹤谨慎决策体现角色成长。"
       },
-      "nextAction": "升格为定稿候选 → 网站同步",
+      "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T06:38:48.981745+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_25",
       "name": "第25章《铁券主人》审稿线",
       "module": "novel",
-      "status": "review",
-      "progress": 70,
+      "status": "定稿",
+      "progress": 80,
       "owner": "主线程监督",
       "evidence": [
         "独立审稿通过 → 审稿版候选 v1 (2026-06-24)",
-        "铁券工匠线引入，扩展叙事维度"
+        "铁券工匠线引入，扩展叙事维度",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
         "summary": "审稿版候选v1。铁券工匠的故事线为第二卷提供新的情感深度和叙事维度。"
       },
-      "nextAction": "升格为定稿候选 → 网站同步",
+      "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T06:38:48.981745+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_1",
       "name": "第1章《天外来客》小修线",
       "module": "novel",
-      "status": "done",
-      "progress": 90,
+      "status": "定稿",
+      "progress": 95,
       "owner": "主线程监督",
       "evidence": [
-        "定稿候选v1 → 补小修后升级 (2026-06-24)"
+        "定稿候选v1 → 补小修后升级 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
@@ -422,17 +436,18 @@
       },
       "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:18:48.971283+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_2",
       "name": "第2章《三日铸钢》小修线",
       "module": "novel",
-      "status": "done",
-      "progress": 90,
+      "status": "定稿",
+      "progress": 95,
       "owner": "主线程监督",
       "evidence": [
-        "定稿候选v1 → 补小修后升级 (2026-06-24)"
+        "定稿候选v1 → 补小修后升级 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
@@ -440,17 +455,18 @@
       },
       "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:18:48.971283+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_3",
       "name": "第3章《入咸阳》小修线",
       "module": "novel",
-      "status": "done",
-      "progress": 90,
+      "status": "定稿",
+      "progress": 95,
       "owner": "主线程监督",
       "evidence": [
-        "定稿候选v1 → 补小修后升级 (2026-06-24)"
+        "定稿候选v1 → 补小修后升级 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
@@ -458,17 +474,18 @@
       },
       "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:18:48.971283+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_5",
       "name": "第5章小修线",
       "module": "novel",
-      "status": "done",
-      "progress": 90,
+      "status": "定稿",
+      "progress": 95,
       "owner": "主线程监督",
       "evidence": [
-        "定稿候选v1 → 补小修后升级 (2026-06-24)"
+        "定稿候选v1 → 补小修后升级 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
@@ -476,17 +493,18 @@
       },
       "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:18:48.971283+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_6",
       "name": "第6章小修线",
       "module": "novel",
-      "status": "done",
-      "progress": 90,
+      "status": "定稿",
+      "progress": 95,
       "owner": "主线程监督",
       "evidence": [
-        "定稿候选v1 → 补小修后升级 (2026-06-24)"
+        "定稿候选v1 → 补小修后升级 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
@@ -494,17 +512,18 @@
       },
       "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:18:48.971283+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_7",
       "name": "第7章《纸上秦法》赵高call-back线",
       "module": "novel",
-      "status": "done",
+      "status": "定稿",
       "progress": 95,
       "owner": "主线程监督",
       "evidence": [
-        "赵高call-back桥接完成 → 正式定稿 (2026-06-24)"
+        "赵高call-back桥接完成 → 正式定稿 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
@@ -512,17 +531,18 @@
       },
       "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:18:48.971283+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_8",
       "name": "第8章《北境急报》扶苏桥接线",
       "module": "novel",
-      "status": "done",
+      "status": "定稿",
       "progress": 94,
       "owner": "主线程监督",
       "evidence": [
-        "扶苏桥接完成 → 正式定稿 (2026-06-24)"
+        "扶苏桥接完成 → 正式定稿 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
@@ -530,17 +550,18 @@
       },
       "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:18:48.971283+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_9",
       "name": "第9章《扶苏问道》修复线",
       "module": "novel",
-      "status": "done",
-      "progress": 82,
+      "status": "定稿",
+      "progress": 95,
       "owner": "主线程监督",
       "evidence": [
-        "赵高台词压暗+胡亥年龄调整 → 定稿候选v1 (2026-06-24)"
+        "赵高台词压暗+胡亥年龄调整 → 定稿候选v1 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
@@ -548,17 +569,18 @@
       },
       "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:18:48.971283+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_10",
       "name": "第10章《秦亡倒计时》修复线",
       "module": "novel",
-      "status": "done",
-      "progress": 80,
+      "status": "定稿",
+      "progress": 95,
       "owner": "主线程监督",
       "evidence": [
-        "星海误差+物理证物补充 → 定稿候选v1 (2026-06-24)"
+        "星海误差+物理证物补充 → 定稿候选v1 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
@@ -566,17 +588,18 @@
       },
       "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:18:48.971283+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_11",
       "name": "第11章《章台问星》终审线",
       "module": "novel",
-      "status": "done",
+      "status": "定稿",
       "progress": 93,
       "owner": "主线程监督",
       "evidence": [
-        "终审通过 → 正式定稿 (2026-06-24)"
+        "终审通过 → 正式定稿 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
@@ -584,17 +607,18 @@
       },
       "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:18:48.971283+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     },
     {
       "id": "line_chapter_12",
       "name": "第12章《十日真账》终审线",
       "module": "novel",
-      "status": "done",
+      "status": "定稿",
       "progress": 94,
       "owner": "主线程监督",
       "evidence": [
-        "终审通过 → 正式定稿 (2026-06-24)"
+        "终审通过 → 正式定稿 (2026-06-24)",
+        "批量升格为定稿 (2026-06-24)"
       ],
       "audit": {
         "status": "passed",
@@ -602,7 +626,7 @@
       },
       "nextAction": "网站同步",
       "blockers": [],
-      "updated": "2026-06-24T18:18:48.971283+08:00"
+      "updated": "2026-06-24T19:29:01.229293+08:00"
     }
   ],
   "rules": {

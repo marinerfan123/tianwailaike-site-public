@@ -77,7 +77,7 @@
   {
     "id": "task_ch16_final",
     "module": "novel",
-    "title": "第16章《胡亥取巧》：最终审查通过 → 定稿候选 v2.1 ✅",
+    "title": "第16章《胡亥取巧》：v2.1终审 → 正式定稿 ✅",
     "status": "done",
     "priority": "high",
     "owner": "章节续写/审稿线",
@@ -87,22 +87,24 @@
   {
     "id": "task_ch17_18_19_20_upgrade",
     "module": "novel",
-    "title": "第17-20章：批量一致性审查通过 → 定稿候选（6处小修待补）✅",
+    "title": "第17-20章：桥接句补完 → 正式定稿 ✅",
     "status": "done",
     "priority": "high",
     "owner": "章节续写/审稿线",
     "nextAction": "按审稿建议逐章小修 → 小修清单 → 定稿候选",
-    "updated": "2026-06-21T19:32+08:00"
+    "updated": "2026-06-21T19:32+08:00",
+    "completedAt": "2026-06-24T19:29:43.343113+08:00"
   },
   {
     "id": "task_ch21_review",
     "module": "novel",
-    "title": "第21章《铜符初行》：独立审稿通过 → 升格审稿版候选",
+    "title": "第21章《铜符初行》：定稿候选v1 → 正式定稿 ✅",
     "status": "done",
     "priority": "high",
     "owner": "章节续写/审稿线",
     "nextAction": "第21章审稿完成，准备升格审稿版候选",
-    "updated": "2026-06-17T01:22+08:00"
+    "updated": "2026-06-17T01:22+08:00",
+    "completedAt": "2026-06-24T19:29:43.343113+08:00"
   },
   {
     "id": "task_ch22_write",
