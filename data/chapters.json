@@ -2232,5 +2232,145 @@
       "第三卷"
     ],
     "updated": "2026-06-25T01:34:17.676Z"
+  },
+  {
+    "id": "ch41",
+    "number": 41,
+    "title": "第41章 铁券之宴",
+    "status": "draft",
+    "maturity": 80,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷",
+      "铁券线"
+    ],
+    "updated": "2026-06-25T01:51:16.947Z"
+  },
+  {
+    "id": "ch42",
+    "number": 42,
+    "title": "第42章 少年与炉",
+    "status": "draft",
+    "maturity": 80,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷",
+      "阿炭线"
+    ],
+    "updated": "2026-06-25T01:51:16.947Z"
+  },
+  {
+    "id": "ch43",
+    "number": 43,
+    "title": "第43章 王贲之诺",
+    "status": "draft",
+    "maturity": 82,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷",
+      "北境线"
+    ],
+    "updated": "2026-06-25T01:51:16.947Z"
+  },
+  {
+    "id": "ch44",
+    "number": 44,
+    "title": "第44章 星海之末",
+    "status": "draft",
+    "maturity": 85,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷",
+      "星海线"
+    ],
+    "updated": "2026-06-25T01:51:16.947Z"
+  },
+  {
+    "id": "ch45",
+    "number": 45,
+    "title": "第45章 归途坐标",
+    "status": "draft",
+    "maturity": 85,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷",
+      "回家线"
+    ],
+    "updated": "2026-06-25T01:51:16.947Z"
+  },
+  {
+    "id": "ch46",
+    "number": 46,
+    "title": "第46章 咸阳大火",
+    "status": "draft",
+    "maturity": 85,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷",
+      "阴谋线"
+    ],
+    "updated": "2026-06-25T01:51:16.947Z"
+  },
+  {
+    "id": "ch47",
+    "number": 47,
+    "title": "第47章 嬴政之问",
+    "status": "draft",
+    "maturity": 85,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷",
+      "嬴政线"
+    ],
+    "updated": "2026-06-25T01:51:16.947Z"
+  },
+  {
+    "id": "ch48",
+    "number": 48,
+    "title": "第48章 格物司战",
+    "status": "draft",
+    "maturity": 85,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷",
+      "格物司线"
+    ],
+    "updated": "2026-06-25T01:51:16.947Z"
+  },
+  {
+    "id": "ch49",
+    "number": 49,
+    "title": "第49章 门与星海",
+    "status": "draft",
+    "maturity": 88,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷",
+      "抉择线"
+    ],
+    "updated": "2026-06-25T01:51:16.948Z"
+  },
+  {
+    "id": "ch50",
+    "number": 50,
+    "title": "第50章 天外来客·终章",
+    "status": "draft",
+    "maturity": 90,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷",
+      "终章"
+    ],
+    "updated": "2026-06-25T01:51:16.948Z"
   }
 ]
