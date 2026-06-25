@@ -2206,5 +2206,31 @@
       "第三卷"
     ],
     "updated": "2026-06-25T01:33:37.688Z"
+  },
+  {
+    "id": "ch39",
+    "number": 39,
+    "title": "第39章 六国旧篆",
+    "status": "draft",
+    "maturity": 80,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷"
+    ],
+    "updated": "2026-06-25T01:34:17.676Z"
+  },
+  {
+    "id": "ch40",
+    "number": 40,
+    "title": "第40章 三光交汇",
+    "status": "draft",
+    "maturity": 82,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷"
+    ],
+    "updated": "2026-06-25T01:34:17.676Z"
   }
 ]
