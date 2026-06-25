@@ -2097,14 +2097,14 @@
     "title": "第31章 行商入城",
     "status": "draft",
     "summary": "第三枚碎片携带者正式进入咸阳。李鹤在东市与他面对面相遇，通过一块带有熔融痕的石头确认他就是碎片携带者。",
-    "maturity": 75,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 82,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷",
       "碎片线"
     ],
-    "updated": "2026-06-25T01:32:09.002Z"
+    "updated": "2026-06-25T02:55:26.297Z"
   },
   {
     "id": "ch32",
@@ -2112,14 +2112,14 @@
     "title": "第32章 旧印深处",
     "status": "draft",
     "summary": "韩姓商人再次出现，传递铁券工匠隗寅留下的最后线索——北门外旧窑厂。李斯意外介入，暗示三年前的封存记录。",
-    "maturity": 75,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 82,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷",
       "铁券线"
     ],
-    "updated": "2026-06-25T01:32:09.002Z"
+    "updated": "2026-06-25T02:55:26.298Z"
   },
   {
     "id": "ch33",
@@ -2127,14 +2127,14 @@
     "title": "第33章 李斯之尺",
     "status": "draft",
     "summary": "李斯造访格物司新署，暗示廷尉府知晓旧窑厂之事。李斯不是格物司的盟友，他是秦法的执行者。",
-    "maturity": 75,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 84,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷",
       "李斯线"
     ],
-    "updated": "2026-06-25T01:32:09.002Z"
+    "updated": "2026-06-25T02:55:26.298Z"
   },
   {
     "id": "ch34",
@@ -2142,15 +2142,15 @@
     "title": "第34章 子夜来客",
     "status": "draft",
     "summary": "行商深夜上门，自陈三年前在齐国旧地发现另一名穿越者尸体，携星海碎片而来。他留下碎片后离去，没有留下名字。",
-    "maturity": 78,
+    "maturity": 85,
     "planningTags": [
       "第三卷",
       "碎片线",
       "穿越真相"
     ],
-    "reviewStatus": "正文草稿v1",
+    "reviewStatus": "重写版v2",
     "hasText": true,
-    "updated": "2026-06-25T01:32:54.010Z"
+    "updated": "2026-06-25T02:55:26.298Z"
   },
   {
     "id": "ch35",
@@ -2158,192 +2158,192 @@
     "title": "第35章 七券与一",
     "status": "draft",
     "summary": "北门外旧窑厂发现隗寅藏匿的第二幅地图——咸阳全貌图。第八枚铁券不在咸阳，在北境。",
-    "maturity": 78,
+    "maturity": 84,
     "planningTags": [
       "第三卷",
       "铁券线",
       "北境"
     ],
-    "reviewStatus": "正文草稿v1",
+    "reviewStatus": "重写版v2",
     "hasText": true,
-    "updated": "2026-06-25T01:32:54.011Z"
+    "updated": "2026-06-25T02:55:26.299Z"
   },
   {
     "id": "ch36",
     "number": 36,
     "title": "第36章 蒙恬之手",
     "status": "draft",
-    "maturity": 78,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 85,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷"
     ],
-    "updated": "2026-06-25T01:33:37.687Z"
+    "updated": "2026-06-25T02:55:26.299Z"
   },
   {
     "id": "ch37",
     "number": 37,
     "title": "第37章 赵高之棋",
     "status": "draft",
-    "maturity": 80,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 85,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷"
     ],
-    "updated": "2026-06-25T01:33:37.688Z"
+    "updated": "2026-06-25T02:55:26.299Z"
   },
   {
     "id": "ch38",
     "number": 38,
     "title": "第38章 胡亥之路",
     "status": "draft",
-    "maturity": 78,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 84,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷"
     ],
-    "updated": "2026-06-25T01:33:37.688Z"
+    "updated": "2026-06-25T02:55:26.299Z"
   },
   {
     "id": "ch39",
     "number": 39,
     "title": "第39章 六国旧篆",
     "status": "draft",
-    "maturity": 80,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 84,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷"
     ],
-    "updated": "2026-06-25T01:34:17.676Z"
+    "updated": "2026-06-25T02:55:26.299Z"
   },
   {
     "id": "ch40",
     "number": 40,
     "title": "第40章 三光交汇",
     "status": "draft",
-    "maturity": 82,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 86,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷"
     ],
-    "updated": "2026-06-25T01:34:17.676Z"
+    "updated": "2026-06-25T02:55:26.300Z"
   },
   {
     "id": "ch41",
     "number": 41,
     "title": "第41章 铁券局",
     "status": "draft",
-    "maturity": 80,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 84,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷",
       "铁券线"
     ],
-    "updated": "2026-06-25T01:51:16.947Z"
+    "updated": "2026-06-25T02:55:26.300Z"
   },
   {
     "id": "ch42",
     "number": 42,
     "title": "第42章 少年与炉",
     "status": "draft",
-    "maturity": 80,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 84,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷",
       "阿炭线"
     ],
-    "updated": "2026-06-25T01:51:16.947Z"
+    "updated": "2026-06-25T02:55:26.300Z"
   },
   {
     "id": "ch43",
     "number": 43,
     "title": "第43章 王贲之诺",
     "status": "draft",
-    "maturity": 82,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 84,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷",
       "北境线"
     ],
-    "updated": "2026-06-25T01:51:16.947Z"
+    "updated": "2026-06-25T02:55:26.300Z"
   },
   {
     "id": "ch44",
     "number": 44,
     "title": "第44章 星海之末",
     "status": "draft",
-    "maturity": 85,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 86,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷",
       "星海线"
     ],
-    "updated": "2026-06-25T01:51:16.947Z"
+    "updated": "2026-06-25T02:55:26.300Z"
   },
   {
     "id": "ch45",
     "number": 45,
     "title": "第45章 归途之算",
     "status": "draft",
-    "maturity": 85,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 86,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷",
       "回家线"
     ],
-    "updated": "2026-06-25T01:51:16.947Z"
+    "updated": "2026-06-25T02:55:26.300Z"
   },
   {
     "id": "ch46",
     "number": 46,
     "title": "第46章 咸阳大火",
     "status": "draft",
-    "maturity": 85,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 86,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷",
       "阴谋线"
     ],
-    "updated": "2026-06-25T01:51:16.947Z"
+    "updated": "2026-06-25T02:55:26.300Z"
   },
   {
     "id": "ch47",
     "number": 47,
     "title": "第47章 嬴政之问",
     "status": "draft",
-    "maturity": 85,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 86,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷",
       "嬴政线"
     ],
-    "updated": "2026-06-25T01:51:16.947Z"
+    "updated": "2026-06-25T02:55:26.300Z"
   },
   {
     "id": "ch48",
     "number": 48,
     "title": "第48章 格物司战",
     "status": "draft",
-    "maturity": 85,
-    "reviewStatus": "正文草稿v1",
+    "maturity": 86,
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷",
       "格物司线"
     ],
-    "updated": "2026-06-25T01:51:16.947Z"
+    "updated": "2026-06-25T02:55:26.300Z"
   },
   {
     "id": "ch49",
@@ -2351,13 +2351,13 @@
     "title": "第49章 门与星海",
     "status": "draft",
     "maturity": 88,
-    "reviewStatus": "正文草稿v1",
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷",
       "抉择线"
     ],
-    "updated": "2026-06-25T01:51:16.948Z"
+    "updated": "2026-06-25T02:55:26.301Z"
   },
   {
     "id": "ch50",
@@ -2365,13 +2365,13 @@
     "title": "第50章 天外来客·终章",
     "status": "draft",
     "maturity": 90,
-    "reviewStatus": "正文草稿v1",
+    "reviewStatus": "重写版v2",
     "hasText": true,
     "planningTags": [
       "第三卷",
       "终章"
     ],
-    "updated": "2026-06-25T01:51:16.948Z"
+    "updated": "2026-06-25T02:55:26.301Z"
   },
   {
     "id": "ch51",
