@@ -2652,5 +2652,200 @@
       "第四卷"
     ],
     "updated": "2026-06-25T02:47:07.223Z"
+  },
+  {
+    "id": "ch71",
+    "number": 71,
+    "title": "第71章 天下七署",
+    "status": "draft",
+    "maturity": 78,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.436Z"
+  },
+  {
+    "id": "ch72",
+    "number": 72,
+    "title": "第72章 赵高复出",
+    "status": "draft",
+    "maturity": 80,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.437Z"
+  },
+  {
+    "id": "ch73",
+    "number": 73,
+    "title": "第73章 陇西铜符",
+    "status": "draft",
+    "maturity": 80,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.437Z"
+  },
+  {
+    "id": "ch74",
+    "number": 74,
+    "title": "第74章 归途再临",
+    "status": "draft",
+    "maturity": 82,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.437Z"
+  },
+  {
+    "id": "ch75",
+    "number": 75,
+    "title": "第75章 李鹤之病",
+    "status": "draft",
+    "maturity": 82,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.437Z"
+  },
+  {
+    "id": "ch76",
+    "number": 76,
+    "title": "第76章 少年署丞",
+    "status": "draft",
+    "maturity": 82,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.437Z"
+  },
+  {
+    "id": "ch77",
+    "number": 77,
+    "title": "第77章 扶苏之制",
+    "status": "draft",
+    "maturity": 82,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.437Z"
+  },
+  {
+    "id": "ch78",
+    "number": 78,
+    "title": "第78章 胡亥归途",
+    "status": "draft",
+    "maturity": 82,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.437Z"
+  },
+  {
+    "id": "ch79",
+    "number": 79,
+    "title": "第79章 星海低语",
+    "status": "draft",
+    "maturity": 84,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.437Z"
+  },
+  {
+    "id": "ch80",
+    "number": 80,
+    "title": "第80章 嬴政驾崩",
+    "status": "draft",
+    "maturity": 84,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.438Z"
+  },
+  {
+    "id": "ch81",
+    "number": 81,
+    "title": "第81章 章台风雨",
+    "status": "draft",
+    "maturity": 84,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.438Z"
+  },
+  {
+    "id": "ch82",
+    "number": 82,
+    "title": "第82章 制度危机",
+    "status": "draft",
+    "maturity": 84,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.438Z"
+  },
+  {
+    "id": "ch83",
+    "number": 83,
+    "title": "第83章 李鹤之择",
+    "status": "draft",
+    "maturity": 86,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.438Z"
+  },
+  {
+    "id": "ch84",
+    "number": 84,
+    "title": "第84章 星海永寂",
+    "status": "draft",
+    "maturity": 88,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.438Z"
+  },
+  {
+    "id": "ch85",
+    "number": 85,
+    "title": "第85章 格物司·百年之后",
+    "status": "draft",
+    "maturity": 90,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第五卷"
+    ],
+    "updated": "2026-06-25T04:03:59.439Z"
   }
 ]
