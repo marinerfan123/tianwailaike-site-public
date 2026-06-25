@@ -2090,5 +2090,50 @@
     "planningTags": [
       "重写版v2"
     ]
+  },
+  {
+    "id": "ch31",
+    "number": 31,
+    "title": "第31章 行商入城",
+    "status": "draft",
+    "summary": "第三枚碎片携带者正式进入咸阳。李鹤在东市与他面对面相遇，通过一块带有熔融痕的石头确认他就是碎片携带者。",
+    "maturity": 75,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷",
+      "碎片线"
+    ],
+    "updated": "2026-06-25T01:32:09.002Z"
+  },
+  {
+    "id": "ch32",
+    "number": 32,
+    "title": "第32章 旧印深处",
+    "status": "draft",
+    "summary": "韩姓商人再次出现，传递铁券工匠隗寅留下的最后线索——北门外旧窑厂。李斯意外介入，暗示三年前的封存记录。",
+    "maturity": 75,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷",
+      "铁券线"
+    ],
+    "updated": "2026-06-25T01:32:09.002Z"
+  },
+  {
+    "id": "ch33",
+    "number": 33,
+    "title": "第33章 李斯之尺",
+    "status": "draft",
+    "summary": "李斯造访格物司新署，暗示廷尉府知晓旧窑厂之事。李斯不是格物司的盟友，他是秦法的执行者。",
+    "maturity": 75,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷",
+      "李斯线"
+    ],
+    "updated": "2026-06-25T01:32:09.002Z"
   }
 ]
