@@ -2847,5 +2847,70 @@
       "第五卷"
     ],
     "updated": "2026-06-25T04:03:59.439Z"
+  },
+  {
+    "id": "ch86",
+    "number": 86,
+    "title": "第86章 秦亡",
+    "status": "draft",
+    "maturity": 82,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第六卷"
+    ],
+    "updated": "2026-06-25T10:14:02.345Z"
+  },
+  {
+    "id": "ch87",
+    "number": 87,
+    "title": "第87章 旧简",
+    "status": "draft",
+    "maturity": 82,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第六卷"
+    ],
+    "updated": "2026-06-25T10:14:02.345Z"
+  },
+  {
+    "id": "ch88",
+    "number": 88,
+    "title": "第88章 汉立",
+    "status": "draft",
+    "maturity": 82,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第六卷"
+    ],
+    "updated": "2026-06-25T10:14:02.346Z"
+  },
+  {
+    "id": "ch89",
+    "number": 89,
+    "title": "第89章 铜符之续",
+    "status": "draft",
+    "maturity": 82,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第六卷"
+    ],
+    "updated": "2026-06-25T10:14:02.346Z"
+  },
+  {
+    "id": "ch90",
+    "number": 90,
+    "title": "第90章 记录不灭",
+    "status": "draft",
+    "maturity": 88,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第六卷"
+    ],
+    "updated": "2026-06-25T10:14:02.346Z"
   }
 ]
