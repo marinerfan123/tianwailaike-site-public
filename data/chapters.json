@@ -2135,5 +2135,76 @@
       "李斯线"
     ],
     "updated": "2026-06-25T01:32:09.002Z"
+  },
+  {
+    "id": "ch34",
+    "number": 34,
+    "title": "第34章 子夜谈判",
+    "status": "draft",
+    "summary": "行商深夜上门，自陈三年前在齐国旧地发现另一名穿越者尸体，携星海碎片而来。他留下碎片后离去，没有留下名字。",
+    "maturity": 78,
+    "planningTags": [
+      "第三卷",
+      "碎片线",
+      "穿越真相"
+    ],
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "updated": "2026-06-25T01:32:54.010Z"
+  },
+  {
+    "id": "ch35",
+    "number": 35,
+    "title": "第35章 七券与一",
+    "status": "draft",
+    "summary": "北门外旧窑厂发现隗寅藏匿的第二幅地图——咸阳全貌图。第八枚铁券不在咸阳，在北境。",
+    "maturity": 78,
+    "planningTags": [
+      "第三卷",
+      "铁券线",
+      "北境"
+    ],
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "updated": "2026-06-25T01:32:54.011Z"
+  },
+  {
+    "id": "ch36",
+    "number": 36,
+    "title": "第36章 蒙恬之手",
+    "status": "draft",
+    "maturity": 78,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷"
+    ],
+    "updated": "2026-06-25T01:33:37.687Z"
+  },
+  {
+    "id": "ch37",
+    "number": 37,
+    "title": "第37章 赵高之棋",
+    "status": "draft",
+    "maturity": 80,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷"
+    ],
+    "updated": "2026-06-25T01:33:37.688Z"
+  },
+  {
+    "id": "ch38",
+    "number": 38,
+    "title": "第38章 胡亥之路",
+    "status": "draft",
+    "maturity": 78,
+    "reviewStatus": "正文草稿v1",
+    "hasText": true,
+    "planningTags": [
+      "第三卷"
+    ],
+    "updated": "2026-06-25T01:33:37.688Z"
   }
 ]
